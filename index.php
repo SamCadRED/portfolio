@@ -2,7 +2,7 @@
 <!-- pour mettre à jour la prod, il faut commi les chnagements sur la branch production puis éxécuter (en ssh sur le serveur) la commande => git pull https://github.com/SamCadRED/portfolio.git -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
