@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../style/style.css">
+    <script src="../components/scripts.js"></script>
     <title>Portfolio</title>
 </head>
 <body class="body">
@@ -20,7 +21,13 @@
             <p><a href="../index.php">Accueil</a></p>
             <p><a href="ecole.php">École & Entreprises</a></p>
             <p><a href="activitees.php">Activités professionnelles </a></p>
-            <p class="nav_active"><a href="">PPE</a></p>
+            <div class="deroulant">
+                <p><a href="" onclick="showMenu()">PPE</a></p>
+                <div id="visible">
+                    <p class="nav_active" ><a href="">PPE 1</a></p>
+                    <p class="ppe"><a href="ppe2.php">PPE 2</a></p>
+                </div>
+            </div>
             <p><a href="veille.php">Veille</a></p>
             <p><a href="tableau.php">tableau de synthèse </a></p>
         </div>

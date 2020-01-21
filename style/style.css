@@ -148,7 +148,15 @@ body p {
     font-size: 105%;
     color: var(--color-orange);
 }
-
+#visible {
+    display: none;
+    border: solid white 0.2px;
+    position: absolute;
+    z-index: 100;
+    background-color: black;
+    padding: 5px;
+    padding-left: 1px;
+}
 /*__footer__*/
 .footer_cont {
     background-color: black;

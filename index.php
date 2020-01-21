@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style/style.css">
     <link rel="icon" type="image/png" href="images/logo_sc.png" />
+    <script src="/portfolio/components/scripts.js"></script>
     <title>Portfolio</title>
 </head>
 <body class="body">
@@ -21,7 +22,13 @@
             <p class="nav_active"><a href="">Accueil</a></p>
             <p><a href="pages/ecole.php">École & Entreprises</a></p>
             <p><a href="pages/activitees.php">Activités professionnelles </a></p>
-            <p><a href="pages/ppe.php">PPE</a></p>
+            <div class="deroulant">
+                <p><a href="" onclick="showMenu()">PPE</a></p>
+                <div id="visible">
+                    <p class="ppe"><a href="pages/ppe1.php">PPE 1</a></p>
+                    <p class="ppe"><a href="pages/ppe2.php">PPE 2</a></p>
+                </div>
+            </div>
             <p><a href="pages/veille.php">Veille</a></p>
             <p><a href="pages/tableau.php">tableau de synthèse </a></p>
         </div>
