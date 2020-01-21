@@ -1,14 +1,15 @@
 <?php include_once "components/component.php" ?>
+<!-- pour mettre à jour la prod, il faut commi les chnagements sur la branch production puis éxécuter (en ssh sur le serveur) la commande => git pull https://github.com/SamCadRED/portfolio.git -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style/style.css">
     <link rel="icon" type="image/png" href="images/logo_sc.png" />
-    <script src="/portfolio/components/scripts.js"></script>
+    <script src="components/scripts.js" type="application/javascript"></script>
     <title>Portfolio</title>
 </head>
 <body class="body">
