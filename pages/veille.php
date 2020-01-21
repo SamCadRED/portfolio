@@ -37,7 +37,7 @@
     <div class="head_cont">
         <div class="headband">
             <h1>Veille Technologique</h1>
-            <h2>Les Data Sciences</h2>
+            <h2>Le Machine Learning</h2>
         </div>
     </div>
     <div class="main_content">
@@ -64,24 +64,23 @@
             <div class="card">
                 <?php 
                     $title = "Recherche";
-                    $text = "Pour mon sujet de veille j'ai choisi le framework React Native,
-                    C'est un framework JavaScript mobile cross-plateforme, c'est à dire qu'il permet d'écrire des applications mobiles pour Android et iOS.";
+                    $text = "https://www.lafermeduweb.net/tag/machinelearning
+                    https://likeabot.io/blog/veille-like-a-bot-6-ia-algorithme-machine-learning-et-apprentissage-supervise-comment-rendre-son-chatbot-intelligent
+                    ";
                     echo display_card($title, $text) 
                 ?>
             </div>
             <div class="card">
                 <?php 
                     $title = "Analyse";
-                    $text = "Pour mon sujet de veille j'ai choisi le framework React Native,
-                    C'est un framework JavaScript mobile cross-plateforme, c'est à dire qu'il permet d'écrire des applications mobiles pour Android et iOS.";
+                    $text = "";
                     echo display_card($title, $text) 
                 ?>
             </div>
             <div class="card">
                 <?php 
                     $title = "Diffusion";
-                    $text = "Pour mon sujet de veille j'ai choisi le framework React Native,
-                    C'est un framework JavaScript mobile cross-plateforme, c'est à dire qu'il permet d'écrire des applications mobiles pour Android et iOS.";
+                    $text = "";
                     echo display_card($title, $text) 
                 ?>
             </div>
