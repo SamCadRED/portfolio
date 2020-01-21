@@ -1,0 +1,88 @@
+<?php include_once "../components/component.php" ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Portfolio</title>
+</head>
+<body class="body">
+
+    <div class="header_cont">
+        <?php echo $header ?>
+    </div>
+
+    <div class="nav_cont">
+        <div class="nav">
+            <p><a href="../index.php">Accueil</a></p>
+            <p><a href="ecole.php">École & Entreprises</a></p>
+            <p><a href="activitees.php">Activités professionnelles </a></p>
+            <p><a href="ppe.php">PPE</a></p>
+            <p class="nav_active"><a href="">Veille</a></p>
+            <p><a href="tableau.php">tableau de synthèse </a></p>
+        </div>
+        </div>
+    </div>
+
+    <div class="head_cont">
+        <div class="headband">
+            <h1>Veille Technologique</h1>
+            <h2>Les Data Sciences</h2>
+        </div>
+    </div>
+    <div class="main_content">
+        <div class="intro">
+            <h2>Organiser sa veille technologique :</h2>
+            <p>L'organisation de ma veille peut se simplifier en 4 étapes :</p>
+            <ul>
+                <li><strong>Le Ciblage</strong> du sujet de veille</li>
+                <li><strong>La Recherche</strong> par mots clés et grâce à différents médias</li>
+                <li><strong>L'analyse</strong> du contenu récupéré</li>
+                <li><strong>La Diffusion</strong> du contenu grâce a d'autres médias</li>
+            </ul>
+        </div>
+
+        <div class="pres_card">
+            <div class="card">
+                <?php 
+                    $title = "Ciblage";
+                    $text = "Pour mon sujet de veille j'ai choisi le framework React Native,
+                    C'est un framework JavaScript mobile cross-plateforme, c'est à dire qu'il permet d'écrire des applications mobiles pour Android et iOS.";
+                    echo display_card($title, $text) 
+                ?>
+            </div>
+            <div class="card">
+                <?php 
+                    $title = "Recherche";
+                    $text = "Pour mon sujet de veille j'ai choisi le framework React Native,
+                    C'est un framework JavaScript mobile cross-plateforme, c'est à dire qu'il permet d'écrire des applications mobiles pour Android et iOS.";
+                    echo display_card($title, $text) 
+                ?>
+            </div>
+            <div class="card">
+                <?php 
+                    $title = "Analyse";
+                    $text = "Pour mon sujet de veille j'ai choisi le framework React Native,
+                    C'est un framework JavaScript mobile cross-plateforme, c'est à dire qu'il permet d'écrire des applications mobiles pour Android et iOS.";
+                    echo display_card($title, $text) 
+                ?>
+            </div>
+            <div class="card">
+                <?php 
+                    $title = "Diffusion";
+                    $text = "Pour mon sujet de veille j'ai choisi le framework React Native,
+                    C'est un framework JavaScript mobile cross-plateforme, c'est à dire qu'il permet d'écrire des applications mobiles pour Android et iOS.";
+                    echo display_card($title, $text) 
+                ?>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer_cont">
+        <?php echo $footer ?>
+    </div>
+</body>
+</html>

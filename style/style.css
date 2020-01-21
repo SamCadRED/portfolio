@@ -1,0 +1,266 @@
+/*_____________All______________*/
+:root {
+    --color-white: rgb(218, 218, 218);
+    --color-orange: rgb(255, 174, 0);
+}
+@font-face {
+    font-family: "Gravity";
+    /* font-style: italic; */
+    src: url('Fonts/gravity-book.ttf');
+}
+@font-face {
+    font-family: "Gravity";
+    /* font-style: italic; */
+    font-weight: bold;
+    src: url('Fonts/gravity-bold.ttf');
+}
+body {
+    font-family: 'Gravity','heiti TC', 'futura', 'Times New Roman', sans-serif;
+    margin: 0px;
+    color: var(--color-white);
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+body h2 {
+    font-size: 40px;
+}
+body h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+body p {
+    font-size: 20px;
+}
+.content_body {
+}
+
+/*_________Index.php__________*/
+.about {
+    background-image: url("../images/2_planet.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 0;
+}
+
+/*_________ecole.php__________*/
+.afip_case {
+    background-image: url("../images/kepler_system.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.mecalux_case {
+    background-color: var(--color-orange);
+}
+
+/*_________veille.php__________*/
+.headband {
+    display: flex;
+    flex-direction: column;
+    background-image: 
+        linear-gradient(to bottom,rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),
+        url("../images/data-science_2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-left: 70px;
+}
+.headband h1 {
+    font-size: 600%;
+    color: var(--color-orange)
+}
+.headband h2 {
+    font-size: 500%;
+    color: var(--color-white);
+    font-weight: bolder;
+}
+.main_content {
+
+}
+.intro {
+    padding: 30px;
+    margin-left: 50px;
+    font-size: 150%;
+}
+.intro h2 {
+    font-size: 200%;
+    color: var(--color-orange);
+}
+.intro strong {
+    font-weight: bolder;
+    color: white;
+}
+.pres_card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.card {
+    text-align: center;
+    color: black;
+    margin: 20px;
+    padding: 10px;
+    max-width: 250px;
+    background-color: var(--color-orange);
+}
+.card h2 {
+    color: black;
+}
+
+/*_________Components__________*/
+
+/*__header__*/
+.header_cont {
+    /* background: linear-gradient(357deg, rgba(0,0,0,1) 33%, var(--color-orange) 100%); */
+}
+.header {
+    margin: 35px;
+}
+.header h1 {
+    font-size: 300%;
+}
+
+/*__nav__*/
+.nav {
+    border-top: solid var(--color-white) 1px;
+    display: flex;
+    padding: 5px;
+    margin: 20px;
+}
+.nav a {
+    padding-right: 5px;
+    padding-left: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--color-white);
+}
+.nav a:hover {
+    color: var(--color-orange);
+}
+.nav p {
+    margin: 0;
+}
+.nav_active a {
+    font-size: 105%;
+    color: var(--color-orange);
+}
+
+/*__footer__*/
+.footer_cont {
+    background-color: black;
+    padding-bottom: 0;
+}
+.footer a {
+    text-decoration: none;
+    color: var(--color-white);
+    padding-left: 30px
+}
+.footer a:hover{
+    color: var(--color-orange)
+}
+.top_footer {
+    display: flex;
+    flex-direction: row;
+}
+.footer p {
+    font-size: 80%; 
+    text-align: center;
+}
+
+/*__default_case__*/
+
+.case {
+    border: solid var(--color-white) 1px;
+    background-color: black;
+    margin: 7%;
+    padding: 30px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+.case h2 {
+    font-size: 50px; 
+    color: var(--color-orange);
+}
+.case h4 {
+    border-bottom: solid var(--color-white) 1px;
+    font-size: 18px; 
+}
+
+/*__Company_Case__*/
+
+.cv_case {
+    border: solid black 1px;
+    background-color: var(--color-orange);
+    color: black;
+    text-align: center;
+    padding: 1%;
+    z-index: 1;
+}
+.cv_header {
+
+}
+.company_case {
+    margin: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px;
+}
+.company_case h3 {
+    border-top: solid black 1px;
+    padding-top: 8px;
+}
+.co_img {
+    /* max-width: 200px; */
+    max-height: 30px;
+}
+.content {
+    display: flex;
+}
+.add_cv_button {
+    background-color: black;
+    padding: 10px; 
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--color-white);
+    border: solid black 1px;
+}
+.add_cv_button_div {
+    margin: 10px;
+}
+/*__Skills__*/
+.tech_skills {
+    text-align: center;
+    padding: 1%;
+}
+
+/*__Hobbys__*/
+
+.hobby {
+    text-align: center;
+    background-color: var(--color-orange);
+    padding: 1%;
+    color: black;
+}
+.hobby_cont {
+    display: flex;
+}
+.hobby_case {
+    margin: 4%;
+    flex: 1;
+    color: var(--color-white);
+    background-color: black;
+    border: solid black 1px;
+    padding-bottom: 0;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+.card_img {
+    width: 100%
+}
