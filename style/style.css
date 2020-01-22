@@ -255,18 +255,27 @@ body p {
     color: black;
     background-color: var(--color-orange);
     padding: 10px;
+    flex:1;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+.prog_img {
+    max-width: 100px;
+    margin: 3px;
 }
 .graph_cont {
     display: flex;
+    flex:2;
 }
 .graphs {
-    border: solid white 1px;
+    
 }
 .graphs td {
     font-size: 160%;
+    width: 200px;
 }
 tbody div {
-    height: 8px;
+    height: 15px;
     width :100px;
     background-color: var(--color-orange);
 }

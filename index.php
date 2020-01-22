@@ -94,26 +94,29 @@
         <div class="skills_cont">
 
             <div class="program_cont">
-                <h3>Logiciels Maîtrisés</h3>
+                <h3>Logiciels</h3>
                 <div class="img_cont">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                    <img class="prog_img" src="images/eclipse.png" alt="eclipse">
+                    <img class="prog_img" src="images/mamp-pro.png" alt="mamp">
+                    <img class="prog_img" src="images/postman-logo.png" alt="postman">
+                    <img class="prog_img" src="images/vscode.png" alt="Visual Studio Code">
+                    <img class="prog_img" src="images/intellij.png" alt="IntelliJ">
+                    <img class="prog_img" src="images/MySQLWorkbench.png" alt="MySQL Workbench">
                 </div>
             </div>
 
             <div class="graph_cont">
                 <div class="graphs">
+                    <h3>Languages</h3>
                     <table>
                         <tbody>
                             <tr>
                                 <td>HTML/CSS</td>
-                                <td><div class="line1" style="width: 300px"></div></td>
+                                <td><div class="line1" style="width: 400px"></div></td>
                             </tr>
                             <tr>
                                 <td>PHP</td>
-                                <td><div class="line2" style="width: 250px"></div></td>
+                                <td><div class="line2" style="width: 300px"></div></td>
                             </tr>
                             <tr>
                                 <td>SQL</td>
@@ -121,15 +124,15 @@
                             </tr>
                             <tr>
                                 <td>JavaScript</td>
-                                <td><div class="line4" style="width: 260px"></div></td>
+                                <td><div class="line4" style="width: 280px"></div></td>
                             </tr>
                             <tr>
                                 <td>Java</td>
-                                <td><div class="line5" style="width: 250px"></div></td>
+                                <td><div class="line5" style="width: 240px"></div></td>
                             </tr>
                             <tr>
                                 <td>C#/LinQ</td>
-                                <td><div class="line6" style="width: 250px"></div></td>
+                                <td><div class="line6" style="width: 230px"></div></td>
                             </tr>
                         </tbody>
                     </table>
