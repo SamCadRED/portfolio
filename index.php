@@ -92,12 +92,12 @@
             <div class="program_cont">
                 <h3>Logiciels</h3>
                 <div class="img_cont">
+                    <img class="prog_img" src="images/vscode.png" alt="Visual Studio Code">
+                    <img class="prog_img" src="images/MySQLWorkbench.png" alt="MySQL Workbench">
                     <img class="prog_img" src="images/eclipse.png" alt="eclipse">
                     <img class="prog_img" src="images/mamp-pro.png" alt="mamp">
                     <img class="prog_img" src="images/postman-logo.png" alt="postman">
-                    <img class="prog_img" src="images/vscode.png" alt="Visual Studio Code">
                     <img class="prog_img" src="images/intellij.png" alt="IntelliJ">
-                    <img class="prog_img" src="images/MySQLWorkbench.png" alt="MySQL Workbench">
                 </div>
             </div>
 
