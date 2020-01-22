@@ -20,7 +20,6 @@
         <div class="nav">
             <p><a href="../index.php">Accueil</a></p>
             <p class="nav_active"><a href="">École & Entreprises</a></p>
-            <p><a href="activitees.php">Activités professionnelles </a></p>
             <div class="deroulant">
                 <p><a href="" onclick="showMenu()">PPE</a></p>
                 <div id="visible">
@@ -29,8 +28,7 @@
                 </div>
             </div>
             <p><a href="veille.php">Veille</a></p>
-            <p><a href="tableau.php">tableau de synthèse </a></p>
-        </div>
+            <p><a href="activitees.php">Activités professionnelles </a></p>
         </div>
     </div>
 

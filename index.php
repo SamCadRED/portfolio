@@ -22,7 +22,6 @@
         <div class="nav">
             <p class="nav_active"><a href="">Accueil</a></p>
             <p><a href="pages/ecole.php">École & Entreprises</a></p>
-            <p><a href="pages/activitees.php">Activités professionnelles </a></p>
             <div class="deroulant">
                 <p><a href="" onclick="showMenu()">PPE</a></p>
                 <div id="visible">
@@ -31,7 +30,7 @@
                 </div>
             </div>
             <p><a href="pages/veille.php">Veille</a></p>
-            <p><a href="pages/tableau.php">tableau de synthèse </a></p>
+            <p><a href="pages/activitees.php">Activités professionnelles </a></p>
         </div>
         </div>
     </div>
