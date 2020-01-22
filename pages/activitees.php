@@ -33,7 +33,7 @@
     </div>
 
     <div class="main_cont">
-        <h1 style="color:black; padding-left:5%">Mes Activitées professionnelles : </h1>
+        <h1 style="color:var(--color-dark); padding-left:5%">Mes Activitées professionnelles : </h1>
 
         <div class="activite1">
         <?php 

@@ -1,7 +1,8 @@
 /*_____________All______________*/
 :root {
-    --color-white: rgb(218, 218, 218);
-    --color-orange: rgb(255, 174, 0);
+    --color-light: rgb(218, 218, 218);
+    --color-theme: rgb(255, 174, 0);
+    --color-dark: rgb(0, 0, 0);
 }
 @font-face {
     font-family: "Gravity";
@@ -17,8 +18,8 @@
 body {
     font-family: 'Gravity','heiti TC', 'futura', 'Times New Roman', sans-serif;
     margin: 0px;
-    color: var(--color-white);
-    background-color: black;
+    color: var(--color-light);
+    background-color: var(--color-dark);
     display: flex;
     flex-direction: column;
 }
@@ -46,9 +47,9 @@ body p {
 /*__Company_Case__*/
 
 .cv_case {
-    border: solid black 1px;
-    background-color: var(--color-orange);
-    color: black;
+    border: solid var(--color-dark) 1px;
+    background-color: var(--color-theme);
+    color: var(--color-dark);
     text-align: center;
     padding: 1%;
     z-index: 1;
@@ -63,7 +64,7 @@ body p {
     padding: 10px;
 }
 .company_case h3 {
-    border-top: solid black 1px;
+    border-top: solid var(--color-dark) 1px;
     padding-top: 8px;
 }
 .co_img {
@@ -83,13 +84,13 @@ body p {
     flex:1;
 }
 .add_cv_button {
-    background-color: black;
+    background-color: var(--color-dark);
     padding: 10px; 
     font-size: large;
     font-weight: bold;
     text-decoration: none;
-    color: var(--color-white);
-    border: solid black 1px;
+    color: var(--color-light);
+    border: solid var(--color-dark) 1px;
 }
 .add_cv_button_div {
     margin: 10px;
@@ -104,8 +105,8 @@ body p {
     justify-content: space-evenly;
 }
 .program_cont {
-    color: black;
-    background-color: var(--color-orange);
+    color: var(--color-dark);
+    background-color: var(--color-theme);
     padding: 10px;
     flex:1;
     margin: 20px;
@@ -129,16 +130,16 @@ body p {
 tbody div {
     height: 15px;
     width :100px;
-    background-color: var(--color-orange);
+    background-color: var(--color-theme);
 }
 
 /*__Hobbys__*/
 
 .hobby {
     text-align: center;
-    background-color: var(--color-orange);
+    background-color: var(--color-theme);
     padding: 1%;
-    color: black;
+    color: var(--color-dark);
 }
 .hobby_cont {
     display: flex;
@@ -146,9 +147,9 @@ tbody div {
 .hobby_case {
     margin: 4%;
     flex: 1;
-    color: var(--color-white);
-    background-color: black;
-    border: solid black 1px;
+    color: var(--color-light);
+    background-color: var(--color-dark);
+    border: solid var(--color-dark) 1px;
     padding-bottom: 0;
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
@@ -167,7 +168,7 @@ tbody div {
 }
 
 .mecalux_case {
-    background-color: var(--color-orange);
+    background-color: var(--color-theme);
 }
 
 /*_________veille.php_______________________________*/
@@ -184,11 +185,11 @@ tbody div {
 }
 .headband h1 {
     font-size: 600%;
-    color: var(--color-orange)
+    color: var(--color-theme)
 }
 .headband h2 {
     font-size: 500%;
-    color: var(--color-white);
+    color: var(--color-light);
     font-weight: bolder;
 }
 .main_content {
@@ -201,7 +202,7 @@ tbody div {
 }
 .intro h2 {
     font-size: 200%;
-    color: var(--color-orange);
+    color: var(--color-theme);
 }
 .intro strong {
     font-weight: bolder;
@@ -211,25 +212,25 @@ tbody div {
 
 }
 .card {
-    color: black;
+    color: var(--color-dark);
     margin: 70px;
     padding: 30px;
-    background-color: var(--color-orange);
+    background-color: var(--color-theme);
 }
 .card h2 {
-    color: black;
+    color: var(--color-dark);
 }
 
 /*_________Activitees.php_______________________*/
 
 .main_cont {
-    background-color: var(--color-orange);
+    background-color: var(--color-theme);
 }
 
 .activite_case {
-    background-color: black;
-    border: solid var(--color-white) 1px;
-    color: var(--color-white);
+    background-color: var(--color-dark);
+    border: solid var(--color-light) 1px;
+    color: var(--color-light);
     margin: 20px;
     padding :30px;
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
@@ -237,11 +238,11 @@ tbody div {
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
 .activite_case h2 {
-    color: var(--color-orange);
-    border-bottom: solid var(--color-white) 0.8px;
+    color: var(--color-theme);
+    border-bottom: solid var(--color-light) 0.8px;
 }
 .activite_case h3 {
-    color: var(--color-orange);
+    color: var(--color-theme);
 }
 
 .activite_top {
@@ -251,7 +252,7 @@ tbody div {
 }
 .description {
     flex: 1;
-    border-right: solid var(--color-white) 0.5px;
+    border-right: solid var(--color-light) 0.5px;
 }
 .context {
     flex: 1;
@@ -260,13 +261,13 @@ tbody div {
 }
 .activite_bottom {
     text-align: center;
-    border-top:  solid var(--color-white) 0.5px;
+    border-top:  solid var(--color-light) 0.5px;
 }
 /*_________Components_______________________*/
 
 /*__header__*/
 .header_cont {
-    /* background: linear-gradient(357deg, rgba(0,0,0,1) 33%, var(--color-orange) 100%); */
+    /* background: linear-gradient(357deg, rgba(0,0,0,1) 33%, var(--color-theme) 100%); */
 }
 .header {
     margin: 35px;
@@ -277,7 +278,7 @@ tbody div {
 
 /*__nav__*/
 .nav {
-    border-top: solid var(--color-white) 1px;
+    border-top: solid var(--color-light) 1px;
     display: flex;
     padding: 5px;
     margin: 20px;
@@ -287,39 +288,39 @@ tbody div {
     padding-left: 5px;
     text-decoration: none;
     font-size: 16px;
-    color: var(--color-white);
+    color: var(--color-light);
 }
 .nav a:hover {
-    color: var(--color-orange);
+    color: var(--color-theme);
 }
 .nav p {
     margin: 0;
 }
 .nav_active a {
     font-size: 105%;
-    color: var(--color-orange);
+    color: var(--color-theme);
 }
 #visible {
     display: none;
     border: solid white 0.2px;
     position: absolute;
     z-index: 100;
-    background-color: black;
+    background-color: var(--color-dark);
     padding: 5px;
     padding-left: 1px;
 }
 /*__footer__*/
 .footer_cont {
-    background-color: black;
+    background-color: var(--color-dark);
     padding-bottom: 0;
 }
 .footer a {
     text-decoration: none;
-    color: var(--color-white);
+    color: var(--color-light);
     padding-left: 30px
 }
 .footer a:hover{
-    color: var(--color-orange)
+    color: var(--color-theme)
 }
 .top_footer {
     display: flex;
@@ -333,8 +334,8 @@ tbody div {
 /*__default_case__*/
 
 .case {
-    border: solid var(--color-white) 1px;
-    background-color: black;
+    border: solid var(--color-light) 1px;
+    background-color: var(--color-dark);
     margin: 7%;
     padding: 30px;
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
@@ -343,10 +344,10 @@ tbody div {
 }
 .case h2 {
     font-size: 50px; 
-    color: var(--color-orange);
+    color: var(--color-theme);
 }
 .case h4 {
-    border-bottom: solid var(--color-white) 1px;
+    border-bottom: solid var(--color-light) 1px;
     font-size: 18px; 
 }
 
