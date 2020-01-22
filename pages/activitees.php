@@ -54,26 +54,26 @@
                 $contexte = "Il était de plus en plus urgent de posséder des metriques sur nos objets connectés";
                 $env = "Je l'ai effectué seul, en entreprise, sur un environnement macOS et Excel";
                 $objectif = "L'objectif état de rassembler le plus de métriques concernant les objets";
-                $conclusion = "Je n'avais jamais effectué de procédure de tests auparavant c'était donc la majeure difficulté,cependant j'ai pu rapidement trouver mon rythme et offrir des résultats.";
+                $conclusion = "Je n'avais jamais effectué de procédure de tests auparavant c'était donc la principale difficulté, cependant j'ai pu rapidement trouver mon rythme et offrir des résultats concluants.";
                 echo display_activites($titre, $desc, $contexte, $env, $objectif, $conclusion);
             ?>
         </div>
 
         <div class="activite3">
             <?php 
-                $titre = "";
-                $desc = "";
-                $contexte = "";
-                $env = "";
+                $titre = "Mise ne place d'un service de support (ticketing)";
+                $desc = "Ma mission consistait à interfacer la CRM Axonaut avec notre infrastructure AWS. Les mails de support sont reçu sur AWS et je pouvait ensuite les rediriger vers l'API d'axonaut afin de récupérer les informations de contact et de créer automatiquement un ticket dans la CRM.";
+                $contexte = "La division support prenant de plus en plus d'importance dans l'entreprise, il fallait mettre en place un outil de suivi et de gestion.";
+                $env = "Je l'ai effectué seul en entreprise avec les outil AWS-CLI, AWS SES, Axonaut.fr.";
                 $objectif = "";
-                $conclusion = "";
+                $conclusion = "Cette activitée m'a permit d'améliorer mes compétences de vision d'ensemble sur ma mise en place d'un tel service ainsi que mes compétences générale sur AWS.";
                 echo display_activites($titre, $desc, $contexte, $env, $objectif, $conclusion);
             ?>
         </div>
 
         <div class="activite4">
             <?php 
-                $titre = "";
+                $titre = "Mise en place d'un service d'emailing sur AWS SES";
                 $desc = "";
                 $contexte = "";
                 $env = "";
@@ -85,19 +85,19 @@
 
         <div class="activite5">
             <?php 
-                $titre = "";
-                $desc = "";
-                $contexte = "";
-                $env = "";
-                $objectif = "";
-                $conclusion = "";
+                $titre = "Création de composants d'application mobile";
+                $desc = "Je me suis vu assigné la tâche de créer des composants graphiques et fonctionnels sur l'application mobile développée par l'entreprise.";
+                $contexte = "Le développeur senior avant besoin d'^tre déchargé sur des petits développements d'amélioration.";
+                $env = "J'ai effectué ce travail seul en entreprise, sur macOS et en utilisant GitHub et le framework React Native.";
+                $objectif = "L'objectif était de créer des composants focntionnels pour l'application en suivant les directive du designer.";
+                $conclusion = "J'ai adorer effectuer ces développements, la prise difficulté à été de prendre en main le framework React Native.";
                 echo display_activites($titre, $desc, $contexte, $env, $objectif, $conclusion);
             ?>
         </div>
 
         <div class="activite6">
             <?php 
-                $titre = "";
+                $titre = "Mise en place d'une veille technologique";
                 $desc = "";
                 $contexte = "";
                 $env = "";
@@ -109,7 +109,7 @@
 
         <div class="activite7">
             <?php 
-                $titre = "";
+                $titre = "Intervention sur un arrêt de production client";
                 $desc = "";
                 $contexte = "";
                 $env = "";
@@ -119,19 +119,7 @@
             ?>
         </div>
 
-        <div class="activite8">
-            <?php 
-                $titre = "";
-                $desc = "";
-                $contexte = "";
-                $env = "";
-                $objectif = "";
-                $conclusion = "";
-                echo display_activites($titre, $desc, $contexte, $env, $objectif, $conclusion);
-            ?>
-        </div>
     </div>
-
     <div class="footer_cont">
         <?php echo $footer ?>
     </div>
