@@ -247,6 +247,29 @@ body p {
     text-align: center;
     padding: 1%;
 }
+.skills_cont {
+    display: flex;
+    justify-content: space-evenly;
+}
+.program_cont {
+    color: black;
+    background-color: var(--color-orange);
+    padding: 10px;
+}
+.graph_cont {
+    display: flex;
+}
+.graphs {
+    border: solid white 1px;
+}
+.graphs td {
+    font-size: 160%;
+}
+tbody div {
+    height: 8px;
+    width :100px;
+    background-color: var(--color-orange);
+}
 
 /*__Hobbys__*/
 

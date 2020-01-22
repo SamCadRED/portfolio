@@ -92,16 +92,47 @@
         <h2>Compétences Techniques</h2>
 
         <div class="skills_cont">
-            <div class="skill_spacer"></div>
+
+            <div class="program_cont">
+                <h3>Logiciels Maîtrisés</h3>
+                <div class="img_cont">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </div>
+            </div>
 
             <div class="graph_cont">
                 <div class="graphs">
-                    <p>HTML/CSS</p>
-                    <p>PHP</p>
-                    <p>SQL</p>
-                    <p>JavaScript</p>
-                    <p>Java</p>
-                    <p>C#/LinQ</p>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>HTML/CSS</td>
+                                <td><div class="line1" style="width: 300px"></div></td>
+                            </tr>
+                            <tr>
+                                <td>PHP</td>
+                                <td><div class="line2" style="width: 250px"></div></td>
+                            </tr>
+                            <tr>
+                                <td>SQL</td>
+                                <td><div class="line3" style="width: 230px"></div></td>
+                            </tr>
+                            <tr>
+                                <td>JavaScript</td>
+                                <td><div class="line4" style="width: 260px"></div></td>
+                            </tr>
+                            <tr>
+                                <td>Java</td>
+                                <td><div class="line5" style="width: 250px"></div></td>
+                            </tr>
+                            <tr>
+                                <td>C#/LinQ</td>
+                                <td><div class="line6" style="width: 250px"></div></td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
 
