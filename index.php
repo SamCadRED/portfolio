@@ -36,7 +36,7 @@
         <?php 
             $title = "A propos";
             $second_title = "Découvrez mon travail";
-            $text = "Depuis mes débuts dans le domaine, mon implication et ma motivation m'ont permis de prendre part à des projets et expériences exceptionnels. Prenez le temps de découvrir mon portfolio. Vous y trouverez une collection de mes collaborations, mes travaux commandés et mes projets personnels. N'hésitez pas à me contacter pour plus d'informations.";
+            $text = "Depuis mes débuts dans le domaine, mon implication et ma motivation m'ont permis de prendre part à des projets et expériences exceptionnels. Prenez le temps de découvrir mon portfolio. Vous y trouverez une collection de mes collaborations, et de mes projets personnels.";
             echo  display_case($title, $second_title, $text);
         ?>
     </div>

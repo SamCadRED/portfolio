@@ -45,7 +45,7 @@
             <?php 
                 $title = "Ido-Data";
                 $second_title = "Le choix d'une start-up";
-                $text = "Lors de ma recherche d'entreprise en septembre 2018, mon choix d'alternance c'est plus porté sur une petite entreprise que sur un grand groupe.<br>
+                $text = "Lors de ma recherche d'entreprise en septembre 2018, mon choix d'alternance ce portait plus sur une petite entreprise que sur un grand groupe.<br>
                 J'ai fait ce choix car je sortais d'une expérience professionnelle dans une firm multi-nationale, et je souhaitais tester autre chose.<br>
                 En octobre 2018, j'ai donc été embauché dans la start-up Ido-Data, une société spécialisée dans la conception d'objets et de solutions connectés dans le but de prévenir les risques liés aux sports et loisirs (nautiques principalement).";
                 echo  display_case($title, $second_title, $text);
@@ -56,8 +56,8 @@
             <?php 
                 $title = "Mecalux";
                 $second_title = "Un grand groupe";
-                $text = "Mon expérience dans une PME m'a permit de mieux cerner mes besoins professionnels et les environnements de travail dans lesquels je suis le plus productif. J'ai appris lors de ma précédente expérience que je n'avais pas encore la maturité professionnelle  ni l'expérience nécessaire pour parvenir à remplir mes attentes et celles de l'entreprise.<br>
-                C'est pourquoi j'ai décidé de me diriger vers un plus grand groupe, Mecalux, ou je pouvais avoir l'accompagnement nécessaire lors de mes débuts ainsi qu'une formation sur mes prochaines missions." ;
+                $text = "Après mon expérience dans une PME, j'ai mieux cerner mes besoins professionnels et les environnements de travail dans lesquels je suis le plus productif. J'ai appris que je n'avais pas encore la maturité professionnelle ni l'expérience nécessaire pour parvenir à remplir mes attentes ni celles de l'entreprise.<br>
+                C'est pourquoi j'ai décidé de me diriger vers un plus grand groupe, Mecalux, ou je pouvais avoir l'accompagnement nécessaire lors de mes débuts ainsi qu'une formation sur mes prochaines missions.";
                 echo  display_case($title, $second_title, $text);
             ?>
         </div>
