@@ -73,6 +73,15 @@ body p {
 .content {
     display: flex;
 }
+.apple_case {
+    flex: 1;
+}
+.ido-data_case {
+    flex: 1;
+}
+.mecaluxco_case {
+    flex:1;
+}
 .add_cv_button {
     background-color: black;
     padding: 10px; 

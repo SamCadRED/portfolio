@@ -53,7 +53,7 @@
                     $title = "Apple";
                     $date = "Mars 2017 - Mars 2018";
                     $post = "Technicien Support";
-                    $post_desciption = "Cette section est une description de poste dans votre CV. Décrivez de manière concise le poste, vos responsabilités principales et vos réalisations lorsque vous l'occupiez. Les CV les plus efficaces donnent un aperçu clair et rapide à analyser de votre expérience et de vos projets.";
+                    $post_desciption = "Je faisait du support par téléphone dans le siège social européen d'Apple. Mes tâches consistaient à dépanner les clients particulier de l'entreprise sur leurs appareils Mac, iPhone, iPad et Watch.";
                     echo display_company_case($img_url, $title, $date, $post, $post_desciption);
                 ?>
             </div>
@@ -64,18 +64,18 @@
                     $title = "Ido-Data";
                     $date = "Octobre 2018 - Septembre 2019";
                     $post = "Développeur Junior";
-                    $post_desciption = "Cette section est une description de poste dans votre CV. Décrivez de manière concise le poste, vos responsabilités principales et vos réalisations lorsque vous l'occupiez. Les CV les plus efficaces donnent un aperçu clair et rapide à analyser de votre expérience et de vos projets.";
+                    $post_desciption = "Je travaillait en tant que développeur junior chez ido-data. J'effectuait des tâches de refactorisation et de documentation du code, mais aussi des tâches de tests et de développement";
                     echo display_company_case($img_url, $title, $date, $post, $post_desciption);
                 ?>
             </div>
 
-            <div class="mecalux_case">
+            <div class="mecaluxco_case">
                 <?php 
                     $img_url = "images/mecalux.png";
                     $title = "Mecalux";
                     $date = "Septembre 2019 - Ajourd'hui";
                     $post = "Développeur & Technicien Support";
-                    $post_desciption = "Cette section est une description de poste dans votre CV. Décrivez de manière concise le poste, vos responsabilités principales et vos réalisations lorsque vous l'occupiez. Les CV les plus efficaces donnent un aperçu clair et rapide à analyser de votre expérience et de vos projets.";
+                    $post_desciption = "J'effectue des missions de dépannage et de support, ainsi que des tâches de développpement et de configuration de serveurs.";
                     echo display_company_case($img_url, $title, $date, $post, $post_desciption);
                 ?>
             </div>
