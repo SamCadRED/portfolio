@@ -36,3 +36,27 @@ function display_card($title, $text) {
                 <p>'.$text.'</p>
             </div>';
 }
+
+function display_activites($titre, $desc, $contexte, $env, $objectif, $conclusion) {
+    return "<div class='activite_case'>
+                <h2>".$titre."</h2>
+                <div class='activite_top'>
+                    <div class='description'>
+                        <h3>Description : </h3>
+                        <p>".$desc."</p>
+                    </div>
+                    <div class='gen_context'>
+                        <h3>Contexte et environnement : </h3>
+                        <p>".$contexte."</p>
+                        <p>".$env."</p>
+                    </div>
+                </div>
+                <div class='activite_bottom'>
+                    <div class='conclusion'>
+                        <h3>Objectif et Conclusion</h3>
+                        <p>".$objectif."</p>
+                        <p>".$conclusion."</p>
+                    </div>
+                </div>
+            </div>";
+}

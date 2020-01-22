@@ -35,7 +35,7 @@ body p {
 .content_body {
 }
 
-/*_________Index.php__________*/
+/*_________Index.php_____________________________*/
 .about {
     background-image: url("../images/2_planet.jpg");
     background-repeat: no-repeat;
@@ -43,163 +43,6 @@ body p {
     background-size: cover;
     z-index: 0;
 }
-
-/*_________ecole.php__________*/
-.afip_case {
-    background-image: url("../images/kepler_system.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-.mecalux_case {
-    background-color: var(--color-orange);
-}
-
-/*_________veille.php__________*/
-.headband {
-    display: flex;
-    flex-direction: column;
-    background-image: 
-        linear-gradient(to bottom,rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),
-        url("../images/data-science_2.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    padding-left: 70px;
-}
-.headband h1 {
-    font-size: 600%;
-    color: var(--color-orange)
-}
-.headband h2 {
-    font-size: 500%;
-    color: var(--color-white);
-    font-weight: bolder;
-}
-.main_content {
-
-}
-.intro {
-    padding: 30px;
-    margin-left: 50px;
-    font-size: 150%;
-}
-.intro h2 {
-    font-size: 200%;
-    color: var(--color-orange);
-}
-.intro strong {
-    font-weight: bolder;
-    color: white;
-}
-.pres_card {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    flex-direction: row;
-}
-.card {
-    text-align: center;
-    color: black;
-    margin: 20px;
-    padding: 10px;
-    max-width: 250px;
-    min-width: 200px;
-    background-color: var(--color-orange);
-}
-.card h2 {
-    color: black;
-}
-
-/*_________Components__________*/
-
-/*__header__*/
-.header_cont {
-    /* background: linear-gradient(357deg, rgba(0,0,0,1) 33%, var(--color-orange) 100%); */
-}
-.header {
-    margin: 35px;
-}
-.header h1 {
-    font-size: 300%;
-}
-
-/*__nav__*/
-.nav {
-    border-top: solid var(--color-white) 1px;
-    display: flex;
-    padding: 5px;
-    margin: 20px;
-}
-.nav a {
-    padding-right: 5px;
-    padding-left: 5px;
-    text-decoration: none;
-    font-size: 16px;
-    color: var(--color-white);
-}
-.nav a:hover {
-    color: var(--color-orange);
-}
-.nav p {
-    margin: 0;
-}
-.nav_active a {
-    font-size: 105%;
-    color: var(--color-orange);
-}
-#visible {
-    display: none;
-    border: solid white 0.2px;
-    position: absolute;
-    z-index: 100;
-    background-color: black;
-    padding: 5px;
-    padding-left: 1px;
-}
-/*__footer__*/
-.footer_cont {
-    background-color: black;
-    padding-bottom: 0;
-}
-.footer a {
-    text-decoration: none;
-    color: var(--color-white);
-    padding-left: 30px
-}
-.footer a:hover{
-    color: var(--color-orange)
-}
-.top_footer {
-    display: flex;
-    flex-direction: row;
-}
-.footer p {
-    font-size: 80%; 
-    text-align: center;
-}
-
-/*__default_case__*/
-
-.case {
-    border: solid var(--color-white) 1px;
-    background-color: black;
-    margin: 7%;
-    padding: 30px;
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-}
-.case h2 {
-    font-size: 50px; 
-    color: var(--color-orange);
-}
-.case h4 {
-    border-bottom: solid var(--color-white) 1px;
-    font-size: 18px; 
-}
-
 /*__Company_Case__*/
 
 .cv_case {
@@ -305,3 +148,193 @@ tbody div {
 .card_img {
     width: 100%
 }
+
+/*_________ecole.php__________________________________*/
+.afip_case {
+    background-image: url("../images/kepler_system.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.mecalux_case {
+    background-color: var(--color-orange);
+}
+
+/*_________veille.php_______________________________*/
+.headband {
+    display: flex;
+    flex-direction: column;
+    background-image: 
+        linear-gradient(to bottom,rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),
+        url("../images/data-science_2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-left: 70px;
+}
+.headband h1 {
+    font-size: 600%;
+    color: var(--color-orange)
+}
+.headband h2 {
+    font-size: 500%;
+    color: var(--color-white);
+    font-weight: bolder;
+}
+.main_content {
+
+}
+.intro {
+    padding: 30px;
+    margin-left: 50px;
+    font-size: 150%;
+}
+.intro h2 {
+    font-size: 200%;
+    color: var(--color-orange);
+}
+.intro strong {
+    font-weight: bolder;
+    color: white;
+}
+.pres_card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.card {
+    text-align: center;
+    color: black;
+    margin: 20px;
+    padding: 10px;
+    max-width: 250px;
+    min-width: 200px;
+    background-color: var(--color-orange);
+}
+.card h2 {
+    color: black;
+}
+
+/*_________Activitees.php_______________________*/
+
+.main_cont {
+    background-color: var(--color-orange);
+}
+
+.activite_case {
+    background-color: black;
+    border: solid var(--color-white) 1px;
+    color: var(--color-white);
+    margin: 20px;
+    padding :30px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+.activite_case h2 {
+    color: var(--color-orange);
+    border-bottom: solid var(--color-white) 0.8px;
+}
+.activite_case h3 {
+    color: var(--color-orange);
+}
+
+.activite_top {
+    display: flex;
+    text-align: center;
+}
+.activite_middle {
+}
+.activite_bottom {
+    text-align: center;
+}
+/*_________Components_______________________*/
+
+/*__header__*/
+.header_cont {
+    /* background: linear-gradient(357deg, rgba(0,0,0,1) 33%, var(--color-orange) 100%); */
+}
+.header {
+    margin: 35px;
+}
+.header h1 {
+    font-size: 300%;
+}
+
+/*__nav__*/
+.nav {
+    border-top: solid var(--color-white) 1px;
+    display: flex;
+    padding: 5px;
+    margin: 20px;
+}
+.nav a {
+    padding-right: 5px;
+    padding-left: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--color-white);
+}
+.nav a:hover {
+    color: var(--color-orange);
+}
+.nav p {
+    margin: 0;
+}
+.nav_active a {
+    font-size: 105%;
+    color: var(--color-orange);
+}
+#visible {
+    display: none;
+    border: solid white 0.2px;
+    position: absolute;
+    z-index: 100;
+    background-color: black;
+    padding: 5px;
+    padding-left: 1px;
+}
+/*__footer__*/
+.footer_cont {
+    background-color: black;
+    padding-bottom: 0;
+}
+.footer a {
+    text-decoration: none;
+    color: var(--color-white);
+    padding-left: 30px
+}
+.footer a:hover{
+    color: var(--color-orange)
+}
+.top_footer {
+    display: flex;
+    flex-direction: row;
+}
+.footer p {
+    font-size: 80%; 
+    text-align: center;
+}
+
+/*__default_case__*/
+
+.case {
+    border: solid var(--color-white) 1px;
+    background-color: black;
+    margin: 7%;
+    padding: 30px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+.case h2 {
+    font-size: 50px; 
+    color: var(--color-orange);
+}
+.case h4 {
+    border-bottom: solid var(--color-white) 1px;
+    font-size: 18px; 
+}
+

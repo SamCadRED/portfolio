@@ -32,6 +32,23 @@
         </div>
     </div>
 
+    <div class="main_cont">
+        <h1 style="color:black; padding-left:5%">Mes Activitées professionnelles : </h1>
+
+        <div class="activitee1">
+            <?php 
+                $titre = "Test de balise";
+                $desc = "J'ai créer des procédures de test et les ai appliqués sur des objets connectés";
+                $contexte = "Il était de plus en plus urgent de posséder des metriques sur nos objets connectés";
+                $env = "Je l'ai effectué seul, en entreprise, sur un environnement macOS et Excel";
+                $objectif = "L'objectif état de rassembler le plus de métriques concernant les objets";
+                $conclusion = "Je n'avais jamais effectué de procédure de tests auparavant c'était donc la majeure difficulté,cependant j'ai pu rapidement trouver mon rythme et offrir des résultats.";
+                echo display_activites($titre, $desc, $contexte, $env, $objectif, $conclusion);
+            ?>
+        </div>
+
+    </div>
+
     <div class="footer_cont">
         <?php echo $footer ?>
     </div>
