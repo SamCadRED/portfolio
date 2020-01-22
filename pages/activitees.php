@@ -35,6 +35,18 @@
     <div class="main_cont">
         <h1 style="color:black; padding-left:5%">Mes Activitées professionnelles : </h1>
 
+        <div class="activite1">
+        <?php 
+                $titre = "";
+                $desc = "";
+                $contexte = "";
+                $env = "";
+                $objectif = "";
+                $conclusion = "";
+                echo display_activites($titre, $desc, $contexte, $env, $objectif, $conclusion);
+            ?>
+        </div>
+        
         <div class="activitee1">
             <?php 
                 $titre = "Test de balise";
@@ -46,6 +58,7 @@
                 echo display_activites($titre, $desc, $contexte, $env, $objectif, $conclusion);
             ?>
         </div>
+
 
     </div>
 

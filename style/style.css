@@ -244,6 +244,13 @@ tbody div {
 .activite_top {
     display: flex;
     text-align: center;
+    justify-content: center;
+}
+.description {
+    flex: 1;
+}
+.context {
+    flex: 1;
 }
 .activite_middle {
 }

@@ -45,7 +45,7 @@ function display_activites($titre, $desc, $contexte, $env, $objectif, $conclusio
                         <h3>Description : </h3>
                         <p>".$desc."</p>
                     </div>
-                    <div class='gen_context'>
+                    <div class='context'>
                         <h3>Contexte et environnement : </h3>
                         <p>".$contexte."</p>
                         <p>".$env."</p>
