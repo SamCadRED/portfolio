@@ -251,6 +251,7 @@ tbody div {
 }
 .description {
     flex: 1;
+    border-right: solid var(--color-white) 0.5px;
 }
 .context {
     flex: 1;
@@ -259,6 +260,7 @@ tbody div {
 }
 .activite_bottom {
     text-align: center;
+    border-top:  solid var(--color-white) 0.5px;
 }
 /*_________Components_______________________*/
 
