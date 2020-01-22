@@ -208,18 +208,12 @@ tbody div {
     color: white;
 }
 .pres_card {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    flex-direction: row;
+
 }
 .card {
-    text-align: center;
     color: black;
-    margin: 20px;
-    padding: 10px;
-    max-width: 250px;
-    min-width: 200px;
+    margin: 70px;
+    padding: 30px;
     background-color: var(--color-orange);
 }
 .card h2 {

@@ -54,16 +54,16 @@
             <div class="card">
                 <?php 
                     $title = "Ciblage";
-                    $text = "Pour mon sujet de veille j'ai choisi le framework React Native,
-                    C'est un framework JavaScript mobile cross-plateforme, c'est à dire qu'il permet d'écrire des applications mobiles pour Android et iOS.";
+                    $text = "Pour mon sujet de veille j'ai choisi de me concentrer sur le Machine Learning, c'est un sujet qui, dans le milieu de l'entreprise est énormément abordé. il représente à mon sens un des enjeux du futur mais aussi et surtout du présent.";
                     echo display_card($title, $text) 
                 ?>
             </div>
             <div class="card">
                 <?php 
                     $title = "Recherche";
-                    $text = "https://www.lafermeduweb.net/tag/machinelearning
-                    https://likeabot.io/blog/veille-like-a-bot-6-ia-algorithme-machine-learning-et-apprentissage-supervise-comment-rendre-son-chatbot-intelligent
+                    $text = "J'ai effectué mes recherches et rassemblé des informations grâce à différents médias notamment l'application <a href='https://twitter.com'>Twitter</a> et les sites web : <br>
+                    <a href='https://www.lafermeduweb.net/tag/machinelearning'>- lafermeduweb.net</a> <br>
+                    <a href='https://likeabot.io/blog/veille-like-a-bot-6-ia-algorithme-machine-learning-et-apprentissage-supervise-comment-rendre-son-chatbot-intelligent'>- likeabot.io</a><br>
                     ";
                     echo display_card($title, $text) 
                 ?>
