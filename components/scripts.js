@@ -23,3 +23,16 @@ function showActivitee() {
         isVisible = false;
     }
 }
+
+var dark = true;
+function setTheme() {
+    if (dark) {
+        document.documentElement.style.setProperty('--color-light', '#202020');
+        document.documentElement.style.setProperty('--color-theme', '#e2b237');
+        document.documentElement.style.setProperty('--color-dark', '#e5e5e5');
+    } else {
+        document.documentElement.style.setProperty('--color-light', '#e5e5e5');
+        document.documentElement.style.setProperty('--color-theme', '#e2b237');
+        document.documentElement.style.setProperty('--color-dark', '#202020');
+    }
+}
