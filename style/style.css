@@ -5,7 +5,7 @@
     --color-dark: rgb(10, 10, 10); */
     --color-light: #e5e5e5;
     --color-theme: #e2b237;
-    --color-dark: #202020;;
+    --color-dark: #141414;;
 }
 @font-face {
     font-family: "Gravity";
@@ -41,7 +41,9 @@ body p {
 
 /*_________Index.php_____________________________*/
 .about {
-    background-image: url("../images/2_planet.jpg");
+    background-image: 
+        linear-gradient(to bottom,rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),
+        url("../images/2_planet.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -164,7 +166,9 @@ tbody div {
 
 /*_________ecole.php__________________________________*/
 .afip_case {
-    background-image: url("../images/kepler_system.jpg");
+    background-image: 
+        linear-gradient(to bottom,rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),
+        url("../images/kepler_system.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -236,9 +240,14 @@ tbody div {
 }
 .header {
     margin: 35px;
+    display: flex;
+    justify-content: space-between;
 }
 .header h1 {
     font-size: 300%;
+}
+.dark_mode {
+    height: 30px;
 }
 
 /*__nav__*/

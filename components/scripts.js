@@ -25,14 +25,17 @@ function showActivitee() {
 }
 
 var dark = true;
-function setTheme() {
+function setTheme() {    
+    event.preventDefault();
     if (dark) {
         document.documentElement.style.setProperty('--color-light', '#202020');
         document.documentElement.style.setProperty('--color-theme', '#e2b237');
         document.documentElement.style.setProperty('--color-dark', '#e5e5e5');
+        dark = true;
     } else {
         document.documentElement.style.setProperty('--color-light', '#e5e5e5');
         document.documentElement.style.setProperty('--color-theme', '#e2b237');
         document.documentElement.style.setProperty('--color-dark', '#202020');
+        dark = false;
     }
 }

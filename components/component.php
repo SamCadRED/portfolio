@@ -1,9 +1,12 @@
 <?php 
-$header = '<div class="header">
+$header = ' <div class="header">
                 <h1>SAMUEL CADIOU</h1>
-        </div>';
+                <!-- <a href="" onclick="setTheme()">
+                    <img class="dark_mode" src="/portfolio/images/dark_mode.png" alt="Switch Theme">
+                </a> -->
+            </div>';
 
-$footer = '<div class="footer">
+$footer = ' <div class="footer">
                 <div class="top_footer">
                     <h4><a href="mailto:samuelcadiou@hotmail.fr">Me contacter par mail</a></h4>
                     <h4><a href="https://www.linkedin.com/in/samuel-cadiou-822759133">LinkedIn</a></h4>
