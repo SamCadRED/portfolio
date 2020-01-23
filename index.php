@@ -34,6 +34,8 @@
                     <p class="activitee"><a href="pages/activitee2.php">Activitee 2</a></p>
                     <p class="activitee"><a href="pages/activitee3.php">Activitee 3</a></p>
                     <p class="activitee"><a href="pages/activitee4.php">Activitee 4</a></p>
+                    <p class="activitee"><a href="pages/activitee5.php">Activitee 5</a></p>
+                    <p class="activitee"><a href="pages/activitee6.php">Activitee 6</a></p>
                 </div>
             </div>
         </div>
