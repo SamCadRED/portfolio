@@ -10,3 +10,16 @@ function showMenu() {
         visible = false;
     }
 }
+
+var isVisible = false;
+function showActivitee() {
+    event.preventDefault();
+    var actviteeCont = document.getElementById('ac_visible');
+    if (!isVisible) {
+        actviteeCont.style.display = "block";
+        isVisible = true;
+    } else {
+        actviteeCont.style.display = "none";
+        isVisible = false;
+    }
+}

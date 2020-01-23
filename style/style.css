@@ -309,6 +309,15 @@ tbody div {
     padding: 5px;
     padding-left: 1px;
 }
+#ac_visible {
+    display: none;
+    border: solid white 0.2px;
+    position: absolute;
+    z-index: 100;
+    background-color: var(--color-dark);
+    padding: 5px;
+    padding-left: 1px;
+}
 /*__footer__*/
 .footer_cont {
     background-color: var(--color-dark);

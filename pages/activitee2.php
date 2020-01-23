@@ -23,7 +23,7 @@
             <div class="deroulant">
                 <p><a href="" onclick="showMenu()">PPE</a></p>
                 <div id="visible">
-                    <p class="nav_active" ><a href="">PPE 1</a></p>
+                    <p class="ppe"><a href="ppe1.php">PPE 1</a></p>
                     <p class="ppe"><a href="ppe2.php">PPE 2</a></p>
                 </div>
             </div>
@@ -32,7 +32,7 @@
                 <p><a href="" onclick="showActivitee()">Activités professionnelles </a></p>
                 <div id="ac_visible">
                     <p class="activitee"><a href="activitee1.php">Activitee 1</a></p>
-                    <p class="activitee"><a href="activitee2.php">Activitee 2</a></p>
+                    <p class="nav_active" class="activitee"><a href="">Activitee 2</a></p>
                     <p class="activitee"><a href="activitee3.php">Activitee 3</a></p>
                     <p class="activitee"><a href="activitee4.php">Activitee 4</a></p>
                 </div>

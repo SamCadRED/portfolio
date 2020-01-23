@@ -27,8 +27,15 @@
                 </div>
             </div>
             <p><a href="pages/veille.php">Veille</a></p>
-            <p><a href="pages/activitees.php">Activités professionnelles </a></p>
-        </div>
+            <div class="activitee_menu">
+                <p><a href="" onclick="showActivitee()">Activités professionnelles </a></p>
+                <div id="ac_visible">
+                    <p class="activitee"><a href="pages/activitee1.php">Activitee 1</a></p>
+                    <p class="activitee"><a href="pages/activitee2.php">Activitee 2</a></p>
+                    <p class="activitee"><a href="pages/activitee3.php">Activitee 3</a></p>
+                    <p class="activitee"><a href="pages/activitee4.php">Activitee 4</a></p>
+                </div>
+            </div>
         </div>
     </div>
 
