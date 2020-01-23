@@ -223,46 +223,8 @@ tbody div {
 
 /*_________Activitees.php_______________________*/
 
-.main_cont {
-    background-color: var(--color-theme);
-}
 
-.activite_case {
-    background-color: var(--color-dark);
-    border: solid var(--color-light) 1px;
-    color: var(--color-light);
-    margin: 20px;
-    padding :30px;
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-}
-.activite_case h2 {
-    color: var(--color-theme);
-    border-bottom: solid var(--color-light) 0.8px;
-}
-.activite_case h3 {
-    color: var(--color-theme);
-}
 
-.activite_top {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-.description {
-    flex: 1;
-    border-right: solid var(--color-light) 0.5px;
-}
-.context {
-    flex: 1;
-}
-.activite_middle {
-}
-.activite_bottom {
-    text-align: center;
-    border-top:  solid var(--color-light) 0.5px;
-}
 /*_________Components_______________________*/
 
 /*__header__*/
