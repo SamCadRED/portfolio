@@ -37,6 +37,7 @@
                     <p class="nav_active" class="activitee"><a href="">Activitee 4</a></p>
                     <p class="activitee"><a href="activitee5.php">Activitee 5</a></p>
                     <p class="activitee"><a href="activitee6.php">Activitee 6</a></p>
+                    <p class="activitee"><a href="activitee7.php">Activitee 7</a></p>
                 </div>
             </div>
         </div>
