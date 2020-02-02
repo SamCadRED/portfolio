@@ -53,3 +53,6 @@ function display_card($title, $text) {
             </div>';
 }
 
+function display_activities($title, $obj, $description, $custom) {
+    return '';
+}
