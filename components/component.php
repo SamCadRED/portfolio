@@ -17,10 +17,10 @@ $footer = ' <div class="footer">
 // Nav pages name : 
 $ppe1 = "ppe1";
 $ppe2 = "ppe2";
-$acti1 = "activite 1";
-$acti2 = "activite 2";
-$acti3 = "activite 3";
-$acti4 = "activite 4";
+$acti1 = "Test de bracelets connectés";
+$acti2 = "Création d'un site de support";
+$acti3 = "Mise en place de ticketing";
+$acti4 = "Développement d'application mobile";
 $acti5 = "activite 5";
 $acti6 = "activite 6";
 $acti7 = "activite 7";
