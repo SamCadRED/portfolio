@@ -1,0 +1,28 @@
+Création d'un site de support client
+Mise en place d'un site WordPress de documentation et de support client.
+La plupart des questions traités en support pouvait être évité en créant un site avec la documentation nécessaire.
+J'ai effectué cette tâche en équipe dans l'entreprise sur un environnment macOS et WordPress.
+J'ai pu mettre à contribution mes compétences en développement pou aider ma collègue sur le WordPress ainsi que pu faire profiter de ma précédent expérience en support chez Apple
+
+
+Test de bracelets connectés
+J'ai créé des procédures de test et les ai appliqués sur des objets connectés.
+Il était de plus en plus urgent de posséder des metriques sur nos objets connectés
+Je l'ai effectué seul, en entreprise, sur un environnement macOS et Excel
+L'objectif état de rassembler le plus de métriques concernant les objets
+Je n'avais jamais effectué de procédure de tests auparavant c'était donc la principale difficulté, cependant j'ai pu rapidement trouver mon rythme et offrir des résultats concluants.
+
+
+Mise ne place d'un service de support (ticketing)
+Ma mission consistait à interfacer la CRM Axonaut avec notre infrastructure AWS. Les mails de support sont reçu sur AWS et je pouvait ensuite les rediriger vers l'API d'axonaut afin de récupérer les informations de contact et de créer automatiquement un ticket dans la CRM.
+La division support prenant de plus en plus d'importance dans l'entreprise, il fallait mettre en place un outil de suivi et de gestion.
+Je l'ai effectué seul en entreprise avec les outil AWS-CLI, AWS SES, Axonaut.fr.
+Cette activitée m'a permit d'améliorer mes compétences de vision d'ensemble sur ma mise en place d'un tel service ainsi que mes compétences générale sur AWS.
+
+
+Création de composants d'application mobile
+Je me suis vu assigné la tâche de créer des composants graphiques et fonctionnels sur l'application mobile développée par l'entreprise.
+Le développeur senior avant besoin d'^tre déchargé sur des petits développements d'amélioration.
+J'ai effectué ce travail seul en entreprise, sur macOS et en utilisant GitHub et le framework React Native.
+L'objectif était de créer des composants focntionnels pour l'application en suivant les directive du designer.
+J'ai adorer effectuer ces développements, la prise difficulté à été de prendre en main le framework React Native.
