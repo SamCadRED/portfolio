@@ -23,21 +23,23 @@
             <div class="deroulant">
                 <p><a href="" onclick="showMenu()">PPE</a></p>
                 <div id="visible">
-                    <p class="nav_active" ><a href="">PPE 1</a></p>
-                    <p class="ppe"><a href="ppe2.php">PPE 2</a></p>
+                    <p class="nav_active" ><a href=""><?php echo $ppe1 ?></a></p>
+                    <p class="ppe"><a href="ppe2.php"><?php echo $ppe2 ?></a></p>
                 </div>
             </div>
             <p><a href="veille.php">Veille</a></p>
             <div class="activitee_menu">
                 <p><a href="" onclick="showActivitee()">Activités professionnelles </a></p>
                 <div id="ac_visible">
-                    <p class="activitee"><a href="activitee1.php">Activitee 1</a></p>
-                    <p class="activitee"><a href="activitee2.php">Activitee 2</a></p>
-                    <p class="activitee"><a href="activitee3.php">Activitee 3</a></p>
-                    <p class="activitee"><a href="activitee4.php">Activitee 4</a></p>
-                    <p class="activitee"><a href="activitee5.php">Activitee 5</a></p>
-                    <p class="activitee"><a href="activitee6.php">Activitee 6</a></p>
-                    <p class="activitee"><a href="activitee7.php">Activitee 7</a></p>
+                    <p class="activitee"><a href="activitee1.php"><?php echo $acti1 ?></a></p>
+                    <p class="activitee"><a href="activitee2.php"><?php echo $acti2 ?></a></p>
+                    <p class="activitee"><a href="activitee3.php"><?php echo $acti3 ?></a></p>
+                    <p class="activitee"><a href="activitee4.php"><?php echo $acti4 ?></a></p>
+                    <p class="activitee"><a href="activitee5.php"><?php echo $acti5 ?></a></p>
+                    <p class="activitee"><a href="activitee6.php"><?php echo $acti6 ?></a></p>
+                    <p class="activitee"><a href="activitee7.php"><?php echo $acti7 ?></a></p>
+                    <p class="activitee"><a href="activitee8.php"><?php echo $acti8 ?></a></p>
+                    <p class="activitee"><a href="activitee9.php"><?php echo $acti9 ?></a></p>
                 </div>
             </div>
         </div>
