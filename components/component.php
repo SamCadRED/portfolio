@@ -53,6 +53,23 @@ function display_card($title, $text) {
             </div>';
 }
 
-function display_activities($title, $obj, $description, $custom) {
-    return '';
+function display_activities($description, $contexte, $objectif, $env, $travail, $competence) {
+    return "<div class='acti_cont'>
+                <div class='acti_cont_text'>
+                    <h3>• Description :</h3>
+                    <p>".$description."</p><br>
+                    <h3>• Contexte et localisation : </h3>
+                    <p>".$contexte."</p><br>
+                    <h3>• Objectifs :</h3>
+                    <p>".$objectif."</p><br>
+                    <h3>• Environnement Technologique :</h3>
+                    <p>".$env."</p><br>
+                    <h3>• Travail effectué :</h3>
+                    <p>".$travail."</p><br>
+                </div>
+                <div class='acti_cont_skills'>
+                    <h3>Pôle de compétences :</h3>
+                    <p>".$competence."</p>
+                </div>
+            </div>";
 }

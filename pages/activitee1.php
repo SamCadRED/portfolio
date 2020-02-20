@@ -45,11 +45,18 @@
         </div>
     </div>
 
-    <div class="activite">
-        <h1><?php echo $acti1 ?></h1>
-        <div class="acti_cont">
-            
-        </div>
+    <div class='activite'>
+        <h1 class='acti_title'><?php echo $acti1 ?></h1>
+        <?php 
+            $description = "Création de procédures de test et enregistrement des résultats dans un fichier excel";
+            $contexte = "Je l'ai effectué seul, en entreprise.";
+            $objectif = "L'objectif était de rassembler le plus de métriques concernant les objets connecté, et de posséder des procédures à jour vis à vis des nouvelles réglementations (RGPD) et de l'évolutions du contexte environnemental de l'entreprise.";
+            $env = "macOS et Excel";
+            $travail = "Rédaction de procédures de test et mise en application sur les objets connectés.";
+            $competence = "";
+
+            echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);
+        ?>
     </div>
 
     <div class="footer_cont">

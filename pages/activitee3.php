@@ -45,9 +45,20 @@
         </div>
     </div>
 
-    <div class="main_cont">
-        <h1 style="color:var(--color-dark); padding-left:5%">Mes Activitées professionnelles : </h1>
+    <div class='activite'>
+        <h1 class='acti_title'><?php echo $acti3 ?></h1>
+        <?php 
+            $description = "Interfacer la CRM Axonaut avec notre infrastructure AWS. Les mails de support receptionnés sur AWS sont redirigés vers l'API d'axonaut afin de récupérer les informations de contact et de créer automatiquement un ticket dans la CRM.";
+            $contexte = "Je l'ai effectué seul en entreprise";
+            $objectif = "Optimiser les échanges clients et augmenter la traçabilité.";
+            $env = "macOS, AWS SES, AWS Lambda et Postman.";
+            $travail = "Création de requête dans AWS Lambda pour poster les informations provenant d'Amazon SES sur l'API d'Axonaut.";
+            $competence = "";
+
+            echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);
+        ?>
     </div>
+
     <div class="footer_cont">
         <?php echo $footer ?>
     </div>

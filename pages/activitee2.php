@@ -45,6 +45,20 @@
         </div>
     </div>
 
+    <div class='activite'>
+        <h1 class='acti_title'><?php echo $acti2 ?></h1>
+        <?php 
+            $description = "Mise en place d'un site WordPress de documentation et de support client.";
+            $contexte = "Je l'ai effectué en équipe, dans l'entreprise.";
+            $objectif = "Créer un site de support contenant toute la documentation possible concernant le produit vendu par l'entreprise, afin de réduire la charge de travail du support client.";
+            $env = "macOS et WordPress";
+            $travail = "Rédaction d'une documentation claire, précise et accessible au grand public afin de faciliter la prise en main des utilisateurs finaux.";
+            $competence = "";
+
+            echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);
+        ?>
+    </div>
+
     <div class="footer_cont">
         <?php echo $footer ?>
     </div>

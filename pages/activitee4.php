@@ -45,6 +45,22 @@
         </div>
     </div>
 
+    <div class='activite'>
+        <h1 class='acti_title'><?php echo $acti4 ?></h1>
+        <?php 
+            $description = "Création de composants graphiques et logiciels et intégration dans une application mobile.";
+            $contexte = "Je l'ai effectué en équipe avec le graphiste de l'entreprise.";
+            $objectif = "Étoffer l'application avce des fonctionnalités nouvelles et améliorer l'epxérience utilisateur.";
+            $env = "macOS, VSCode, React Native, XCode et Adobe XD.";
+            $travail = "- Réunion avec le graphiste pour designer l'écran et les fonctionnalité
+            - Le graphiste designe l'écran
+            - rédaction du code et développement des fonctionnalités";
+            $competence = "";
+
+            echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);
+        ?>
+    </div>
+
     <div class="footer_cont">
         <?php echo $footer ?>
     </div>
