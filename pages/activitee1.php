@@ -54,7 +54,7 @@
             $env = "macOS et Excel";
             $travail = "Rédaction de procédures de test et mise en application sur les objets connectés.";
             $competence = "
-                A4.1.8 Réalisation des tests nécessaires à la validation
+                A4.1.8 Réalisation des tests nécessaires à la validation<br>
                 A4.2.1 Analyse et correction d'un dysfonctionnement";
 
             echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);

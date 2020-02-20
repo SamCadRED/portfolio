@@ -54,17 +54,17 @@
             $env = "macOS, AWS SES, AWS Lambda et Postman.";
             $travail = "Création de requête dans AWS Lambda pour poster les informations provenant d'Amazon SES sur l'API d'Axonaut.";
             $competence = "
-                A1.1.1 Analyse du cahier des charges d'un service à produire
-                A1.1.2 Étude de l'impact de l'intégration d'un service sur le système informatique
-                A1.1.3 Étude des exigences liées à la qualité attendue d'un service
-                A1.2.4 Détermination des tests nécessaires à la validation d'un service
-                A1.3.1 Test d'intégration et d'acceptation d'un service
-                A1.3.3 Accompagnement de la mise en place d'un nouveau service
-                A1.3.4 Déploiement d'un service
-                A1.4.1 Participation à un projet
-                A2.2.1 Suivi et résolution d'incidents
-                A3.1.2 Maquettage et prototypage d'une solution d'infrastructure
-                A3.2.1 Installation et configuration d'éléments d'infrastructure
+                A1.1.1 Analyse du cahier des charges d'un service à produire<br>
+                A1.1.2 Étude de l'impact de l'intégration d'un service sur le système informatique<br>
+                A1.1.3 Étude des exigences liées à la qualité attendue d'un service<br>
+                A1.2.4 Détermination des tests nécessaires à la validation d'un service<br>
+                A1.3.1 Test d'intégration et d'acceptation d'un service<br>
+                A1.3.3 Accompagnement de la mise en place d'un nouveau service<br>
+                A1.3.4 Déploiement d'un service<br>
+                A1.4.1 Participation à un projet<br>
+                A2.2.1 Suivi et résolution d'incidents<br>
+                A3.1.2 Maquettage et prototypage d'une solution d'infrastructure<br>
+                A3.2.1 Installation et configuration d'éléments d'infrastructure<br>
                 A3.2.3 Mise à jour de la documentation technique d'une solution d'infrastructure";
 
             echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);
