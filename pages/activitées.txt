@@ -5,12 +5,23 @@ Je l'ai effectué seul, en entreprise, sur un environnement macOS et Excel
 L'objectif état de rassembler le plus de métriques concernant les objets
 Je n'avais jamais effectué de procédure de tests auparavant c'était donc la principale difficulté, cependant j'ai pu rapidement trouver mon rythme et offrir des résultats concluants.
 
+A4.1.8 Réalisation des tests nécessaires à la validation
+A4.2.1 Analyse et correction d'un dysfonctionnement
+
 
 Création d'un site de support client
 Mise en place d'un site WordPress de documentation et de support client.
 La plupart des questions traités en support pouvait être évité en créant un site avec la documentation nécessaire.
 J'ai effectué cette tâche en équipe dans l'entreprise sur un environnment macOS et WordPress.
 J'ai pu mettre à contribution mes compétences en développement pou aider ma collègue sur le WordPress ainsi que pu faire profiter de ma précédent expérience en support chez Apple
+
+A1.1.1 Analyse du cahier des charges d'un service à produire
+A1.1.3 Étude des exigences liées à la qualité attendue
+A1.3.3 Accompagnement de la mise en place d'un nouveau service
+A1.4.1 Participation à un projet
+A4.1.2 Conception ou adaptation de l'interface utilisateur
+A5.1.5 Évaluation d'un élément de configuration
+
 
 
 Mise ne place d'un service de support (ticketing)
@@ -19,6 +30,20 @@ La division support prenant de plus en plus d'importance dans l'entreprise, il f
 Je l'ai effectué seul en entreprise avec les outil AWS-CLI, AWS SES, Axonaut.fr.
 Cette activitée m'a permit d'améliorer mes compétences de vision d'ensemble sur ma mise en place d'un tel service ainsi que mes compétences générale sur AWS.
 
+A1.1.1 Analyse du cahier des charges d'un service à produire
+A1.1.2 Étude de l'impact de l'intégration d'un service sur le système informatique
+A1.1.3 Étude des exigences liées à la qualité attendue d'un service
+A1.2.4 Détermination des tests nécessaires à la validation d'un service
+A1.3.1 Test d'intégration et d'acceptation d'un service
+A1.3.3 Accompagnement de la mise en place d'un nouveau service
+A1.3.4 Déploiement d'un service
+A1.4.1 Participation à un projet
+A2.2.1 Suivi et résolution d'incidents
+A3.1.2 Maquettage et prototypage d'une solution d'infrastructure
+A3.2.1 Installation et configuration d'éléments d'infrastructure
+A3.2.3 Mise à jour de la documentation technique d'une solution d'infrastructure
+
+
 
 Développement de composants d'application mobile
 Je me suis vu assigné la tâche de créer des composants graphiques et fonctionnels sur l'application mobile développée par l'entreprise.
@@ -26,3 +51,9 @@ Le développeur senior avant besoin d'^tre déchargé sur des petits développem
 J'ai effectué ce travail seul en entreprise, sur macOS et en utilisant GitHub et le framework React Native.
 L'objectif était de créer des composants focntionnels pour l'application en suivant les directive du designer.
 J'ai adorer effectuer ces développements, la prise difficulté à été de prendre en main le framework React Native.
+
+A1.1.1 Analyse du cahier des charges d'un service à produire
+A1.1.3 Étude des exigences liées à la qualité attendue d'un service
+A1.4.1 Participation à un projet
+A4.2.2 Adaptation d'une solution applicative aux évolutions de ses composants
+A4.2.3 Réalisation des tests nécessaires à la mise en production d'éléments mis à jour

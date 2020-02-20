@@ -55,7 +55,12 @@
             $travail = "- Réunion avec le graphiste pour designer l'écran et les fonctionnalité
             - Le graphiste designe l'écran
             - rédaction du code et développement des fonctionnalités";
-            $competence = "";
+            $competence = "
+                A1.1.1 Analyse du cahier des charges d'un service à produire
+                A1.1.3 Étude des exigences liées à la qualité attendue d'un service
+                A1.4.1 Participation à un projet
+                A4.2.2 Adaptation d'une solution applicative aux évolutions de ses composants
+                A4.2.3 Réalisation des tests nécessaires à la mise en production d'éléments mis à jour";
 
             echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);
         ?>

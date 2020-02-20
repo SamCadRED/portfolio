@@ -53,7 +53,13 @@
             $objectif = "Créer un site de support contenant toute la documentation possible concernant le produit vendu par l'entreprise, afin de réduire la charge de travail du support client.";
             $env = "macOS et WordPress";
             $travail = "Rédaction d'une documentation claire, précise et accessible au grand public afin de faciliter la prise en main des utilisateurs finaux.";
-            $competence = "";
+            $competence = "
+                A1.1.1 Analyse du cahier des charges d'un service à produire
+                A1.1.3 Étude des exigences liées à la qualité attendue
+                A1.3.3 Accompagnement de la mise en place d'un nouveau service
+                A1.4.1 Participation à un projet
+                A4.1.2 Conception ou adaptation de l'interface utilisateur
+                A5.1.5 Évaluation d'un élément de configuration";
 
             echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);
         ?>
