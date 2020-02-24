@@ -1,7 +1,10 @@
 /*_____________All______________*/
 :root {
+    /* --color-light: #e5e5e5;
+    --color-theme: #f7b32b;
+    --color-dark: #141414; */
     --color-light: #e5e5e5;
-    --color-theme: #ffb700;
+    --color-theme: #2c8c99;
     --color-dark: #141414;;
 }
 @font-face {
