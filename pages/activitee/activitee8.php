@@ -31,31 +31,35 @@
             <div class="activitee_menu">
                 <p><a href="" onclick="showActivitee()">Activités professionnelles </a></p>
                 <div id="ac_visible">
-                    <p class="nav_active"><a href=""><?php echo $acti1 ?></a></p>
-                    <p><a href="activitee2.php"><?php echo $acti2 ?></a></p>
-                    <p><a href="activitee3.php"><?php echo $acti3 ?></a></p>
-                    <p><a href="activitee4.php"><?php echo $acti4 ?></a></p>
-                    <p><a href="activitee5.php"><?php echo $acti5 ?></a></p>
-                    <p><a href="activitee6.php"><?php echo $acti6 ?></a></p>
-                    <p><a href="activitee7.php"><?php echo $acti7 ?></a></p>
-                    <p><a href="activitee8.php"><?php echo $acti8 ?></a></p>
-                    <p><a href="activitee9.php"><?php echo $acti9 ?></a></p>
+                    <p><a href="activitee/activitee1.php"><?php echo $acti1 ?></a></p>
+                    <p><a href="activitee/activitee2.php"><?php echo $acti2 ?></a></p>
+                    <p><a href="activitee/activitee3.php"><?php echo $acti3 ?></a></p>
+                    <p ><a href="activitee/activitee4.php"><?php echo $acti4 ?></a></p>
+                    <p><a href="activitee/activitee5.php"><?php echo $acti5 ?></a></p>
+                    <p><a href="activitee/activitee6.php"><?php echo $acti6 ?></a></p>
+                    <p><a href="activitee/activitee7.php"><?php echo $acti7 ?></a></p>
+                    <p><a class="nav_active" href=""><?php echo $acti8 ?></a></p>
+                    <p><a href="activitee/activitee9.php"><?php echo $acti9 ?></a></p>
+                    <p><a href="activitee/activitee10.php"><?php echo $acti10 ?></a></p>
+                    <p><a href="activitee/activitee11.php"><?php echo $acti11 ?></a></p>
+                    <p><a href="activitee/activitee12.php"><?php echo $acti12 ?></a></p>
+                    <p><a href="activitee/activitee13.php"><?php echo $acti13 ?></a></p>
+                    <p><a href="activitee/activitee14.php"><?php echo $acti14 ?></a></p>
+                    <p><a href="activitee/activitee15.php"><?php echo $acti15 ?></a></p>
                 </div>
             </div>
         </div>
     </div>
 
     <div class='activite'>
-        <h1 class='acti_title'><?php echo $acti1 ?></h1>
+        <h1 class='acti_title'><?php echo $acti4 ?></h1>
         <?php 
-            $description = "Création de procédures de test et enregistrement des résultats dans un fichier excel";
-            $contexte = "Je l'ai effectué seul, en entreprise.";
-            $objectif = "L'objectif était de rassembler le plus de métriques concernant les objets connecté, et de posséder des procédures à jour vis à vis des nouvelles réglementations (RGPD) et de l'évolutions du contexte environnemental de l'entreprise.";
-            $env = "macOS et Excel";
-            $travail = "Rédaction de procédures de test et mise en application sur les objets connectés.";
-            $competence = "
-                A4.1.8 Réalisation des tests nécessaires à la validation<br>
-                A4.2.1 Analyse et correction d'un dysfonctionnement";
+            $description = "";
+            $contexte = "";
+            $objectif = "";
+            $env = "";
+            $travail = "";
+            $competence = "";
 
             echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);
         ?>
