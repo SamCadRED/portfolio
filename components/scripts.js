@@ -12,7 +12,7 @@ function showMenu() {
 }
 
 var isVisible = false;
-function showActivitee() {
+function showactivite() {
     event.preventDefault();
     var actviteeCont = document.getElementById('ac_visible');
     if (!isVisible) {

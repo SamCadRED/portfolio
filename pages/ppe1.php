@@ -28,24 +28,24 @@
                 </div>
             </div>
             <p><a href="veille.php">Veille</a></p>
-            <div class="activitee_menu">
-                <p><a href="" onclick="showActivitee()">Activités professionnelles </a></p>
+            <div class="activite_menu">
+                <p><a href="" onclick="showactivite()">Activités professionnelles </a></p>
                 <div id="ac_visible">
-                    <p><a href="activitee/activitee1.php"><?php echo $acti1 ?></a></p>
-                    <p><a href="activitee/activitee2.php"><?php echo $acti2 ?></a></p>
-                    <p><a href="activitee/activitee3.php"><?php echo $acti3 ?></a></p>
-                    <p><a href="activitee/activitee4.php"><?php echo $acti4 ?></a></p>
-                    <p><a href="activitee/activitee5.php"><?php echo $acti5 ?></a></p>
-                    <p><a href="activitee/activitee6.php"><?php echo $acti6 ?></a></p>
-                    <p><a href="activitee/activitee7.php"><?php echo $acti7 ?></a></p>
-                    <p><a href="activitee/activitee8.php"><?php echo $acti8 ?></a></p>
-                    <p><a href="activitee/activitee9.php"><?php echo $acti9 ?></a></p>
-                    <p><a href="activitee/activitee9.php"><?php echo $acti10 ?></a></p>
-                    <p><a href="activitee/activitee9.php"><?php echo $acti11 ?></a></p>
-                    <p><a href="activitee/activitee9.php"><?php echo $acti12 ?></a></p>
-                    <p><a href="activitee/activitee9.php"><?php echo $acti13 ?></a></p>
-                    <p><a href="activitee/activitee9.php"><?php echo $acti14 ?></a></p>
-                    <p><a href="activitee/activitee9.php"><?php echo $acti15 ?></a></p>
+                    <p><a href="activite/activite1.php"><?php echo $acti1 ?></a></p>
+                    <p><a href="activite/activite2.php"><?php echo $acti2 ?></a></p>
+                    <p><a href="activite/activite3.php"><?php echo $acti3 ?></a></p>
+                    <p><a href="activite/activite4.php"><?php echo $acti4 ?></a></p>
+                    <p><a href="activite/activite5.php"><?php echo $acti5 ?></a></p>
+                    <p><a href="activite/activite6.php"><?php echo $acti6 ?></a></p>
+                    <p><a href="activite/activite7.php"><?php echo $acti7 ?></a></p>
+                    <p><a href="activite/activite8.php"><?php echo $acti8 ?></a></p>
+                    <p><a href="activite/activite9.php"><?php echo $acti9 ?></a></p>
+                    <p><a href="activite/activite9.php"><?php echo $acti10 ?></a></p>
+                    <p><a href="activite/activite9.php"><?php echo $acti11 ?></a></p>
+                    <p><a href="activite/activite9.php"><?php echo $acti12 ?></a></p>
+                    <p><a href="activite/activite9.php"><?php echo $acti13 ?></a></p>
+                    <p><a href="activite/activite9.php"><?php echo $acti14 ?></a></p>
+                    <p><a href="activite/activite9.php"><?php echo $acti15 ?></a></p>
                 </div>
             </div>
         </div>

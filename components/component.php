@@ -26,6 +26,12 @@ $acti6 = "activite 6";
 $acti7 = "activite 7";
 $acti8 = "activite 8";
 $acti9 = "activite 9";
+$acti10 = "activite 10";
+$acti11 = "acitivite 11";
+$acti12 = "activite 12";
+$acti13 = "activite 13";
+$acti14 = "activite 14";
+$acti15 = "activite 15";
 
 function display_case($title, $second_title, $text) {
     return "<div class='case'>
