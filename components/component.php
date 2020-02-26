@@ -17,21 +17,21 @@ $footer = ' <div class="footer">
 // Nav pages name : 
 $ppe1 = "GSB Agenda";
 $ppe2 = "GSB Wiki";
-$acti1 = "Test de bracelets connectés";
-$acti2 = "Création d'un site de support";
-$acti3 = "Mise en place de ticketing";
-$acti4 = "Développement d'application mobile";
-$acti5 = "activite 5";
-$acti6 = "activite 6";
-$acti7 = "activite 7";
-$acti8 = "activite 8";
-$acti9 = "activite 9";
-$acti10 = "activite 10";
-$acti11 = "acitivite 11";
-$acti12 = "activite 12";
-$acti13 = "activite 13";
-$acti14 = "activite 14";
-$acti15 = "activite 15";
+$acti1 = "Création d'un site de support";
+$acti2 = "Test de bracelets connectés";
+$acti3 = "Réunion RGPD";
+$acti4 = "Mise en place d'emailing";
+$acti5 = "Gestion d'une CRM";
+$acti6 = "Mise en place de ticketing";
+$acti7 = "Maintenance d'une application mobile";
+$acti8 = "Développement de composants";
+$acti9 = "Veille technologique";
+$acti10 = "Déploiement de VM";
+$acti11 = "Assistance client";
+$acti12 = "Création de documentation";
+$acti13 = "PPE - équipement visiteurs";
+$acti14 = "PPE léger";
+$acti15 = "PPE lourd";
 
 function display_case($title, $second_title, $text) {
     return "<div class='case'>
@@ -74,7 +74,7 @@ function display_activities($description, $contexte, $objectif, $env, $travail, 
                     <p>".$travail."</p><br>
                 </div>
                 <div class='acti_cont_skills'>
-                    <h3>Pôle de compétences :</h3>
+                    <h3>Compétences acquises :</h3>
                     <p>".$competence."</p>
                 </div>
             </div>";

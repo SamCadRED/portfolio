@@ -52,20 +52,16 @@
     </div>
 
     <div class='activite'>
-        <h1 class='acti_title'><?php echo $acti2 ?></h1>
+        <h1 class='acti_title'><?php echo $acti1 ?></h1>
         <?php 
-            $description = "Mise en place d'un site WordPress de documentation et de support client.";
-            $contexte = "Je l'ai effectué en équipe, dans l'entreprise.";
-            $objectif = "Créer un site de support contenant toute la documentation possible concernant le produit vendu par l'entreprise, afin de réduire la charge de travail du support client.";
-            $env = "macOS et WordPress";
-            $travail = "Rédaction d'une documentation claire, précise et accessible au grand public afin de faciliter la prise en main des utilisateurs finaux.";
+            $description = "Création de procédures de test et enregistrement des résultats dans un fichier excel";
+            $contexte = "Je l'ai effectué seul, en entreprise.";
+            $objectif = "L'objectif était de rassembler le plus de métriques concernant les objets connecté, et de posséder des procédures à jour vis à vis des nouvelles réglementations (RGPD) et de l'évolutions du contexte environnemental de l'entreprise.";
+            $env = "macOS et Excel";
+            $travail = "Rédaction de procédures de test et mise en application sur les objets connectés.";
             $competence = "
-                A1.1.1 Analyse du cahier des charges d'un service à produire<br>
-                A1.1.3 Étude des exigences liées à la qualité attendue<br>
-                A1.3.3 Accompagnement de la mise en place d'un nouveau service<br>
-                A1.4.1 Participation à un projet<br>
-                A4.1.2 Conception ou adaptation de l'interface utilisateur<br>
-                A5.1.5 Évaluation d'un élément de configuration";
+                A4.1.8 Réalisation des tests nécessaires à la validation<br>
+                A4.2.1 Analyse et correction d'un dysfonctionnement";
 
             echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);
         ?>
