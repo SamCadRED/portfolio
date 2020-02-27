@@ -3,6 +3,7 @@
     --color-light: #e5e5e5;
     --color-theme: #f7b32b;
     --color-theme: #2c8c99;
+    --color-snd-theme: #830000b7;
     --color-dark: #141414;;
 }
 @font-face {
@@ -109,7 +110,7 @@ body p {
 }
 .program_cont {
     color: var(--color-dark);
-    background-color: var(--color-theme);
+    background-color: var(--color-snd-theme);
     padding: 10px;
     flex:1;
     margin: 20px;
@@ -171,7 +172,8 @@ tbody div {
     background-attachment: fixed;
     background-size: cover;
 }
-
+.ido-data_case {
+}
 .mecalux_case {
     background-color: var(--color-theme);
 }
