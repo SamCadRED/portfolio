@@ -1,9 +1,7 @@
 /*_____________All______________*/
 :root {
-    /* --color-light: #e5e5e5;
-    --color-theme: #f7b32b;
-    --color-dark: #141414; */
     --color-light: #e5e5e5;
+    --color-theme: #f7b32b;
     --color-theme: #2c8c99;
     --color-dark: #141414;;
 }
@@ -200,8 +198,32 @@ tbody div {
     font-weight: bolder;
 }
 .main_content {
-
+    display: flex;
 }
+
+/* _____RSS Feed_____ */
+.right_content {
+    color: var(--color-dark);
+    padding: 5px;
+    width: 50%;
+    background-color: var(--color-theme);
+}
+.rss_feed a{
+    color: var(--color-dark);
+    text-decoration: none;
+}
+.feed-item-title {
+    background-color: var(--color-light);
+    padding: 5px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+.feed-item-title:hover a {
+    color: var(--color-theme);
+    text-decoration: none;
+}
+
 .intro {
     padding: 30px;
     margin-left: 50px;

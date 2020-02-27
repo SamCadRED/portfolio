@@ -58,48 +58,57 @@
         </div>
     </div>
     <div class="main_content">
-        <div class="intro">
-            <h2>Organiser sa veille technologique :</h2>
-            <p>L'organisation de ma veille peut se simplifier en 4 étapes :</p>
-            <ul>
-                <li><strong>Le Ciblage</strong> du sujet de veille</li>
-                <li><strong>La Recherche</strong> par mots clés et grâce à différents médias</li>
-                <li><strong>L'analyse</strong> du contenu récupéré</li>
-                <li><strong>La Diffusion</strong> du contenu grâce a d'autres médias</li>
-            </ul>
-        </div>
+        <div class="left_content">
+            <div class="intro">
+                <h2>Organiser sa veille technologique :</h2>
+                <p>L'organisation de ma veille peut se simplifier en 4 étapes :</p>
+                <ul>
+                    <li><strong>Le Ciblage</strong> du sujet de veille</li>
+                    <li><strong>La Recherche</strong> par mots clés et grâce à différents médias</li>
+                    <li><strong>L'analyse</strong> du contenu récupéré</li>
+                    <li><strong>La Diffusion</strong> du contenu grâce a d'autres médias</li>
+                </ul>
+            </div>
 
-        <div class="pres_card">
-            <div class="card">
-                <?php 
-                    $title = "Ciblage";
-                    $text = "Pour mon sujet de veille j'ai choisi de me concentrer sur le Machine Learning, c'est un sujet qui, dans le milieu de l'entreprise est énormément abordé. il représente à mon sens un des enjeux du futur mais aussi et surtout du présent.";
-                    echo display_card($title, $text) 
-                ?>
+            <div class="pres_card">
+                <div class="card">
+                    <?php 
+                        $title = "Ciblage";
+                        $text = "Pour mon sujet de veille j'ai choisi de me concentrer sur le Machine Learning, c'est un sujet qui, dans le milieu de l'entreprise est énormément abordé. il représente à mon sens un des enjeux du futur mais aussi et surtout du présent.";
+                        echo display_card($title, $text) 
+                    ?>
+                </div>
+                <div class="card">
+                    <?php 
+                        $title = "Recherche";
+                        $text = "J'ai effectué mes recherches et rassemblé des informations grâce à différents médias notamment l'application <a href='https://twitter.com'>Twitter</a> et les sites web : <br>
+                        <a href='https://www.lafermeduweb.net/tag/machinelearning'>- lafermeduweb.net</a> <br>
+                        <a href='https://likeabot.io/blog/veille-like-a-bot-6-ia-algorithme-machine-learning-et-apprentissage-supervise-comment-rendre-son-chatbot-intelligent'>- likeabot.io</a><br>
+                        ";
+                        echo display_card($title, $text) 
+                    ?>
+                </div>
+                <div class="card">
+                    <?php 
+                        $title = "Analyse";
+                        $text = "";
+                        echo display_card($title, $text) 
+                    ?>
+                </div>
+                <div class="card">
+                    <?php 
+                        $title = "Diffusion";
+                        $text = "";
+                        echo display_card($title, $text) 
+                    ?>
+                </div>
             </div>
-            <div class="card">
-                <?php 
-                    $title = "Recherche";
-                    $text = "J'ai effectué mes recherches et rassemblé des informations grâce à différents médias notamment l'application <a href='https://twitter.com'>Twitter</a> et les sites web : <br>
-                    <a href='https://www.lafermeduweb.net/tag/machinelearning'>- lafermeduweb.net</a> <br>
-                    <a href='https://likeabot.io/blog/veille-like-a-bot-6-ia-algorithme-machine-learning-et-apprentissage-supervise-comment-rendre-son-chatbot-intelligent'>- likeabot.io</a><br>
-                    ";
-                    echo display_card($title, $text) 
-                ?>
-            </div>
-            <div class="card">
-                <?php 
-                    $title = "Analyse";
-                    $text = "";
-                    echo display_card($title, $text) 
-                ?>
-            </div>
-            <div class="card">
-                <?php 
-                    $title = "Diffusion";
-                    $text = "";
-                    echo display_card($title, $text) 
-                ?>
+        </div>
+        <div class="right_content">
+            <h2>Flux RSS</h2>
+            <div class="rss_feed">
+                <script src="//rss.bloople.net/?url=https%3A%2F%2Fnews.google.com%2Frss%2Fsearch%3Fq%3DMachine%2BLearning%26hl%3Den-US%26gl%3DUS%26ceid%3DUS%253Aen%26x%3D1571747125.1658&detail=-1&limit=15&showtitle=false&type=js">
+                </script>
             </div>
         </div>
     </div>
