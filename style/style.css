@@ -110,7 +110,7 @@ body p {
 }
 .program_cont {
     color: var(--color-dark);
-    background-color: var(--color-snd-theme);
+    background-color: var(--color-theme);
     padding: 10px;
     flex:1;
     margin: 20px;
