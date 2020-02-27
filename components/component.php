@@ -9,8 +9,8 @@ $header = ' <div class="header">
 $footer = ' <div class="footer">
                 <div class="top_footer">
                     <h4><a href="mailto:samuelcadiou@hotmail.fr">Me contacter par mail</a></h4>
-                    <h4><a href="https://www.linkedin.com/in/samuel-cadiou-822759133">LinkedIn</a></h4>
-                    <h4><a href="https://github.com/SamCadRED/portfolio" >GitHub</a></h4>
+                    <h4><a href="https://www.linkedin.com/in/samuel-cadiou-822759133" target="_blank">LinkedIn</a></h4>
+                    <h4><a href="https://github.com/SamCadRED/portfolio" target="_blank">GitHub</a></h4>
                 </div>
                 <p>©2020 par Samuel Cadiou</p>
             </div>';
