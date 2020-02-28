@@ -173,7 +173,8 @@ tbody div {
     background-size: cover;
 }
 .ido-data_case {
-    /*background-color: var(--color-theme);*/
+    background-color: var(--color-theme);
+    opacity: 0.2;
 }
 .mecalux_case {
     background-image: 
