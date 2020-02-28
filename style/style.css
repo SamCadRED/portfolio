@@ -173,10 +173,7 @@ tbody div {
     background-size: cover;
 }
 .ido-data_case {
-    background-color: var(--color-theme);
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    background-color: var(--color-theme) 0.2;
 }
 .mecalux_case {
     background-image: 
