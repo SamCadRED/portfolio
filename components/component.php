@@ -18,6 +18,7 @@ $footer = ' <div class="footer">
 // Nav pages name : 
 $ppe1 = "GSB Agenda";
 $ppe2 = "GSB Wiki";
+
 $acti1 = "Création d'un site de support";
 $acti2 = "Test de bracelets connectés";
 $acti3 = "Réunion RGPD";
