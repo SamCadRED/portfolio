@@ -54,12 +54,12 @@
     <div class='activite'>
         <h1 class='acti_title'><?php echo $acti4 ?></h1>
         <?php 
-            $description = "Mise en place d'une veille technologique";
-            $contexte = "";
-            $objectif = "";
-            $env = "";
-            $travail = "";
-            $competence = "";
+            $description = "Mise en place d'une veille technologique grâce à différents outils";
+            $contexte = "Seul en centre";
+            $objectif = "Mettre enplaceun système de veille technologique en m'aidant de différents médias et technologies";
+            $env = "Sites internet, Medium, Twitter, Apple Podcast";
+            $travail = "Création d'un flux RSS de Google News, écoute de Podcasts, lecture hebdomadaire d'articke sur le sujet";
+            $competence = "A5.1.2  Veille technologique";
 
             echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);
         ?>
