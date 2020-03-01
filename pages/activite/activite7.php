@@ -54,12 +54,24 @@
     <div class='activite'>
         <h1 class='acti_title'><?php echo $acti4 ?></h1>
         <?php 
-            $description = "Maintenance et documentation d'une applciation mobile";
-            $contexte = "";
-            $objectif = "";
-            $env = "";
-            $travail = "";
-            $competence = "";
+            $description = "Maintenance et documentation d'une application mobile";
+            $contexte = "Seul en entreprise";
+            $objectif = "Permettre une meilleur maintenance (et documentation) du code écrit parmon tuteur. L'objectif était de factorise le code écrit pour faciliter la maintenance";
+            $env = "macOS (XCode), Visual Studio Code, React Native et iOS";
+            $travail = "Factorisation du code, optimisation et documentation";
+            $competence = "
+                A4.1.1  Proposition d'une solution applicative<br>
+                A4.1.2  Conception ou adaptation de l'interface utilisateur<br>
+                A4.1.4  Définition des caractéristiques d'une solution applicative<br>
+                A4.1.5  Prototypage de composants logiciels<br>
+                A4.1.6  Gestion d'environnements de développement et de test<br>
+                A4.1.7  Développement, utilisation ou adaptation de composants<br>*
+                A4.1.8  Réalisation des tests nécessaires à la validation<br>
+                A4.1.9  Rédaction d'une documentation technique<br>
+                A4.2.1  Analyse et correction d'un dysfonctionnement<br>
+                A4.2.2  Adaptation d'une solution applicative aux évolutions<br>
+                A4.2.3  Réalisation des tests nécessaires à la mise en production
+            ";
 
             echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);
         ?>

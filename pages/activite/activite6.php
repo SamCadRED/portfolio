@@ -54,12 +54,25 @@
     <div class='activite'>
         <h1 class='acti_title'><?php echo $acti4 ?></h1>
         <?php 
-            $description = "Mise enplaced'un service de ticketing avec AWS et Axonaut";
-            $contexte = "";
-            $objectif = "";
-            $env = "";
-            $travail = "";
-            $competence = "";
+            $description = "Mise en place d'un service de ticketing avec AWS et Axonaut";
+            $contexte = "J'ai effectué ce travail seul en entreprise";
+            $objectif = "Interfacer la CRM Axonaut et notre infrastructure AWS";
+            $env = "Postman (appels d'API REST), AWS SES, Axonaut";
+            $travail = "Mettre place une solution permettant de générer automatiquement des tickets grâce à l'API d'axonaut dès lors qu'un mail est reçu sur notre service AWS";
+            $competence = "
+                A1.1.1  Analyse du cahier des charges d'un service à produire<br>
+                A1.1.2  Étude de l'impact de l'intégration d'un service<br>
+                A1.1.3  Étude des exigences liées à la qualité attendue<br>
+                A1.2.4  Détermination des tests nécessaires à la validation<br>
+                A1.3.1  Test d'intégration et d'acceptation d'un service<br>
+                A1.3.3  Accompagnement de la mise en place d'un nouveau service<br>
+                A1.3.4  Déploiement d'un service<br>
+                A1.4.1  Participation à un projet<br>
+                A2.2.1  Suivi et résolution d'incidents<br>
+                A3.1.2  Maquettage et prototypage d'une solution d'infrastructure<br>
+                A3.2.1  Installation et configuration d'éléments d'infrastructure<br>
+                A3.2.3  Mise à jour de la documentation technique d'une solution d'infrastructure
+                ";
 
             echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);
         ?>

@@ -55,11 +55,15 @@
         <h1 class='acti_title'><?php echo $acti3 ?></h1>
         <?php 
             $description = "Réunion d'information sur les nouvelles normes et réglementations RGPD avec un expert";
-            $contexte = "";
-            $objectif = "";
+            $contexte = "J'ai participé à la réunion avec le président de l'entreprise";
+            $objectif = "Permettre un passage aux normes de l'infrastructure de l'entreprise";
             $env = "";
-            $travail = "";
-            $competence = "";
+            $travail = "Réunion avec un expert RGPD pour pourvoir mesurer l'impact desnouvelles normes et législations sur notre infrastructure";
+            $competence = "
+                A1.1.3  Étude des exigences liées à la qualité attendue<br>
+                A5.1.2  Recueil d'informations sur une configuration<br>
+                A5.1.4  Étude de propositions de contrat de service
+            ";
 
             echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);
         ?>

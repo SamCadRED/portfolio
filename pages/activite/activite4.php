@@ -54,12 +54,21 @@
     <div class='activite'>
         <h1 class='acti_title'><?php echo $acti4 ?></h1>
         <?php 
-            $description = "Mise en place d'un service d'emailing avec Amazon SES";
-            $contexte = "";
-            $objectif = "";
-            $env = "";
-            $travail = "";
-            $competence = "";
+            $description = "Mise en place d'un service d'emailing avec Amazon SES et création de template HTML de mails";
+            $contexte = "J'ai réalisé ce travail seul, en entreprise";
+            $objectif = "L'entreprise avait besoin d'un service d'emailing automatique (newsletter, mails d'informations, mises à jour) pour avertir nos clients";
+            $env = "Amazon SES, Visual Studio Code";
+            $travail = "Création de template HTML puis ajout de ceux-ci dans Amazon SES. Envoi automatique depuis l'interface de commande AWS (CLI)";
+            $competence = "
+                A1.1.2  Étude de l'impact de l'intégration d'un service<br>
+                A1.2.4  Détermination des tests nécessaires à la validation<br>
+                A1.3.1  Test d'intégration et d'acceptation d'un service<br>
+                A1.3.4  Déploiement d'un service<br>
+                A3.2.1  Installation et configuration d'éléments d'infrastructure<br>
+                A4.1.8  Réalisation des tests nécessaires à la validation<br>
+                A4.1.9  Rédaction d'une documentation technique<br>
+                A5.1.2  Recueil d'informations sur une configuration
+            ";
 
             echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);
         ?>
