@@ -55,11 +55,16 @@
         <h1 class='acti_title'><?php echo $acti4 ?></h1>
         <?php 
             $description = "PPE 1ère année : équipement visiteurs";
-            $contexte = "";
-            $objectif = "";
-            $env = "";
-            $travail = "";
-            $competence = "";
+            $contexte = "Travail réalisé en équipe dans le centre de formation.";
+            $objectif = "Réaliser une présentation présentant 3 solutions de matériel d'équipement des visiteurs (commerciaux) de l'entreprise GSB";
+            $env = "Powerpoint";
+            $travail = "Recherches internet sur de multiples produits et comparaison des specificité de chaque. Puis réalisation de la présentation sur PowerPoint.";
+            $competence = "
+                A1.1.1 Analyse du cahier des charges d'un service à produire<br>
+                A1.2.1 Élaboration et présentation d'un dossier de choix<br>
+                A1.2.2 Rédaction des spécifications techniques de la solution<br>
+                A1.2.3 Évaluation des risques liés à l'utilisation d'un service
+            ";
 
             echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);
         ?>

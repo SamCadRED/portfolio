@@ -55,11 +55,15 @@
         <h1 class='acti_title'><?php echo $acti4 ?></h1>
         <?php 
             $description = "Intervention d'assistance sur le serveur de production client pour résoudre un problème technique bloquant";
-            $contexte = "";
-            $objectif = "";
-            $env = "";
-            $travail = "";
-            $competence = "";
+            $contexte = "Seul en entreprise";
+            $objectif = "Résoudre un problème bloquant sur le serveur du client afin de limiter au maximum les préjudices (arrêt de production)";
+            $env = "Windows 10, Oracle";
+            $travail = "Notre application métier ne recevait aucune données dela part de l'ERP du client, j'ai pu résoudre le problème en consultant les logs afin d'identifier la source. Il aensuite fallut que je mette à jour les scripts .boo servant à la communication entre les deux applications";
+            $competence = "
+                A1.1.3 Étude des exigences liées à la qualité attendue<br>
+                A4.2.1 Analyse et correction d'un dysfonctionnement<br>
+                A5.1.2 Recueil d'informations sur une configuration
+            ";
 
             echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);
         ?>

@@ -54,12 +54,16 @@
     <div class='activite'>
         <h1 class='acti_title'><?php echo $acti4 ?></h1>
         <?php 
-            $description = "Création et mise à jour d'une documentation technique";
-            $contexte = "";
-            $objectif = "";
-            $env = "";
-            $travail = "";
-            $competence = "";
+            $description = "Création et mise à jour d'une documentation technique sur la configuration et le debuggage d'Oracle sur notre application métier";
+            $contexte = "Seul en entrprise avec l'aide de mon tuteur";
+            $objectif = "Réaliser une documentation accessible à toute l'équipe pour régler des problèmes liés à Oracle";
+            $env = "Oracle, Windows 10, Framework .NET";
+            $travail = "Mettre à jour ladocumentation existante et ajouter autant de données que possible";
+            $competence = "
+                A4.2.4 Mise à jour d'une documentation technique<br>
+                A5.1.2 Recueil d'informations sur une configuration<br>
+                A5.1.3 Suivi d'une configuration et de ses éléments
+            ";
 
             echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);
         ?>

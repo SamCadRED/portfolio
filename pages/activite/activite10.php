@@ -55,11 +55,18 @@
         <h1 class='acti_title'><?php echo $acti4 ?></h1>
         <?php 
             $description = "Déploiement de Machines Virtuelles de développement sur un serveur local";
-            $contexte = "";
-            $objectif = "";
-            $env = "";
-            $travail = "";
-            $competence = "";
+            $contexte = "Seul en entreprise";
+            $objectif = "Déployer 3 machines virtuelles (copie de serveurs deproduction) de test et développement.";
+            $env = "Windows 10, HyperV, Oracle et Framework .NET";
+            $travail = "Réaliser un Dump de la base de donnée sur leserveur de production, puis installer Oracle et notre application métier sur les VM pour qu'elles puissent accueillir les données ";
+            $competence = "
+                A1.3.4 Déploiement d'un service
+                A3.2.1 Installation et configuration d'éléments d'infrastructure<br>
+                A3.2.3 Mise à jour de la documentation technique d'une solution d'infrastructure<br>
+                A3.3.1 Administration sur site ou à distance d'un réseau de serveurs<br>
+                A4.1.3 Conception ou adaptation d'une base de données<br>
+                A4.2.1 Analyse et correction d'un dysfonctionnement
+            ";
 
             echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);
         ?>

@@ -55,11 +55,26 @@
         <h1 class='acti_title'><?php echo $acti4 ?></h1>
         <?php 
             $description = "PPE Web : création d'un agenda en ligne pour les commerciaux de GSB";
-            $contexte = "";
-            $objectif = "";
-            $env = "";
-            $travail = "";
-            $competence = "";
+            $contexte = "Seul en centre de formation";
+            $objectif = "réaliser un agenda en ligne facilement utilisable pour que les commerciaux puissent gérer leur différents rendez-vous le plus simplement possible";
+            $env = "Visual Studio Code, PHPMyAdmin, SQL et PHP";
+            $travail = "Elaboration du cahier des charges et de la base de données (MLD). Puis,implémentation du site web (HTML, CSS, PHP, JavaScript) et création de la base donnée. Le tout à été versionné puis adapté pour fonctionner sur VM Debian installée sur l'infrastructure de l'école.";
+            $competence = "
+                A1.1.1 Analyse du cahier des charges d'un service à produire<br>
+                A1.2.1 Élaboration et présentation d'un dossier de choix<br>
+                A1.3.4 Déploiement d'un service<br>
+                A1.4.1 Participation à un projet<br>
+                A4.1.1 Proposition d'une solution applicative<br>
+                A4.1.2 Conception ou adaptation de l'interface utilisateur<br>
+                A4.1.3 Conception ou adaptation d'une base de données<br>
+                A4.1.4 Définition des caractéristiques d'une solution applicative<br>
+                A4.1.5 Prototypage de composants logiciels<br>
+                A4.1.8 Réalisation des tests nécessaires à la validation<br>
+                A4.1.9 Rédaction d'une documentation technique<br>
+                A4.1.1 Proposition d'une solution applicative<br>
+                A5.2.3 Repérage des compléments de formation<br>
+                A5.2.4 Étude d‘une technologie, d'un composant, d'un outil
+            ";
 
             echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);
         ?>

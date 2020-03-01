@@ -55,11 +55,26 @@
         <h1 class='acti_title'><?php echo $acti4 ?></h1>
         <?php 
             $description = "PPE Java : développement d'une application lourde de gestion de stock";
-            $contexte = "";
+            $contexte = "seul en centre de formation";
             $objectif = "";
-            $env = "";
+            $env = "Java 1.8, IntelliJ, PHPMyAdmin, Windows 10 et macOS";
             $travail = "";
-            $competence = "";
+            $competence = "
+                A1.1.1 Analyse du cahier des charges d'un service à produire<br>
+                A1.2.4 Détermination des tests nécessaires à la validation<br>
+                A3.1.1 Proposition d'une solution d'infrastructure<br>
+                A3.1.2 Maquettage et prototypage d'une solution d'infrastructure<br>
+                A4.1.2 Conception ou adaptation de l'interface utilisateur<br>
+                A4.1.3 Conception ou adaptation d'une base de données<br>
+                A4.1.4 Définition des caractéristiques d'une solution applicative<br>
+                A4.1.5 Prototypage de composants logiciels<br>
+                A4.1.6 Gestion d'environnements de développement et de test<br>
+                A4.1.7 Développement, utilisation ou adaptation de composants<br>
+                A4.1.8 Réalisation des tests nécessaires à la validation<br>
+                A4.1.9 Rédaction d'une documentation technique<br>
+                A4.2.2 Adaptation d'une solution applicative aux évolutions<br>
+                A4.2.3 Réalisation des tests nécessaires à la mise en production
+            ";
 
             echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);
         ?>
