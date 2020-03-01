@@ -54,12 +54,19 @@
     <div class='activite'>
         <h1 class='acti_title'><?php echo $acti4 ?></h1>
         <?php 
-            $description = "";
-            $contexte = "";
-            $objectif = "";
-            $env = "";
-            $travail = "";
-            $competence = "";
+            $description = "Création de composants graphiques et logiciels et intégration dans une application mobile.";
+            $contexte = "Je l'ai effectué en équipe avec le graphiste de l'entreprise.";
+            $objectif = "Étoffer l'application avce des fonctionnalités nouvelles et améliorer l'epxérience utilisateur.";
+            $env = "macOS, VSCode, React Native, XCode et Adobe XD.";
+            $travail = "- Réunion avec le graphiste pour designer l'écran et les fonctionnalité
+            - Le graphiste designe l'écran
+            - rédaction du code et développement des fonctionnalités";
+            $competence = "
+                A1.1.1 Analyse du cahier des charges d'un service à produire<br>
+                A1.1.3 Étude des exigences liées à la qualité attendue d'un service<br>
+                A1.4.1 Participation à un projet<br>
+                A4.2.2 Adaptation d'une solution applicative aux évolutions de ses composants<br>
+                A4.2.3 Réalisation des tests nécessaires à la mise en production d'éléments mis à jour";
 
             echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);
         ?>

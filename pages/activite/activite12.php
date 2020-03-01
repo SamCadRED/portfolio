@@ -54,7 +54,7 @@
     <div class='activite'>
         <h1 class='acti_title'><?php echo $acti4 ?></h1>
         <?php 
-            $description = "";
+            $description = "Création et mise à jour d'une documentation technique";
             $contexte = "";
             $objectif = "";
             $env = "";

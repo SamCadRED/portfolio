@@ -54,7 +54,7 @@
     <div class='activite'>
         <h1 class='acti_title'><?php echo $acti4 ?></h1>
         <?php 
-            $description = "";
+            $description = "Intervention d'assistance sur le serveur de production client pour résoudre un problème technique bloquant";
             $contexte = "";
             $objectif = "";
             $env = "";

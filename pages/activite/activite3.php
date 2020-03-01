@@ -54,24 +54,12 @@
     <div class='activite'>
         <h1 class='acti_title'><?php echo $acti3 ?></h1>
         <?php 
-            $description = "Interfacer la CRM Axonaut avec notre infrastructure AWS. Les mails de support receptionnés sur AWS sont redirigés vers l'API d'axonaut afin de récupérer les informations de contact et de créer automatiquement un ticket dans la CRM.";
-            $contexte = "Je l'ai effectué seul en entreprise";
-            $objectif = "Optimiser les échanges clients et augmenter la traçabilité.";
-            $env = "macOS, AWS SES, AWS Lambda et Postman.";
-            $travail = "Création de requête dans AWS Lambda pour poster les informations provenant d'Amazon SES sur l'API d'Axonaut.";
-            $competence = "
-                A1.1.1 Analyse du cahier des charges d'un service à produire<br>
-                A1.1.2 Étude de l'impact de l'intégration d'un service sur le système informatique<br>
-                A1.1.3 Étude des exigences liées à la qualité attendue d'un service<br>
-                A1.2.4 Détermination des tests nécessaires à la validation d'un service<br>
-                A1.3.1 Test d'intégration et d'acceptation d'un service<br>
-                A1.3.3 Accompagnement de la mise en place d'un nouveau service<br>
-                A1.3.4 Déploiement d'un service<br>
-                A1.4.1 Participation à un projet<br>
-                A2.2.1 Suivi et résolution d'incidents<br>
-                A3.1.2 Maquettage et prototypage d'une solution d'infrastructure<br>
-                A3.2.1 Installation et configuration d'éléments d'infrastructure<br>
-                A3.2.3 Mise à jour de la documentation technique d'une solution d'infrastructure";
+            $description = "Réunion d'information sur les nouvelles normes et réglementations RGPD avec un expert";
+            $contexte = "";
+            $objectif = "";
+            $env = "";
+            $travail = "";
+            $competence = "";
 
             echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);
         ?>

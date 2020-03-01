@@ -54,7 +54,7 @@
     <div class='activite'>
         <h1 class='acti_title'><?php echo $acti1 ?></h1>
         <?php 
-            $description = "Création de procédures de test et enregistrement des résultats dans un fichier excel";
+            $description = "Création de procédures de test de bracelets connectés";
             $contexte = "Je l'ai effectué seul, en entreprise.";
             $objectif = "L'objectif était de rassembler le plus de métriques concernant les objets connecté, et de posséder des procédures à jour vis à vis des nouvelles réglementations (RGPD) et de l'évolutions du contexte environnemental de l'entreprise.";
             $env = "macOS et Excel";

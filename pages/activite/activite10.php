@@ -54,7 +54,7 @@
     <div class='activite'>
         <h1 class='acti_title'><?php echo $acti4 ?></h1>
         <?php 
-            $description = "";
+            $description = "Déploiement de Machines Virtuelles de développement sur un serveur local";
             $contexte = "";
             $objectif = "";
             $env = "";
