@@ -52,7 +52,12 @@
         </div>
     </div>
     
-    <?php echo $wip ?>
+    <div class="ppe_container">
+        <h2><?php echo $ppe1 ?></h2>
+        <div class="ppe_content">
+            <?php echo $wip ?>
+        </div>
+    </div>
 
     <div class="footer_cont">
         <?php echo $footer ?>
