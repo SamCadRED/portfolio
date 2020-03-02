@@ -52,7 +52,7 @@
     </div>
 
     <div class='activite'>
-        <h1 class='acti_title'><?php echo $acti4 ?></h1>
+        <h1 class='acti_title'><?php echo $acti13 ?></h1>
         <?php 
             $description = "PPE 1ère année : équipement visiteurs";
             $contexte = "Travail réalisé en équipe dans le centre de formation.";
