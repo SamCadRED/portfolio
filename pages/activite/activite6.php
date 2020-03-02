@@ -36,7 +36,7 @@
                     <p><a href="activite3.php"><?php echo $acti3 ?></a></p>
                     <p ><a href="activite4.php"><?php echo $acti4 ?></a></p>
                     <p><a href="activite5.php"><?php echo $acti5 ?></a></p>
-                    <p><a class="nav_active" href=""><?php echo $acti6 ?></a></p>
+                    <p class="nav_active"><a href=""><?php echo $acti6 ?></a></p>
                     <p><a href="activite7.php"><?php echo $acti7 ?></a></p>
                     <p><a href="activite8.php"><?php echo $acti8 ?></a></p>
                     <p><a href="activite9.php"><?php echo $acti9 ?></a></p>
