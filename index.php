@@ -108,7 +108,7 @@
         <div class="skills_cont">
 
             <div class="program_cont">
-                <h3 style="color: var(--color-light)">Logiciels</h3>
+                <h3 style="color: var(--color-light)">Logiciels Maîtrisés</h3>
                 <div class="img_cont">
                     <img class="prog_img" title="Visual Studio Code" src="images/vscode_logo.png" alt="Visual Studio Code">
                     <img class="prog_img" title="MySQL Workbench" src="images/MySQLWorkbench.png" alt="MySQL Workbench">
