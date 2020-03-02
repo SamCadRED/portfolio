@@ -42,7 +42,7 @@
                     <p><a href="activite9.php"><?php echo $acti9 ?></a></p>
                     <p><a href="activite10.php"><?php echo $acti10 ?></a></p>
                     <p><a href="activite11.php"><?php echo $acti11 ?></a></p>
-                    <p><a class="nav_active" href=""><?php echo $acti12 ?></a></p>
+                    <p class="nav_active"><a href=""><?php echo $acti12 ?></a></p>
                     <p><a href="activite13.php"><?php echo $acti13 ?></a></p>
                     <p><a href="activite14.php"><?php echo $acti14 ?></a></p>
                     <p><a href="activite15.php"><?php echo $acti15 ?></a></p>
@@ -55,10 +55,10 @@
         <h1 class='acti_title'><?php echo $acti12 ?></h1>
         <?php 
             $description = "Création et mise à jour d'une documentation technique sur la configuration et le debuggage d'Oracle sur notre application métier";
-            $contexte = "Seul en entrprise avec l'aide de mon tuteur";
+            $contexte = "Réalisé en entreprise, avec l'aide de mon tuteur";
             $objectif = "Réaliser une documentation accessible à toute l'équipe pour régler des problèmes liés à Oracle";
             $env = "Oracle, Windows 10, Framework .NET";
-            $travail = "Mettre à jour ladocumentation existante et ajouter autant de données que possible";
+            $travail = "Mettre à jour la documentation existante et l'étoffer avec le plus de données possible";
             $competence = "
                 A4.2.4 Mise à jour d'une documentation technique<br>
                 A5.1.2 Recueil d'informations sur une configuration<br>
