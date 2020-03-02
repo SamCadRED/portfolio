@@ -51,6 +51,8 @@
             </div>
         </div>
     </div>
+    
+    <?php echo $wip ?>
 
     <div class="footer_cont">
         <?php echo $footer ?>
