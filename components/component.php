@@ -31,9 +31,9 @@ $acti9 = "Veille technologique";
 $acti10 = "Déploiement de VM";
 $acti11 = "Assistance client";
 $acti12 = "Création de documentation";
-$acti13 = "PPE - équipement visiteurs";
-$acti14 = "PPE léger";
-$acti15 = "PPE lourd";
+$acti13 = "PPE de première année";
+$acti14 = "PPE Léger (2ème année)";
+$acti15 = "PPE lourd (2ème année)";
 
 function display_case($title, $second_title, $text) {
     return "<div class='case'>
