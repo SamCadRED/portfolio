@@ -61,6 +61,10 @@ function display_card($title, $text) {
             </div>';
 }
 
+function display_ppe() {
+    return '';
+}
+
 function display_activities($description, $contexte, $objectif, $env, $travail, $competence) {
     return "<div class='acti_cont'>
                 <div class='acti_cont_text'>
