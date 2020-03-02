@@ -39,7 +39,7 @@
                     <p><a href="activite6.php"><?php echo $acti6 ?></a></p>
                     <p><a href="activite7.php"><?php echo $acti7 ?></a></p>
                     <p><a href="activite8.php"><?php echo $acti8 ?></a></p>
-                    <p><a class="nav_active" href=""><?php echo $acti9 ?></a></p>
+                    <p class="nav_active"><a href=""><?php echo $acti9 ?></a></p>
                     <p><a href="activite10.php"><?php echo $acti10 ?></a></p>
                     <p><a href="activite11.php"><?php echo $acti11 ?></a></p>
                     <p><a href="activite12.php"><?php echo $acti12 ?></a></p>
@@ -56,9 +56,9 @@
         <?php 
             $description = "Mise en place d'une veille technologique grâce à différents outils";
             $contexte = "Seul en centre";
-            $objectif = "Mettre enplaceun système de veille technologique en m'aidant de différents médias et technologies";
+            $objectif = "Mettre en place un système de veille technologique en m'aidant de différents médias et technologies";
             $env = "Sites internet, Medium, Twitter, Apple Podcast";
-            $travail = "Création d'un flux RSS de Google News, écoute de Podcasts, lecture hebdomadaire d'articke sur le sujet";
+            $travail = "Création d'un flux RSS de Google News, écoute de Podcasts, lecture hebdomadaire d'article sur le sujet";
             $competence = "A5.1.2  Veille technologique";
 
             echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);
