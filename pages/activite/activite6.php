@@ -52,7 +52,7 @@
     </div>
 
     <div class='activite'>
-        <h1 class='acti_title'><?php echo $acti4 ?></h1>
+        <h1 class='acti_title'><?php echo $acti6 ?></h1>
         <?php 
             $description = "Mise en place d'un service de ticketing avec AWS et Axonaut";
             $contexte = "J'ai effectué ce travail seul en entreprise";
