@@ -52,7 +52,7 @@
     </div>
 
     <div class='activite'>
-        <h1 class='acti_title'><?php echo $acti4 ?></h1>
+        <h1 class='acti_title'><?php echo $acti12 ?></h1>
         <?php 
             $description = "Création et mise à jour d'une documentation technique sur la configuration et le debuggage d'Oracle sur notre application métier";
             $contexte = "Seul en entrprise avec l'aide de mon tuteur";
