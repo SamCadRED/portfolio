@@ -38,7 +38,7 @@
                     <p><a href="activite5.php"><?php echo $acti5 ?></a></p>
                     <p><a href="activite6.php"><?php echo $acti6 ?></a></p>
                     <p><a href="activite7.php"><?php echo $acti7 ?></a></p>
-                    <p><a class="nav_active" href=""><?php echo $acti8 ?></a></p>
+                    <p class="nav_active"><a href=""><?php echo $acti8 ?></a></p>
                     <p><a href="activite9.php"><?php echo $acti9 ?></a></p>
                     <p><a href="activite10.php"><?php echo $acti10 ?></a></p>
                     <p><a href="activite11.php"><?php echo $acti11 ?></a></p>
@@ -56,10 +56,10 @@
         <?php 
             $description = "Création de composants graphiques et logiciels et intégration dans une application mobile.";
             $contexte = "Je l'ai effectué en équipe avec le graphiste de l'entreprise.";
-            $objectif = "Étoffer l'application avce des fonctionnalités nouvelles et améliorer l'epxérience utilisateur.";
+            $objectif = "Étoffer l'application avec des fonctionnalités nouvelles et améliorer l'epxérience utilisateur.";
             $env = "macOS, VSCode, React Native, XCode et Adobe XD.";
-            $travail = "- Réunion avec le graphiste pour designer l'écran et les fonctionnalité
-            - Le graphiste designe l'écran
+            $travail = "- Réunion avec le graphiste pour designer l'écran et les fonctionnalité<br>
+            - Le graphiste designe l'écran<br>
             - rédaction du code et développement des fonctionnalités";
             $competence = "
                 A1.1.1 Analyse du cahier des charges d'un service à produire<br>
