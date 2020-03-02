@@ -43,7 +43,7 @@
                     <p><a href="activite10.php"><?php echo $acti10 ?></a></p>
                     <p><a href="activite11.php"><?php echo $acti11 ?></a></p>
                     <p><a href="activite12.php"><?php echo $acti12 ?></a></p>
-                    <p><a class="nav_active" href=""><?php echo $acti13 ?></a></p>
+                    <p class="nav_active"><a href=""><?php echo $acti13 ?></a></p>
                     <p><a href="activite14.php"><?php echo $acti14 ?></a></p>
                     <p><a href="activite15.php"><?php echo $acti15 ?></a></p>
                 </div>
@@ -56,9 +56,9 @@
         <?php 
             $description = "PPE 1ère année : équipement visiteurs";
             $contexte = "Travail réalisé en équipe dans le centre de formation.";
-            $objectif = "Réaliser une présentation présentant 3 solutions de matériel d'équipement des visiteurs (commerciaux) de l'entreprise GSB";
+            $objectif = "Réaliser une présentation présentant trois solutions de matériel informatique d'équipement des visiteurs (commerciaux) de l'entreprise GSB";
             $env = "Powerpoint";
-            $travail = "Recherches internet sur de multiples produits et comparaison des specificité de chaque. Puis réalisation de la présentation sur PowerPoint.";
+            $travail = "Recherches internet sur de multiples produits et comparaison des specificités de chacuns. Puis réalisation de la présentation sur PowerPoint.";
             $competence = "
                 A1.1.1 Analyse du cahier des charges d'un service à produire<br>
                 A1.2.1 Élaboration et présentation d'un dossier de choix<br>
