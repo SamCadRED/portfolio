@@ -52,7 +52,7 @@
     </div>
 
     <div class='activite'>
-        <h1 class='acti_title'><?php echo $acti4 ?></h1>
+        <h1 class='acti_title'><?php echo $acti7 ?></h1>
         <?php 
             $description = "Maintenance et documentation d'une application mobile";
             $contexte = "Seul en entreprise";
