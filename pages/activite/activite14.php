@@ -44,7 +44,7 @@
                     <p><a href="activite11.php"><?php echo $acti11 ?></a></p>
                     <p><a href="activite12.php"><?php echo $acti12 ?></a></p>
                     <p><a href="activite13.php"><?php echo $acti13 ?></a></p>
-                    <p><a class="nav_active" href=""><?php echo $acti14 ?></a></p>
+                    <p class="nav_active"><a href=""><?php echo $acti14 ?></a></p>
                     <p><a href="activite15.php"><?php echo $acti15 ?></a></p>
                 </div>
             </div>
@@ -58,7 +58,7 @@
             $contexte = "Seul en centre de formation";
             $objectif = "réaliser un agenda en ligne facilement utilisable pour que les commerciaux puissent gérer leur différents rendez-vous le plus simplement possible";
             $env = "Visual Studio Code, PHPMyAdmin, SQL et PHP";
-            $travail = "Elaboration du cahier des charges et de la base de données (MLD). Puis,implémentation du site web (HTML, CSS, PHP, JavaScript) et création de la base donnée. Le tout à été versionné puis adapté pour fonctionner sur VM Debian installée sur l'infrastructure de l'école.";
+            $travail = "Elaboration du cahier des charges et de la base de données (MLD). Puis développement du site web (HTML, CSS, PHP, JavaScript) et création de la base donnée (MySQL). Le tout à été versionné puis adapté pour fonctionner sur une VM Debian installée sur l'infrastructure de l'école.";
             $competence = "
                 A1.1.1 Analyse du cahier des charges d'un service à produire<br>
                 A1.2.1 Élaboration et présentation d'un dossier de choix<br>
