@@ -54,11 +54,11 @@
     <div class='activite'>
         <h1 class='acti_title'><?php echo $acti4 ?></h1>
         <?php 
-            $description = "Mise en place d'un service d'emailing avec Amazon SES et création de template HTML de mails";
+            $description = "Mise en place d'un service d'emailing avec Amazon SES et création de template de mails au format HTML ";
             $contexte = "J'ai réalisé ce travail seul, en entreprise";
             $objectif = "L'entreprise avait besoin d'un service d'emailing automatique (newsletter, mails d'informations, mises à jour) pour avertir nos clients";
             $env = "Amazon SES, Visual Studio Code";
-            $travail = "Création de template HTML puis ajout de ceux-ci dans Amazon SES. Envoi automatique depuis l'interface de commande AWS (CLI)";
+            $travail = "Création de template HTML puis ajout de ceux-ci dans Amazon SES. Envoi automatique géré depuis l'interface de commande AWS (CLI)";
             $competence = "
                 A1.1.2  Étude de l'impact de l'intégration d'un service<br>
                 A1.2.4  Détermination des tests nécessaires à la validation<br>
