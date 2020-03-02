@@ -35,7 +35,7 @@ $acti13 = "PPE équipement visiteurs (1ère année)";
 $acti14 = "PPE Léger (2ème année)";
 $acti15 = "PPE lourd (2ème année)";
 
-$wip = '<div style="background-color: var(--color-dark); padding: 10px; margin: 10px; text-align: center; border: solid var(--color-light) 1px;">
+$wip = '<div style="background-color: var(--color-dark); color: var(--color-light); padding: 10px; margin: 10px; text-align: center; border: solid var(--color-light) 1px;">
           <h3>Work in Progress</h3>
         </div>';
 
