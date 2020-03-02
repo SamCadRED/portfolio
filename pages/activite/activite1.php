@@ -52,7 +52,7 @@
     </div>
 
     <div class='activite'>
-        <h1 class='acti_title'><?php echo $acti2 ?></h1>
+        <h1 class='acti_title'><?php echo $acti1 ?></h1>
         <?php 
             $description = "Mise en place d'un site WordPress de documentation et de support client.";
             $contexte = "Je l'ai effectué en équipe, dans l'entreprise.";
