@@ -59,7 +59,22 @@
                 <h3>Description du Projet</h3>
                 <img class="logo_gsb">
                 <div class="competences">
-                    <p></p>
+                    <p>
+                        A1.1.1 Analyse du cahier des charges d'un service à produire<br>
+                        A1.2.1 Élaboration et présentation d'un dossier de choix<br>
+                        A1.3.4 Déploiement d'un service<br>
+                        A1.4.1 Participation à un projet<br>
+                        A4.1.1 Proposition d'une solution applicative<br>
+                        A4.1.2 Conception ou adaptation de l'interface utilisateur<br>
+                        A4.1.3 Conception ou adaptation d'une base de données<br>
+                        A4.1.4 Définition des caractéristiques d'une solution applicative<br>
+                        A4.1.5 Prototypage de composants logiciels<br>
+                        A4.1.8 Réalisation des tests nécessaires à la validation<br>
+                        A4.1.9 Rédaction d'une documentation technique<br>
+                        A4.1.1 Proposition d'une solution applicative<br>
+                        A5.2.3 Repérage des compléments de formation<br>
+                        A5.2.4 Étude d‘une technologie, d'un composant, d'un outil
+                    </p>
                 </div>
                 <div class="contexte_gsb">
                     <p></p>
@@ -70,7 +85,10 @@
             <div class="realisation_projet">
                 <h3>Réalisation du projet<h3>
                 <div class="etapes_real">
-                    <div></div>
+                    <div class="etape_mld">
+                        <h4>Conception de la base de donnée</h4>
+                        <p></p>
+                    </div>
                 </div>
                 <div class="liens_ppe">
                     <div class="bouton_git"><a class="button_class" href="">Voir sur GitHub<a/></div>
