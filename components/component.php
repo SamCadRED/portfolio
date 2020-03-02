@@ -31,7 +31,7 @@ $acti9 = "Veille technologique";
 $acti10 = "Déploiement de VM";
 $acti11 = "Assistance client";
 $acti12 = "Création de documentation";
-$acti13 = "PPE de première année";
+$acti13 = "PPE équipement visiteurs (1ère année)";
 $acti14 = "PPE Léger (2ème année)";
 $acti15 = "PPE lourd (2ème année)";
 
