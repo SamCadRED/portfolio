@@ -37,7 +37,7 @@ $acti15 = "PPE lourd (2ème année)";
 
 $wip = '<div style="padding: 10px; margin: 10px; text-align: center; border: solid var(--color-light) 1px;">
           <h3>Work in Progress</h3>
-        </div>'
+        </div>';
 
 function display_case($title, $second_title, $text) {
     return "<div class='case'>
