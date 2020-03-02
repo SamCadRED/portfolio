@@ -221,9 +221,7 @@ tbody div {
     padding: 5px;
     width: 50%;
     background-color: var(--color-theme);
-    overflow-x: hidden; 
-    overflow-x: auto;
-    height: 80%;
+    /* https://www.tutorialrepublic.com/faq/how-to-make-a-div-not-larger-than-its-contents-using-css.php */
 }
 .rss_feed a{
     color: var(--color-dark);
