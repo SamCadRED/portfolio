@@ -222,6 +222,7 @@ tbody div {
     width: 50%;
     background-color: var(--color-theme);
     overflow: auto;
+    height: inherit;
 }
 .rss_feed a{
     color: var(--color-dark);
