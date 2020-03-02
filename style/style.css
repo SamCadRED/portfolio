@@ -221,8 +221,9 @@ tbody div {
     padding: 5px;
     width: 50%;
     background-color: var(--color-theme);
-    overflow: auto;
-    height: inherit;
+    overflow-x: hidden; 
+    overflow-x: auto;
+    height: 80%;
 }
 .rss_feed a{
     color: var(--color-dark);
