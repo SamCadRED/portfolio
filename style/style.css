@@ -99,6 +99,12 @@ body p {
 .add_cv_button_div {
     margin: 10px;
 }
+.add_cv_button_div:hover {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
 /*__Skills__*/
 .tech_skills {
     text-align: center;
