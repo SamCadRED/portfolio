@@ -52,7 +52,7 @@
     </div>
 
     <div class='activite'>
-        <h1 class='acti_title'><?php echo $acti4 ?></h1>
+        <h1 class='acti_title'><?php echo $acti8 ?></h1>
         <?php 
             $description = "Création de composants graphiques et logiciels et intégration dans une application mobile.";
             $contexte = "Je l'ai effectué en équipe avec le graphiste de l'entreprise.";
