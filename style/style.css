@@ -90,7 +90,7 @@ body p {
 .add_cv_button_div {
     margin: 10px;
 }
-.add_cv_button {
+.button_class {
     background-color: var(--color-dark);
     padding: 10px; 
     font-size: large;
@@ -99,7 +99,7 @@ body p {
     color: var(--color-light);
     border: solid var(--color-dark) 1px;
 }
-.add_cv_button:hover {
+.button_class:hover {
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
