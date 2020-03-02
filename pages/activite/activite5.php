@@ -56,9 +56,9 @@
         <?php 
             $description = "Interfacer la CRM Axonaut avec notre infrastructure AWS. Les mails de support receptionnés sur AWS sont redirigés vers l'API d'axonaut afin de récupérer les informations de contact et de créer automatiquement un ticket dans la CRM.";
             $contexte = "Je l'ai effectué seul en entreprise";
-            $objectif = "Optimiser les échanges clients et augmenter la traçabilité.";
+            $objectif = "Faciliter les échanges clients et augmenter la traçabilité.";
             $env = "macOS, AWS SES, AWS Lambda et Postman.";
-            $travail = "Création de requête dans AWS Lambda pour poster les informations provenant d'Amazon SES sur l'API d'Axonaut.";
+            $travail = "Création de requête d'API dans AWS Lambda pour poster les informations provenant d'Amazon SES sur l'API d'Axonaut.";
             $competence = "
                 A1.1.1 Analyse du cahier des charges d'un service à produire<br>
                 A1.1.2 Étude de l'impact de l'intégration d'un service sur le système informatique<br>
