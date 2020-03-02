@@ -53,7 +53,7 @@
     </div>
     
     <div class="ppe_container">
-        <h2><?php echo $ppe1 ?></h2>
+        <h2><?php echo $ppe2 ?></h2>
         <div class="ppe_content">
             <?php echo $wip ?>
         </div>
