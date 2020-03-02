@@ -52,7 +52,7 @@
     </div>
 
     <div class='activite'>
-        <h1 class='acti_title'><?php echo $acti4 ?></h1>
+        <h1 class='acti_title'><?php echo $acti11 ?></h1>
         <?php 
             $description = "Intervention d'assistance sur le serveur de production client pour résoudre un problème technique bloquant";
             $contexte = "Seul en entreprise";
