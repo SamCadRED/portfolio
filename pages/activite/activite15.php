@@ -52,7 +52,7 @@
     </div>
 
     <div class='activite'>
-        <h1 class='acti_title'><?php echo $acti4 ?></h1>
+        <h1 class='acti_title'><?php echo $acti15 ?></h1>
         <?php 
             $description = "PPE Java : développement d'une application lourde de gestion de stock";
             $contexte = "seul en centre de formation";
