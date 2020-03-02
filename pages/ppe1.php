@@ -54,7 +54,21 @@
     <div class="ppe_container">
         <h2><?php echo $ppe1 ?></h2>
         <div class="ppe_content">
-            <?php echo $wip ?>
+            <div class="description_projet>
+                <h3>Description du Projet</h3>
+                <img class="logo_gsb">
+                <div class="competences"><p></p></div>
+                <div class="contexte_gsb"><p></p></div>
+            </div>
+            <div class="realisation_projet">
+                <h3>Réalisation du projet<h3>
+                <div class="etapes_real">
+                
+                </div>
+                <div class="liens_ppe">
+                
+                </div>
+            </div>
         </div>
     </div>
 
