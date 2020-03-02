@@ -40,12 +40,12 @@
                     <p><a href="activite/activite7.php"><?php echo $acti7 ?></a></p>
                     <p><a href="activite/activite8.php"><?php echo $acti8 ?></a></p>
                     <p><a href="activite/activite9.php"><?php echo $acti9 ?></a></p>
-                    <p><a href="activite/activite9.php"><?php echo $acti10 ?></a></p>
-                    <p><a href="activite/activite9.php"><?php echo $acti11 ?></a></p>
-                    <p><a href="activite/activite9.php"><?php echo $acti12 ?></a></p>
-                    <p><a href="activite/activite9.php"><?php echo $acti13 ?></a></p>
-                    <p><a href="activite/activite9.php"><?php echo $acti14 ?></a></p>
-                    <p><a href="activite/activite9.php"><?php echo $acti15 ?></a></p>
+                    <p><a href="activite/activite10.php"><?php echo $acti10 ?></a></p>
+                    <p><a href="activite/activite11.php"><?php echo $acti11 ?></a></p>
+                    <p><a href="activite/activite12.php"><?php echo $acti12 ?></a></p>
+                    <p><a href="activite/activite13.php"><?php echo $acti13 ?></a></p>
+                    <p><a href="activite/activite14.php"><?php echo $acti14 ?></a></p>
+                    <p><a href="activite/activite15.php"><?php echo $acti15 ?></a></p>
                 </div>
                 </div>
             </div>
