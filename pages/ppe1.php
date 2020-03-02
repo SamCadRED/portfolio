@@ -55,20 +55,30 @@
         <h2><?php echo $ppe1 ?></h2>
         <div class="ppe_content">
             <div class="description_projet>
+                
                 <h3>Description du Projet</h3>
                 <img class="logo_gsb">
-                <div class="competences"><p></p></div>
-                <div class="contexte_gsb"><p></p></div>
+                <div class="competences">
+                    <p></p>
+                </div>
+                <div class="contexte_gsb">
+                    <p></p>
+                </div>
+                
             </div>
+                                         
             <div class="realisation_projet">
                 <h3>Réalisation du projet<h3>
                 <div class="etapes_real">
-                
+                    <div></div>
                 </div>
                 <div class="liens_ppe">
-                
+                    <div class="bouton_git"><a class="button_class" href="">Voir sur GitHub<a/></div>
+                    <div class="bouton_ppe"><a class="button_class" href="">Voir le PPE<a/></div>
+                    <div class="bouton_pappe"><a class="button_class" href="">Voir le PAPPE<a/></div>
                 </div>
             </div>
+
         </div>
     </div>
 
