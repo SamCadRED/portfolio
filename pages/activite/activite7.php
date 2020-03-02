@@ -37,7 +37,7 @@
                     <p ><a href="activite4.php"><?php echo $acti4 ?></a></p>
                     <p><a href="activite5.php"><?php echo $acti5 ?></a></p>
                     <p><a href="activite6.php"><?php echo $acti6 ?></a></p>
-                    <p><a class="nav_active" href=""><?php echo $acti7 ?></a></p>
+                    <p class="nav_active"><a href=""><?php echo $acti7 ?></a></p>
                     <p><a href="activite8.php"><?php echo $acti8 ?></a></p>
                     <p><a href="activite9.php"><?php echo $acti9 ?></a></p>
                     <p><a href="activite10.php"><?php echo $acti10 ?></a></p>
@@ -56,7 +56,7 @@
         <?php 
             $description = "Maintenance et documentation d'une application mobile";
             $contexte = "Seul en entreprise";
-            $objectif = "Permettre une meilleur maintenance (et documentation) du code écrit parmon tuteur. L'objectif était de factorise le code écrit pour faciliter la maintenance";
+            $objectif = "Permettre une meilleur maintenance (et documentation) du code écrit par mon tuteur. L'objectif était de factoriser le code écrit pour faciliter la maintenance";
             $env = "macOS (XCode), Visual Studio Code, React Native et iOS";
             $travail = "Factorisation du code, optimisation et documentation";
             $competence = "
