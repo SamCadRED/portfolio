@@ -55,8 +55,8 @@
         <h2><?php echo $ppe1 ?>
         <div class="ppe_content">
                 
-        <div>
-    <div>
+        </div>
+    </div>
 
     <div class="footer_cont">
         <?php echo $footer ?>
