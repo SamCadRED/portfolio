@@ -221,6 +221,7 @@ tbody div {
     padding: 5px;
     width: 50%;
     background-color: var(--color-theme);
+    overflow: auto;
 }
 .rss_feed a{
     color: var(--color-dark);
