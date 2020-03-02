@@ -45,7 +45,7 @@
                     <p><a href="activite12.php"><?php echo $acti12 ?></a></p>
                     <p><a href="activite13.php"><?php echo $acti13 ?></a></p>
                     <p><a href="activite14.php"><?php echo $acti14 ?></a></p>
-                    <p><a class="nav_active" href=""><?php echo $acti15 ?></a></p>
+                    <p class="nav_active"><a href=""><?php echo $acti15 ?></a></p>
                 </div>
             </div>
         </div>
@@ -55,7 +55,7 @@
         <h1 class='acti_title'><?php echo $acti15 ?></h1>
         <?php 
             $description = "PPE Java : développement d'une application lourde de gestion de stock";
-            $contexte = "seul en centre de formation";
+            $contexte = "Seul en centre de formation";
             $objectif = "";
             $env = "Java 1.8, IntelliJ, PHPMyAdmin, Windows 10 et macOS";
             $travail = "";
