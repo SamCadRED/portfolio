@@ -40,7 +40,7 @@
                     <p><a href="activite7.php"><?php echo $acti7 ?></a></p>
                     <p><a href="activite8.php"><?php echo $acti8 ?></a></p>
                     <p><a href="activite9.php"><?php echo $acti9 ?></a></p>
-                    <p><a class="nav_active" href=""><?php echo $acti10 ?></a></p>
+                    <p class="nav_active"><a href=""><?php echo $acti10 ?></a></p>
                     <p><a href="activite11.php"><?php echo $acti11 ?></a></p>
                     <p><a href="activite12.php"><?php echo $acti12 ?></a></p>
                     <p><a href="activite13.php"><?php echo $acti13 ?></a></p>
@@ -57,7 +57,7 @@
             $description = "Déploiement de Machines Virtuelles de développement sur un serveur local";
             $contexte = "Seul en entreprise";
             $objectif = "Déployer 3 machines virtuelles (copie de serveurs de production) de test et développement.";
-            $env = "Windows 10, HyperV, Oracle et Framework .NET";
+            $env = "Windows 10, HyperV, Oracle, Framework .NET et IIS";
             $travail = "Réaliser un Dump de la base de donnée sur le serveur de production, puis installer Oracle et notre application métier sur les VM pour qu'elles puissent accueillir les données ";
             $competence = "
                 A1.3.4 Déploiement d'un service
