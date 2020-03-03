@@ -98,7 +98,7 @@ body p {
     font-weight: bold;
     text-decoration: none;
     color: var(--color-light);
-    border: solid var(--color-light) 0.3px;
+    border: solid var(--color-dark) 0.3px;
 }
 .button_class:hover {
     -webkit-box-shadow: var(--box-shadow);
@@ -244,11 +244,10 @@ tbody div {
     word-wrap: normal;
 }
 
-
 .boutons_liens {
     display: flex;
     justify-content: space-evenly;
-    padding-top: 20px;
+    margin-top: 60px;
 }
 
 
@@ -489,3 +488,18 @@ tbody div {
     font-size: 18px; 
 }
 
+.work_in_progress {
+    padding: 10px; 
+    margin: 10px; 
+    text-align: center;
+    color: var(--color-light);
+    border: solid var(--color-dark) 1px;
+    background-image: 
+        repeating-linear-gradient(
+        45deg,
+        var(--color-theme),
+        var(--color-theme) 10px,
+        var(--color-dark) 10px,
+        var(--color-dark) 20px
+        );
+}

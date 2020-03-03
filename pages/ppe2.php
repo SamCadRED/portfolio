@@ -52,12 +52,18 @@
         </div>
     </div>
     
-    <div class="ppe_container">
-        <h2><?php echo $ppe2 ?></h2>
-        <div class="ppe_content">
-            <?php echo $wip ?>
-        </div>
-    </div>
+    <?php 
+        $ppe1 = "Wiki GSB";
+        $contexte1 = "Suite à la fusion des entités Galaxy et Swiss-Bourdin en 2009, le groupe nouveau GSB est devenu leader du marché pharmaceutique.";
+        $contexte2 = $wip;
+        $contexte3 = $wip;
+        $etape1 = $wip;
+        $etape2 = $wip;
+        $etape3 = $wip;
+        $compétences = $wip;
+
+    echo display_ppe($ppe1, $contexte1, $contexte2, $contexte3, $etape1, $etape2, $etape3, $compétences);
+    ?>
 
     <div class="footer_cont">
         <?php echo $footer ?>
