@@ -191,7 +191,7 @@ tbody div {
     background-size: cover;
 }
 
-/*________PPEs_______________________________*/
+/*________PPE_______________________________*/
 
 .ppe_container {
     background-color: var(--color-theme);
@@ -213,20 +213,22 @@ tbody div {
 .ppe_pres {
     display: flex;
 }
-.logo_gsb {
-    padding: 5px;
-    height: 200px;
+.logogsb_div {
     flex: 1;
+    padding: 5px;
     padding-top: 10px;
 }
+.logo_gsb {
+    width: 100%;
+}
 .ppe_main_cont {
-    flex: 2;
+    flex: 4;
     padding: 5px;
     padding-left: 20px;
 }
 
 .competences_container {
-    flex: 1;
+    flex: 2;
     background-color: var(--color-theme);
 }
 .competences {
