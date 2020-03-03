@@ -197,6 +197,8 @@ tbody div {
 
 .ppe_content {
     margin: 5px;
+    background-color: var(--color-theme);
+    color: var(--color-dark);
 }
 
 .ppe_pres {
@@ -217,6 +219,9 @@ tbody div {
     border: solid var(--color-light) 0.5px;
     flex: 1;
     padding: 5px;
+    color: var(--color-light);
+    background-color: var(--color-dark);
+    box-shadow: var(--box-shadow);
 }
 
 .contexte_projet {
