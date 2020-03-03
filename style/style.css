@@ -191,6 +191,27 @@ tbody div {
     background-size: cover;
 }
 
+/*________PPEs_______________________________*/
+
+.ppe_container {}
+
+.ppe_content {}
+
+.ppe_header {}
+
+.gsb_pres {}
+.logo_gsb {}
+.contexte_projet {}
+
+.competences {}
+
+.realisation_projet {}
+
+.etapes_real {}
+
+.boutons_liens {}
+
+
 /*_________veille.php_______________________________*/
 .headband {
     display: flex;
@@ -274,10 +295,6 @@ tbody div {
 .card h2 {
     color: var(--color-dark);
 }
-
-/*_________PPE________________________________*/
-
-
 
 
 /*_________activites.php_______________________*/
