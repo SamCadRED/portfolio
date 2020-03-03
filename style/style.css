@@ -223,10 +223,11 @@ tbody div {
     padding: 5px;
     width: 50%;
     background-color: var(--color-theme);
-    height: 200px;
+    display: inline-flex;
 }
 .rss_feed {
     overflow-y: scroll;
+    height: 50%;
 }
 .rss_feed a{
     color: var(--color-dark);
