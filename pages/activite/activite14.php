@@ -56,7 +56,7 @@
         <?php 
             $description = "PPE Web : création d'un agenda en ligne pour les commerciaux de GSB";
             $contexte = "Seul en centre de formation";
-            $objectif = "Réaliser un agenda en ligne facilement utilisable pour que les commerciaux puissent gérer leur différents rendez-vous le plus simplement possible";
+            $objectif = "Réaliser un agenda en ligne facilement utilisable pour que les commerciaux puissent gérer leur différents rendez-vous le plus simplement possible et de manière sécurisée.";
             $env = "Visual Studio Code, PHPMyAdmin, SQL et PHP";
             $travail = "Elaboration du cahier des charges et de la base de données (MLD). Puis développement du site web (HTML, CSS, PHP, JavaScript) et création de la base donnée (MySQL). Le tout à été versionné puis adapté pour fonctionner sur une VM Debian installée sur l'infrastructure de l'école.";
             $competence = "
