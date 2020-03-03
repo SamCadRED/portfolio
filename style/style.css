@@ -98,7 +98,7 @@ body p {
     font-weight: bold;
     text-decoration: none;
     color: var(--color-light);
-    border: solid var(--color-dark) 1px;
+    border: solid var(--color-light) 0.3px;
 }
 .button_class:hover {
     -webkit-box-shadow: var(--box-shadow);
@@ -193,34 +193,50 @@ tbody div {
 
 /*________PPEs_______________________________*/
 
-.ppe_container {}
+.ppe_container {
+    background-color: var(--color-theme);
+    color: var(--color-dark);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.ppe_headtitle {
+    text-align: center;
+    margin: 30px;
+}
 
 .ppe_content {
     margin: 5px;
-    background-color: var(--color-theme);
-    color: var(--color-dark);
 }
 
 .ppe_pres {
     display: flex;
 }
 .logo_gsb {
-    border: solid var(--color-light) 0.5px;
+    padding: 5px;
     height: 200px;
     flex: 1;
     padding-top: 10px;
 }
 .ppe_main_cont {
-    border: solid var(--color-light) 0.5px;
     flex: 2;
     padding: 5px;
+    padding-left: 20px;
+}
+
+.competences_container {
+    flex: 1;
+    background-color: var(--color-theme);
 }
 .competences {
     border: solid var(--color-light) 0.5px;
-    flex: 1;
     padding: 5px;
+    padding-left: 15px;
     color: var(--color-light);
     background-color: var(--color-dark);
+    -webkit-box-shadow: var(--box-shadow);
+    -moz-box-shadow: var(--box-shadow);
     box-shadow: var(--box-shadow);
 }
 
@@ -232,6 +248,7 @@ tbody div {
 .boutons_liens {
     display: flex;
     justify-content: space-evenly;
+    padding-top: 20px;
 }
 
 
