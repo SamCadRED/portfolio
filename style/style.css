@@ -224,6 +224,10 @@ tbody div {
     width: 50%;
     background-color: var(--color-theme);
     overflow-y: scroll;
+    height: inherit;
+}
+.rss_feed {
+
 }
 .rss_feed a{
     color: var(--color-dark);
@@ -240,6 +244,8 @@ tbody div {
     color: var(--color-theme);
     text-decoration: none;
 }
+
+/* _____________ */
 
 .intro {
     padding: 30px;
