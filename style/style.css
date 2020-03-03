@@ -224,7 +224,7 @@ tbody div {
     width: 50%;
     background-color: var(--color-theme);
     overflow-y: scroll;
-    height: inherit;
+    height: 50%;
 }
 .rss_feed {
 
