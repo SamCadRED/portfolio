@@ -54,23 +54,49 @@
     <div class="ppe_container">
         <h2><?php echo $ppe1 ?></h2>
         <div class="ppe_content">
+            
             <h1>Présentation du projet</h1>
-            <div class="ppe_header">
+            
+            <div class="ppe_pres">
 
-                <div class="gsb_pres">
+                <div class="logogsb_div">
                     <img class="logo_gsb" title="logo GSB" src="../images/logo-gsb.png" alt="Logo GSB">
+                </div>
+                
+                <div class="ppe_main_cont">
                     <div class="contexte_projet"> 
-                        <h3>Contexte du projet</h3>
-                        <p>
-                            Suite à la fusion des entités Galaxy et Swiss-Bourdin en 2009, le groupe nouveau GSB est devenu leader du marché pharmaceutique.
-                            Afin de faciliter la planificatiuon des rendez-vous de ses commerciaux, l'entreprise a demandé au serivce informatique de développer un agenda en ligne et sécurisé afin de répondre à cette demande.
-                            L'objectif de l'outil est de centraliser tous les rendez-vous commerciaux afin de garder la main mise sur les données sensibles que ces derniers peuvent contenir.
-                        </p>
+                        <h1>Contexte du projet</h1>
+                        <p>Suite à la fusion des entités Galaxy et Swiss-Bourdin en 2009, le groupe nouveau GSB est devenu leader du marché pharmaceutique.</p>
+                        <p>Afin de faciliter la planification des rendez-vous de ses commerciaux, l'entreprise a demandé au serivce informatique de développer un agenda en ligne et sécurisé afin de répondre à cette demande.</p>
+                        <p>L'objectif de l'outil est de centraliser tous les rendez-vous commerciaux afin de garder la main mise sur les données sensibles que ces derniers peuvent contenir.</p>
+                    </div>
+
+                    <div class="realisation_projet">
+                        <h1>Réalisation du projet<h3>
+                        <div class="etapes_real">
+                            <div class="">
+                                <h3>1. Conception de la base de donnée</h3>
+                                <p></p>
+                            </div>
+                            <div class="">
+                                <h3>2. Développement de l'interface WEB</h3>
+                                <p></p>
+                            </div>
+                            <div class="">
+                                <h3>3. Développement du fonctionnel</h3>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="boutons_liens">
+                            <div class="bouton_git"><a class="button_class" href="">Voir sur GitHub</a></div>
+                            <div class="bouton_ppe"><a class="button_class" href="">Voir le PPE</a></div>
+                            <div class="bouton_pappe"><a class="button_class" href="">Voir le PAPPE</a></div>
+                        </div>
                     </div>
                 </div>
 
                 <div class="competences">
-                    <h3>Activités acquises :</h3>
+                    <h3>Compétences acquises :</h3>
                     <p>
                         A1.1.1 Analyse du cahier des charges d'un service à produire<br>
                         A1.2.1 Élaboration et présentation d'un dossier de choix<br>
@@ -88,32 +114,9 @@
                         A5.2.4 Étude d‘une technologie, d'un composant, d'un outil
                     </p>
                 </div>
-            </div>
-                                         
-            <div class="realisation_projet">
-                <h1>Réalisation du projet<h3>
-                <div class="etapes_real">
-                    <div class="">
-                        <h3>1. Conception de la base de donnée</h3>
-                        <p></p>
-                    </div>
-                    <div class="">
-                        <h3>2. Développement de l'interface WEB</h3>
-                        <p></p>
-                    </div>
-                    <div class="">
-                        <h3>3. Développement du fonctionnel</h3>
-                        <p></p>
-                    </div>
-                </div>
-                <div class="boutons_liens">
-                    <div class="bouton_git"><a class="button_class" href="">Voir sur GitHub</a></div>
-                    <div class="bouton_ppe"><a class="button_class" href="">Voir le PPE</a></div>
-                    <div class="bouton_pappe"><a class="button_class" href="">Voir le PAPPE</a></div>
-                </div>
-            </div>
-
+            </div>                                
         </div>
+
     </div>
 
     <div class="footer_cont">
