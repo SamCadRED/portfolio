@@ -223,6 +223,7 @@ tbody div {
     padding: 5px;
     width: 50%;
     background-color: var(--color-theme);
+    height: 50%;
 }
 .rss_feed {
     overflow-y: scroll;
