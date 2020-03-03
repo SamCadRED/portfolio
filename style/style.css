@@ -74,7 +74,6 @@ body p {
     padding-top: 8px;
 }
 .co_img {
-    /* max-width: 200px; */
     max-height: 30px;
 }
 .content {
@@ -223,12 +222,15 @@ tbody div {
     padding: 5px;
     width: 50%;
     background-color: var(--color-theme);
-    display: inline-block;
+    max-height: 2000px;
 }
 .rss_feed {
-    overflow-y: scroll;
-    height: 50%;
+    height: 1800px;
+    overflow: auto;
+    padding: 5px;
+    background-color: var(--color-theme);
 }
+
 .rss_feed a{
     color: var(--color-dark);
     text-decoration: none;
