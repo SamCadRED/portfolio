@@ -60,7 +60,7 @@
                 <div class="gsb_pres">
                     <img class="logo_gsb" title="logo GSB" src="../images/logo-gsb.png" alt="Logo GSB">
                     <div class="contexte_projet"> 
-                        <h3>Context du projet</h3>
+                        <h3>Contexte du projet</h3>
                         <p>
                             Suite à la fusion des entités Galaxy et Swiss-Bourdin en 2009, le groupe nouveau GSB est devenu leader du marché pharmaceutique.
                             Afin de faciliter la planificatiuon des rendez-vous de ses commerciaux, l'entreprise a demandé au serivce informatique de développer un agenda en ligne et sécurisé afin de répondre à cette demande.

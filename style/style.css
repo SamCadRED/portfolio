@@ -195,15 +195,36 @@ tbody div {
 
 .ppe_container {}
 
-.ppe_content {}
+.ppe_content {
+    margin: 5px;
+}
 
-.ppe_header {}
+.ppe_header {
+    display: flex;
+    border: solid var(--color-light) 1px;
+    padding: 5px;
+}
 
-.gsb_pres {}
-.logo_gsb {}
-.contexte_projet {}
+.gsb_pres {
+    flex: 2;
+    margin-right: 5px;
+    border: solid var(--color-light) 0.5px;
+}
+.logo_gsb {
+    height: 50%;
+    margin-bottom: 20px;
+}
+.contexte_projet {
+    word-wrap: normal;
+    padding: 5px;
+}
 
-.competences {}
+.competences {
+    flex: 1;
+    margin-left: 5px;
+    padding: 5px;
+    border: solid var(--color-light) 0.5px;
+}
 
 .realisation_projet {}
 
