@@ -6,6 +6,7 @@
     --color-snd-theme: #830000b7;
     --color-dark: #141414;
     --box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+
 }
 @font-face {
     font-family: "Gravity";
@@ -162,7 +163,7 @@ tbody div {
     background-color: var(--color-dark);
     border: solid var(--color-dark) 1px;
     padding-bottom: 0;
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: var(--box-shadow);
     -moz-box-shadow: var(--box-shadow);
     box-shadow: var(--box-shadow);
 }
@@ -231,7 +232,7 @@ tbody div {
 .feed-item-title {
     background-color: var(--color-light);
     padding: 5px;
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: var(--box-shadow);
     -moz-box-shadow: var(--box-shadow);
     box-shadow: var(--box-shadow);
 }
@@ -292,7 +293,7 @@ tbody div {
     border: var(--color-dark) solid 1px;
     padding: 2%;
     margin-bottom: 2%;
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: var(--box-shadow);
     -moz-box-shadow: var(--box-shadow);
     box-shadow: var(--box-shadow);
 }
@@ -364,7 +365,7 @@ tbody div {
     background-color: var(--color-dark);
     padding: 5px;
     padding-left: 1px;
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: var(--box-shadow);
     -moz-box-shadow: var(--box-shadow);
     box-shadow: var(--box-shadow);
 }
@@ -376,7 +377,7 @@ tbody div {
     background-color: var(--color-dark);
     padding: 5px;
     padding-left: 1px;
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: var(--box-shadow);
     -moz-box-shadow: var(--box-shadow);
     box-shadow: var(--box-shadow);
 }
@@ -410,7 +411,7 @@ tbody div {
     background-color: var(--color-dark);
     margin: 7%;
     padding: 30px;
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: var(--box-shadow);
     -moz-box-shadow: var(--box-shadow);
     box-shadow: var(--box-shadow);
 }
