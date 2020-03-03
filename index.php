@@ -99,7 +99,7 @@
             </div>
 
         </div>
-        <div class="add_cv_button_div"><a class="button_class" href="components/cv_samuel-cadiou.pdf" download>Télécharger mon CV</a></div>
+        <div class="add_cv_button_div"><a class="button_class" href="components/util/cv_samuel-cadiou.pdf" download>Télécharger mon CV</a></div>
     </div>
 
     <div class="tech_skills">

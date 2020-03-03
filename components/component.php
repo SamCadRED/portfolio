@@ -65,7 +65,14 @@ function display_card($title, $text) {
             </div>';
 }
 
-function display_ppe($ppe1, $contexte1, $contexte2, $contexte3, $etape1, $etape2, $etape3, $compétences) {
+function display_ppe($ppe1, $contexte, $etape, $compétences, $url) {
+    $all_contexte = "";
+    $i = 0;
+    while ($i < count($contexte)) {
+        $all_contexte = $all_contexte."<p>".$contexte[$i]."</p>";
+        $i = $i + 1;
+    }
+
     return "
     <div class='ppe_container'>
         <h1>".$ppe1."</h1>
@@ -78,9 +85,7 @@ function display_ppe($ppe1, $contexte1, $contexte2, $contexte3, $etape1, $etape2
                 <div class='ppe_main_cont'>
                     <div class='contexte_projet'> 
                         <h1>Contexte du projet</h1>
-                        <p>".$contexte1."</p>
-                        <p>".$contexte2."</p>
-                        <p>".$contexte3."</p>
+                        <p>".$all_contexte."</p>
                     </div>
 
                     <div class='realisation_projet'>
@@ -88,21 +93,21 @@ function display_ppe($ppe1, $contexte1, $contexte2, $contexte3, $etape1, $etape2
                         <div class='etapes_real'>
                             <div class=''>
                                 <h3>1. Conception de la base de donnée</h3>
-                                <p>".$etape1."</p>
+                                <p>".$etape[0]."</p>
                             </div>
                             <div class=''>
                                 <h3>2. Développement de l'interface</h3>
-                                <p>".$etape2."</p>
+                                <p>".$etape[1]."</p>
                             </div>
                             <div class=''>
                                 <h3>3. Développement du fonctionnel</h3>
-                                <p>".$etape3."</p>
+                                <p>".$etape[2]."</p>
                             </div>
                         </div>
                         <div class='boutons_liens'>
-                            <div class='bouton_git'><a class='button_class' href=''>Voir sur GitHub</a></div>
-                            <div class='bouton_ppe'><a class='button_class' href=''>Voir le PPE</a></div>
-                            <div class='bouton_pappe'><a class='button_class' href=''>Voir le PAPPE</a></div>
+                            <div class='bouton_git'><a class='button_class' href='https://www.github.com/SamCadRED/".$url[0]."'>Voir sur GitHub</a></div>
+                            <div class='bouton_ppe'><a class='button_class' href='components/util/".$url[1]."'>Voir le PPE</a></div>
+                            <div class='bouton_pappe'><a class='button_class' href='components/util/".$url[2]."'>Voir le PAPPE</a></div>
                         </div>
                     </div>
                 </div>

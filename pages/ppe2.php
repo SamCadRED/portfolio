@@ -54,15 +54,15 @@
     
     <?php 
         $ppe1 = "Wiki GSB";
-        $contexte1 = "Suite à la fusion des entités Galaxy et Swiss-Bourdin en 2009, le groupe nouveau GSB est devenu leader du marché pharmaceutique.";
-        $contexte2 = $wip;
-        $contexte3 = $wip;
-        $etape1 = $wip;
-        $etape2 = $wip;
-        $etape3 = $wip;
+        $cont1 = "Suite à la fusion des entités Galaxy et Swiss-Bourdin en 2009, le groupe nouveau GSB est devenu leader du marché pharmaceutique.";
+        $cont2 = $wip;
+        $cont3 = $wip;
+        $contexte = array($cont1, $cont2, $cont3);
+        $etape = array($wip, $wip, $wip);
+        $url = array("ProjetGSB", "", "");
         $compétences = $wip;
 
-    echo display_ppe($ppe1, $contexte1, $contexte2, $contexte3, $etape1, $etape2, $etape3, $compétences);
+        echo display_ppe($ppe1, $contexte, $etape, $compétences, $url)
     ?>
 
     <div class="footer_cont">

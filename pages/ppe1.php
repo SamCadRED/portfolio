@@ -53,12 +53,12 @@
 
     <?php 
         $ppe1 = "Agenda GSB";
-        $contexte1 = "Suite à la fusion des entités Galaxy et Swiss-Bourdin en 2009, le groupe nouveau GSB est devenu leader du marché pharmaceutique.";
-        $contexte2 = "Afin de faciliter la planification des rendez-vous de ses commerciaux, l'entreprise a demandé au serivce informatique de développer un agenda en ligne et sécurisé afin de répondre à cette demande.";
-        $contexte3 = "L'objectif de l'outil est de centraliser tous les rendez-vous commerciaux afin de garder la main mise sur les données sensibles que ces derniers peuvent contenir.";
-        $etape1 = $wip;
-        $etape2 = $wip;
-        $etape3 = $wip;
+        $cont1 = "Suite à la fusion des entités Galaxy et Swiss-Bourdin en 2009, le groupe nouveau GSB est devenu leader du marché pharmaceutique.";
+        $cont2 = "Afin de faciliter la planification des rendez-vous de ses commerciaux, l'entreprise a demandé au serivce informatique de développer un agenda en ligne et sécurisé afin de répondre à cette demande.";
+        $cont3 = "L'objectif de l'outil est de centraliser tous les rendez-vous commerciaux afin de garder la main mise sur les données sensibles que ces derniers peuvent contenir.";
+        $contexte = array($cont1, $cont2, $cont3);
+        $etape = array($wip, $wip, $wip);
+        $url = array("GSBAgenda", "", "");
         $compétences = "
             A1.1.1 Analyse du cahier des charges d'un service à produire<br>
             A1.2.1 Élaboration et présentation d'un dossier de choix<br>
@@ -75,7 +75,7 @@
             A5.2.3 Repérage des compléments de formation<br>
             A5.2.4 Étude d‘une technologie, d'un composant, d'un outil";
 
-        echo display_ppe($ppe1, $contexte1, $contexte2, $contexte3, $etape1, $etape2, $etape3, $compétences);
+        echo display_ppe($ppe1, $contexte, $etape, $compétences, $url)
     ?>
     
 
