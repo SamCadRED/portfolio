@@ -226,6 +226,7 @@ tbody div {
 .rss_feed a{
     color: var(--color-dark);
     text-decoration: none;
+    display: inline-block;
 }
 .feed-item-title {
     background-color: var(--color-light);
