@@ -1,19 +1,19 @@
 <?php 
-$header = ' <div class="header">
+$header = " <div class='header'>
                 <h1>SAMUEL CADIOU</h1>
-                <!-- <a href="" onclick="setTheme()">
-                    <img class="dark_mode" src="/portfolio/images/dark_mode.png" alt="Switch Theme">
+                <!-- <a href='' onclick='setTheme()'>
+                    <img class='dark_mode' src='/portfolio/images/dark_mode.png' alt='Switch Theme'>
                 </a> -->
-            </div>';
+            </div>";
 
-$footer = ' <div class="footer">
-                <div class="top_footer">
-                    <h4><a href="mailto:samuelcadiou@hotmail.fr">Me contacter par mail</a></h4>
-                    <h4><a href="https://www.linkedin.com/in/samuel-cadiou-822759133" target="_blank">LinkedIn</a></h4>
-                    <h4><a href="https://github.com/SamCadRED/portfolio" target="_blank">GitHub</a></h4>
+$footer = "<div class='footer'>
+                <div class='top_footer'>
+                    <h4><a href='mailto:samuelcadiou@hotmail.fr'>Me contacter par mail</a></h4>
+                    <h4><a href='https://www.linkedin.com/in/samuel-cadiou-822759133' target='_blank'>LinkedIn</a></h4>
+                    <h4><a href='https://github.com/SamCadRED/portfolio' target='_blank'>GitHub</a></h4>
                 </div>
                 <p>©2020 par Samuel Cadiou</p>
-            </div>';
+            </div>";
 
 // Nav pages name : 
 $ppe1 = "GSB Agenda";
@@ -65,8 +65,57 @@ function display_card($title, $text) {
             </div>';
 }
 
-function display_ppe() {
-    return '';
+function display_ppe($ppe1, $contexte1, $contexte2, $contexte3, $etape1, $etape2, $etape3, $compétences) {
+    return "
+    <div class='ppe_container'>
+        <h1>".$ppe1."</h1>
+        <div class='ppe_content'>
+            <h2 class='ppe_headtitle'>Présentation du projet</h2>
+            <div class='ppe_pres'>
+                <div class='logogsb_div'>
+                    <img class='logo_gsb' title='logo GSB' src='../images/logo-gsb.png' alt='Logo GSB'>
+                </div>
+                <div class='ppe_main_cont'>
+                    <div class='contexte_projet'> 
+                        <h1>Contexte du projet</h1>
+                        <p>".$contexte1."</p>
+                        <p>".$contexte2."</p>
+                        <p>".$contexte3."</p>
+                    </div>
+
+                    <div class='realisation_projet'>
+                        <h1>Réalisation du projet</h1>
+                        <div class='etapes_real'>
+                            <div class=''>
+                                <h3>1. Conception de la base de donnée</h3>
+                                <p>".$etape1."</p>
+                            </div>
+                            <div class=''>
+                                <h3>2. Développement de l'interface</h3>
+                                <p>".$etape2."</p>
+                            </div>
+                            <div class=''>
+                                <h3>3. Développement du fonctionnel</h3>
+                                <p>".$etape3."</p>
+                            </div>
+                        </div>
+                        <div class='boutons_liens'>
+                            <div class='bouton_git'><a class='button_class' href=''>Voir sur GitHub</a></div>
+                            <div class='bouton_ppe'><a class='button_class' href=''>Voir le PPE</a></div>
+                            <div class='bouton_pappe'><a class='button_class' href=''>Voir le PAPPE</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='competences_container'>
+                    <div class='competences'>
+                        <h3>Compétences acquises :</h3>
+                        <p>".$compétences."</p>
+                    </div>
+                </div>
+            </div>                                
+        </div>
+    </div>";
 }
 
 function display_activities($description, $contexte, $objectif, $env, $travail, $competence) {
