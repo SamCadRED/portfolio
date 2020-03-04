@@ -24,6 +24,7 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
+    color: var(--text-dark);
     background-color: var(--color-white);
 }
 h2 {
@@ -90,6 +91,7 @@ hr {
 
 .others {
     flex: 1;
+    text-align: center;
 }
 
 
@@ -127,8 +129,7 @@ hr {
 .podcast {
     margin-top: 50px;
 }
-.savant {    
-}
+
 
 
 /*__footer__*/

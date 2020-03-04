@@ -50,7 +50,7 @@
         <hr>
 
         <div class="websites">
-            <h2>Sites Web</h2>
+            <h2>Articles Presse / Site Web</h2>
         </div>
 
         <hr>
