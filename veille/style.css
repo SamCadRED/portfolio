@@ -1,16 +1,29 @@
 :root {
     --color-main: #f7b32b;
-    --color-white: #cccccc;
-    --color-grey: #9da2a8;
-    --color-black: #222222;
-    --box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    --color-white: #dddddd;
+    --color-grey: #c2c2c2;
+    --color-black: #000000;
+    --box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    --text-light: #d8d8d8;
+    --text-dark: #222222;
+    --text-mid: #7e7e7e;
 }
-
+@font-face {
+    font-family: "Gravity";
+    src: url('../style/Fonts/gravity-book.ttf');
+}
+@font-face {
+    font-family: "Gravity";
+    font-weight: bold;
+    src: url('../style/Fonts/gravity-bold.ttf');
+}
 body {
+    font-family: 'Gravity','heiti TC', 'futura', 'Times New Roman', sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
+    background-color: var(--color-white);
 }
 h2 {
     text-align: center;
@@ -19,11 +32,17 @@ h2 {
 header {
     height: 20%;
     margin: 0;
+    padding-left: 3%;
     background-color: var(--color-main);
-    color: var(--color-black);
+    color: var(--text-dark);
 }
 header h2 {
     text-align: left;
+}
+
+hr {
+    border: solid var(--color-black) 1px; 
+    margin: 5px;
 }
 
 #main_content {
@@ -33,10 +52,12 @@ header h2 {
 
 .rss {
     flex: 3;
-    border: solid black 1px;
 }
 .feed_cont {
     display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
 }
 .google_feed {
     flex: 1;
@@ -47,43 +68,33 @@ header h2 {
 
 .websites {
     flex: 2;
-    border: solid black 1px;
 }
 
 .others {
     flex: 1;
-    border: solid black 1px;
 }
 
 
 /* ____RSS FEED____________________*/
 
 .rss_feed {
-    height: 1000px;
+    height: 700px;
     overflow: auto;
     padding: 5px;
-    background-color: var(--color-theme);
+    text-align: center;
 }
-
 .rss_feed a{
-    color: var(--color-dark);
+    color: var(--text-dark);
     text-decoration: none;
-}
-.feed-item {
-    background-color: var(--color-white);
-    padding: 5px;
-    -webkit-box-shadow: var(--box-shadow);
-    -moz-box-shadow: var(--box-shadow);
-    box-shadow: var(--box-shadow);
 }
 .feed-item-title {
-    background-color: var(--color-white);
     padding: 5px;
+    border-radius: 5px;
+    background-color: var(--color-grey);
+}
+.feed-item-title:hover {
+    color: var(--text-mid);
     -webkit-box-shadow: var(--box-shadow);
     -moz-box-shadow: var(--box-shadow);
     box-shadow: var(--box-shadow);
-}
-.feed-item-title:hover a {
-    color: var(--color-main);
-    text-decoration: none;
 }
