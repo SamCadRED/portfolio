@@ -1,10 +1,10 @@
 :root {
-    --color-main: #f7b32b;
+    --color-main: #ffb82b;
     --color-snd: #79bcd4de;
     --color-white: #dddddd;
     --color-grey: #c2c2c2;
     --color-black: #000000;
-    --box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    --box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
     --text-light: #d8d8d8;
     --text-dark: #222222;
     --text-mid: #7e7e7e;
@@ -25,7 +25,6 @@ body {
     display: flex;
     flex-direction: column;
     color: var(--text-dark);
-    background-color: var(--color-white);
 }
 h2 {
     text-align: center;
@@ -60,76 +59,62 @@ header h2 {
     color: var(--text-mid)
 }
 hr {
-    border: solid var(--color-black) 1px; 
+    border: solid var(--color-black) 0.5px; 
     margin: 5px;
 }
 
-#main_content {
+/* ____Content____________________*/
+.rss_container {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
+    flex-wrap: wrap;
 }
-
-.rss {
-    flex: 3;
-}
-.feed_cont {
-    display: flex;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: center;
-}
-.google_feed {
-    flex: 1;
-}
-.ferme_feed {
-    flex: 1;
-}
-
-.websites {
-    flex: 1;
-}
-
-.others {
-    flex: 1;
-    text-align: center;
-}
-
 
 /* ____RSS FEED____________________*/
-
-.rss_feed {
-    height: 700px;
-    overflow: auto;
-    padding: 5px;
-    text-align: center;
-    margin-bottom: 30px;
-}
-.rss_feed a{
-    color: var(--text-dark);
-    text-decoration: none;
-}
-.feed-item-title {
-    font-weight: bold;
-    font-size: large;
-    padding: 15px;
-    border-radius: 5px;
-    background-color: var(--color-snd);
-    opacity: 0.9;
-}
-.feed-item-title:hover {
-    color: var(--text-mid);
-    opacity: 1;
+.feed_cont {
+    /* background-color: var(--color-white); */
+    border: solid black 1px;
+    border-radius: 30px;
     -webkit-box-shadow: var(--box-shadow);
     -moz-box-shadow: var(--box-shadow);
     box-shadow: var(--box-shadow);
+
+    width: 20%;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 30px;
+    text-align: center;
+    color: var(--color-black);
+}
+.feed-item-title {
+
+}
+.feed-item-title a {
+    text-decoration: none;
+    color: var(--color-black);
+    font-weight: bold;
+    font-size: 180%;
 }
 
-/* ____Podacst____________________*/
+.feed-item-desc {
 
-.podcast {
-    margin-top: 50px;
+}
+.feed-item-desc p {
+    font-size: 150%;
 }
 
+/* Medium Special */
+
+.medium-feed-image img, .medium-feed-link {
+    display: none;
+}
+
+/* ____Podcast____________________*/
+
+.others {
+    display: flex;
+}
 
 
 /*__footer__*/
