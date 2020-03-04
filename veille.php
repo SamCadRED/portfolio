@@ -43,6 +43,13 @@
                         <script src="//rss.bloople.net/?url=https%3A%2F%2Fwww.lafermeduweb.net%2Ftag%2Frss%2Fmachinelearning.xml&detail=-1&limit=20&showtitle=false&type=js"></script>
                     </div>
                 </div>
+
+                <div class="medium_feed">
+                    <h3>Medium</h3>
+                    <div class="rss_feed">
+                        <script src="//rss.bloople.net/?url=https%3A%2F%2Fmedium.com%2Ffeed%2Ftag%2Fdata-science&detail=-1&showtitle=false&type=js"></script>
+                    </div>
+                </div>
                 
             </div>
         </div>
