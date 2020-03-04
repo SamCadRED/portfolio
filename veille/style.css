@@ -1,5 +1,6 @@
 :root {
     --color-main: #f7b32b;
+    --color-snd: #f7b32bb7;
     --color-white: #dddddd;
     --color-grey: #c2c2c2;
     --color-black: #000000;
@@ -92,10 +93,11 @@ hr {
     font-size: large;
     padding: 15px;
     border-radius: 5px;
-    background-color: var(--color-main);
+    background-color: var(--color-snd);
 }
 .feed-item-title:hover {
     color: var(--text-mid);
+    background-color: var(--color-main);
     -webkit-box-shadow: var(--box-shadow);
     -moz-box-shadow: var(--box-shadow);
     box-shadow: var(--box-shadow);
