@@ -9,24 +9,40 @@
     <title>Veille Technologique</title>
 </head>
 <body>
-    <header></header>
+    <header>
+        <div class="header">
+            <h2>Veille Technologique</h2>
+            <h1>Machine Learning</h1>
+        </div>
+    </header>
 
     <div id="main_content">
 
-        <div class="rss_feed">
+        <div class="rss">
             <h2>Flux RSS</h2>
-            <div class="rss_feed">
-                <script 
-                    src="//rss.bloople.net/?url=https%3A%2F%2Fnews.google.com%2Frss%2Fsearch%3Fq%3DMachine%2BLearning%26hl%3Den-US%26gl%3DUS%26ceid%3DUS%253Aen%26x%3D1571747125.1658&detail=-1&limit=40&showtitle=false&type=js">
-                </script>
+            <div class="feed_cont">
+
+                <div class="google_feed">
+                    <h3>Google News</h3>
+                    <div class="rss_feed">
+                        <script src="//rss.bloople.net/?url=https%3A%2F%2Fnews.google.com%2Frss%2Fsearch%3Fq%3DMachine%2BLearning%26hl%3Den-US%26gl%3DUS%26ceid%3DUS%253Aen%26x%3D1571747125.1658&detail=-1&limit=10&showtitle=false&type=js"></script>
+                    </div>
+                </div>
+
+                <div class="ferme_feed">
+                    <h3>La Ferme du Web</h3>
+                    <div class="rss_feed">
+                        <script src="//rss.bloople.net/?url=https%3A%2F%2Fwww.lafermeduweb.net%2Ftag%2Frss%2Fmachinelearning.xml&detail=-1&showtitle=false&type=js"></script>
+                    </div>
+                </div>
+                
             </div>
+           
         </div>
 
         <div class="websites">
             <h2>Sites Web</h2>
-            <div class="twitter">
-                <h3>Twitter</h3>
-            </div>
+            
         </div>
 
         <div class="others">
