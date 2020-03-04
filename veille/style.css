@@ -40,7 +40,24 @@ header {
 header h2 {
     text-align: left;
 }
-
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.header_right {
+    display: flex;
+    align-items: center;
+}
+.header_right a {
+    text-align: center;
+    font-size: larger;
+    color: var(--text-dark);
+    text-decoration: none;
+    margin-left: 5%;
+}
+.header_right a:hover {
+    color: var(--text-mid)
+}
 hr {
     border: solid var(--color-black) 1px; 
     margin: 5px;
@@ -107,6 +124,9 @@ hr {
 
 /* ____Podacst____________________*/
 
+.podcast {
+    margin-top: 50px;
+}
 .savant {    
 }
 

@@ -12,8 +12,13 @@
 <body>
     <header>
         <div class="header">
-            <h2>Veille Technologique</h2>
-            <h1>Machine Learning</h1>
+            <div class="header_left">
+                <h2>Veille Technologique</h2>
+                <h1>Machine Learning</h1>
+            </div>
+            <div class="header_right">
+                <a href="index.php">Revenir sur le portfolio</a>
+            </div>
         </div>
     </header>
 
@@ -56,6 +61,7 @@
                 <h3>Podcast</h3>
                 <div class="savant">
                     <iframe src="https://open.spotify.com/embed-podcast/episode/0wnHHEy63nmojdkkI4AHOF" width="100%" height="200" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <!-- Spotify integration https://developer.spotify.com/documentation/widgets/generate/play-button/ -->
                 </div>
             </div>
         </div>
