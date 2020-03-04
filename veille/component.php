@@ -14,15 +14,17 @@ $urlArray = array(
     "//rss.bloople.net/?url=https%3A%2F%2Fnanonets.com%2Fblog%2Frss%2F&limit=1&showtitle=false&type=js",
     "//rss.bloople.net/?url=http%3A%2F%2Fnews.mit.edu%2Frss%2Ftopic%2Fmachine-learning&limit=1&showtitle=false&type=js",
     "//rss.bloople.net/?url=https%3A%2F%2Fmedium.com%2Ffeed%2Ftag%2Fmachine-learning&limit=1&showtitle=false&type=js",
-    
+    "//rss.bloople.net/?url=https%3A%2F%2Fmedium.com%2Ffeed%2Ftopic%2Fartificial-intelligence&limit=1&showtitle=false&type=js"
 );
-$imgArray = array("images/mao.jpg");
 
+$imgArray = array("images/veille/fermeweb.png","images/veille/nanonets.jpg", "images/veille/mit.jpg", "images/veille/medium.png","images/veille/medium.png");
 
-function display_feed($url, $img) {
+$sourceArray = array("La Ferme du Web", "NanoNets", "M.I.T News", "Medium /Machine Learning", "Medium /Artificial Intelligence");
+
+function display_feed($url, $img, $source) {
     return "
-        <div class='feed_cont' 
-            style='background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6) ), url(".$img.")'>
+        <div class='feed_cont' style='background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6) ), url(".$img.")'>
             <script src='".$url."'></script>
+            <p>".$source."</p>
         </div>";
 } 

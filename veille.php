@@ -31,13 +31,14 @@
                     $i = 0;
                     while ($i < count($urlArray)) {
                         $url = $urlArray[$i];
+                        $source = $sourceArray[$i];
                         if ($i < count($imgArray)) {
                             $img = $imgArray[$i];
                         } else {
                             $img = "";
                         }
                         
-                        echo display_feed($url, $img);
+                        echo display_feed($url, $img, $source);
                         $i += 1;
                     }
                 ?>
