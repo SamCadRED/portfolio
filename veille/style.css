@@ -1,0 +1,15 @@
+#main_content {
+    display: flex;
+}
+
+.rss_feed {
+    flex: 1;
+}
+
+.websites {
+    flex: 1;
+}
+
+.others {
+    flex: 1;
+}

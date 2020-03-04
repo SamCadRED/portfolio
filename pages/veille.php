@@ -106,13 +106,6 @@
                 </div>
             </div>
         </div>
-        <div class="right_content">
-            <h2>Flux RSS</h2>
-            <div class="rss_feed">
-                <script src="//rss.bloople.net/?url=https%3A%2F%2Fnews.google.com%2Frss%2Fsearch%3Fq%3DMachine%2BLearning%26hl%3Den-US%26gl%3DUS%26ceid%3DUS%253Aen%26x%3D1571747125.1658&detail=-1&limit=40&showtitle=false&type=js">
-                </script>
-            </div>
-        </div>
     </div>
     
     <div class="footer_cont">

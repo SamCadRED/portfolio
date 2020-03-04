@@ -1,19 +1,19 @@
 <?php 
-$header = " <div class='header'>
+$header = " <header class='header'>
                 <h1>SAMUEL CADIOU</h1>
                 <!-- <a href='' onclick='setTheme()'>
                     <img class='dark_mode' src='/portfolio/images/dark_mode.png' alt='Switch Theme'>
                 </a> -->
-            </div>";
+            </header>";
 
-$footer = "<div class='footer'>
+$footer = "<footer class='footer'>
                 <div class='top_footer'>
                     <h4><a href='mailto:samuelcadiou@hotmail.fr'>Me contacter par mail</a></h4>
                     <h4><a href='https://www.linkedin.com/in/samuel-cadiou-822759133' target='_blank'>LinkedIn</a></h4>
                     <h4><a href='https://github.com/SamCadRED/portfolio' target='_blank'>GitHub</a></h4>
                 </div>
                 <p>©2020 par Samuel Cadiou</p>
-            </div>";
+            </footer>";
 
 // Nav pages name : 
 $ppe1 = "GSB Agenda";
