@@ -1,3 +1,4 @@
+<?php include_once "components/component.php" ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -53,11 +54,16 @@
             <h2>Autres</h2>
             <div class="podcast">
                 <h3>Podcast</h3>
+                <div class="savant">
+                    <iframe src="https://open.spotify.com/embed-podcast/episode/0wnHHEy63nmojdkkI4AHOF" width="100%" height="200" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
             </div>
         </div>
     
     </div>
     
-    <footer></footer>
+    <div class="footer_cont">
+        <?php echo $footer ?>
+    </div>
 </body>
 </html>
