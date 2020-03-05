@@ -54,7 +54,7 @@
             <div class="podcast">
                 <h3>Podcast</h3>
                 <div class="savant">
-                    <iframe src="https://open.spotify.com/embed-podcast/episode/0wnHHEy63nmojdkkI4AHOF" width="100%" height="200" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <iframe src="https://open.spotify.com/embed-podcast/episode/0wnHHEy63nmojdkkI4AHOF" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     <!-- Spotify integration https://developer.spotify.com/documentation/widgets/generate/play-button/  -->
                 </div>
             </div>
