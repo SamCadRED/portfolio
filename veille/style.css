@@ -1,13 +1,11 @@
 :root {
     --color-main: #ffb82b;
-    --color-snd: #79bcd4de;
-    --color-white: #dddddd;
+    --color-main: #2c8c99;
     --color-grey: #c2c2c2;
     --color-black: #000000;
+    --color-white: #f1f1f1;
     --box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
-    --text-light: #d8d8d8;
-    --text-dark: #222222;
-    --text-mid: #7e7e7e;
+    --text-mid: #c4c4c4;
 }
 @font-face {
     font-family: "Gravity";
@@ -24,18 +22,18 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    color: var(--text-dark);
+    color: var(--color-black);
+    background-color: var(--color-white);
 }
 h2 {
     text-align: center;
 }
 
 header {
-    height: 20%;
     margin: 0;
     padding-left: 3%;
     background-color: var(--color-main);
-    color: var(--text-dark);
+    color: var(--color-black);
 }
 header h2 {
     text-align: left;
@@ -44,6 +42,9 @@ header h2 {
     display: flex;
     justify-content: space-between;
 }
+.header_left h1 {
+    font-size: 300%;
+}
 .header_right {
     display: flex;
     align-items: center;
@@ -51,7 +52,7 @@ header h2 {
 .header_right a {
     text-align: center;
     font-size: larger;
-    color: var(--text-dark);
+    color: var(--color-black);
     text-decoration: none;
     margin-left: 5%;
 }
@@ -66,31 +67,30 @@ hr {
 /* ____Content____________________*/
 .rss_container {
     display: flex;
-    justify-content: left;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
 }
 
 /* ____RSS FEED____________________*/
 .feed_cont {
-    /* background-color: var(--color-white); */
+    background-color: var(--color-black);
     border: solid black 1px;
     border-radius: 30px;
     -webkit-box-shadow: var(--box-shadow);
     -moz-box-shadow: var(--box-shadow);
     box-shadow: var(--box-shadow);
 
-    width: 20%;
+    max-width: 20%;
     padding: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
     margin: 30px;
     text-align: center;
     color: var(--color-black);
 }
-.feed-item-title {
-
+.feed_cont p {
+    font-size: 150%;
 }
+
 .feed-item-title a {
     text-decoration: none;
     color: var(--color-black);
@@ -98,20 +98,18 @@ hr {
     font-size: 180%;
 }
 
-.feed-item-desc {
-
-}
-.feed-item-desc p {
-    font-size: 150%;
+.source p {
+    font-size: 50%;
 }
 
-/* Medium Special */
+/*_____ Medium Special______________ */
+
 
 .medium-feed-image img, .medium-feed-link {
     display: none;
 }
 
-/* ____Podcast____________________*/
+/* ____Other Refs____________________*/
 
 .others {
     display: flex;
@@ -127,7 +125,7 @@ hr {
 }
 .footer a {
     text-decoration: none;
-    color: var(--text-dark);
+    color: var(--color-black);
     padding-left: 30px
 }
 .footer a:hover{
@@ -138,7 +136,7 @@ hr {
     flex-direction: row;
 }
 .footer p {
-    color: var(--text-dark);
+    color: var(--color-black);
     font-size: 80%; 
     text-align: center;
 }

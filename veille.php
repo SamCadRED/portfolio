@@ -30,7 +30,7 @@
                 <?php 
                     $i = 0;
                     while ($i < count($urlArray)) {
-                        $url = $urlArray[$i];
+                        $url = $feedHead . $urlArray[$i] . $feedParam;
                         $source = $sourceArray[$i];
                         if ($i < count($imgArray)) {
                             $img = $imgArray[$i];
@@ -59,7 +59,7 @@
     </div>
     
     <div class="footer_cont">
-        <?php $footer ?>
+        <?php echo $footer ?>
     </div>
 </body>
 </html>
