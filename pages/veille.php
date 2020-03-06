@@ -59,15 +59,21 @@
     </div>
     <div class="main_content">
         <div class="left_content">
-            <div class="intro">
-                <h2>Organiser sa veille technologique :</h2>
-                <p>L'organisation de ma veille peut se simplifier en 4 étapes :</p>
-                <ul>
-                    <li><strong>Le Ciblage</strong> du sujet de veille</li>
-                    <li><strong>La Recherche</strong> par mots clés et grâce à différents médias</li>
-                    <li><strong>L'analyse</strong> du contenu récupéré</li>
-                    <li><strong>La Diffusion</strong> du contenu grâce a d'autres médias</li>
-                </ul>
+            <div class="top_content">
+                <div class="intro">
+                    <h2>Organiser sa veille technologique :</h2>
+                    <p>L'organisation de ma veille peut se simplifier en 4 étapes :</p>
+                    <ul>
+                        <li><strong>Le Ciblage</strong> du sujet de veille</li>
+                        <li><strong>La Recherche</strong> par mots clés et grâce à différents médias</li>
+                        <li><strong>L'analyse</strong> du contenu récupéré</li>
+                        <li><strong>La Diffusion</strong> du contenu grâce a d'autres médias</li>
+                    </ul>
+                </div>
+                
+                <div class="bouton_veille">
+                        <a class="button_link" href="../veille.php">Voir le site de veille</a>
+                </div>
             </div>
 
             <div class="pres_card">
