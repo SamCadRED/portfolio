@@ -11,7 +11,7 @@
 </head>
 <body class="body">
 
-    <div class="header_cont">
+    <div class="header_cont" style="">
         <?php echo $header ?>
     </div>
 
@@ -126,11 +126,11 @@
                         <tbody>
                             <tr>
                                 <td>HTML/CSS</td>
-                                <td><div class="line1" style="width: 400px"></div></td>
+                                <td><div class="line" style="width: 400px"></div></td>
                             </tr>
                             <tr>
                                 <td>PHP</td>
-                                <td><div class="line2" style="width: 300px"></div></td>
+                                <td><div class="line" style="width: 300px"></div></td>
                             </tr>
                             <tr>
                                 <td>SQL</td>
