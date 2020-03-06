@@ -318,7 +318,9 @@ tbody div {
     font-weight: bold;
     text-decoration: none;
     color: var(--color-dark);
-}:hover {
+}
+
+.button_link:hover {
     color: var(--color-light);
 }
 
