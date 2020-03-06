@@ -4,7 +4,7 @@ $header = " <header class='header'>
                 <!-- <a href='' onclick='setTheme()'>
                     <img class='dark_mode' src='/portfolio/images/dark_mode.png' alt='Switch Theme'>
                 </a> -->
-            </header><hr id='top_bar'>";
+            </header><div id='top_bar'></div>";
 
 $footer = "<footer class='footer'>
                 <div class='top_footer'>

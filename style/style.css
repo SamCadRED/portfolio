@@ -37,13 +37,14 @@ body h3 {
 body p {
     font-size: 20px;
 }
-hr {
-    border: solid var(--color-light) 0.2px;
-    margin-left: 20px;
-    margin-right: 20px;
-    animation: expand 4s;
+.header_cont {
+    padding-left: 1%;
+    padding-right: 1%;
 }
 #top_bar {
+    border: solid var(--color-light) 0.2px;
+    display: flex;
+    animation: expand 1s;
     animation-timing-function: ease-out;
 }
 /*_________Index.php_____________________________*/
@@ -505,10 +506,10 @@ tbody div {
 }
 
 @keyframes expand {
-    from {width: 20px;}
-    to {width: auto;}
+    from {width: 0;}
+    to {width: 100%}
 }
 @-webkit-keyframes expand {
-    from {width: 20px;}
-    to {width: auto;}
+    from {width: 0;}
+    to {width: 100%;}
 }
