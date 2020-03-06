@@ -9,6 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="veille/style.css">
     <script src="components/scripts.js" type="application/javascript"></script>
+    
     <title>Veille Technologique</title>
 </head>
 <body>
