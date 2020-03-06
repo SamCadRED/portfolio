@@ -37,9 +37,15 @@ body h3 {
 body p {
     font-size: 20px;
 }
-.content_body {
+hr {
+    border: solid var(--color-light) 0.2px;
+    margin-left: 20px;
+    margin-right: 20px;
+    animation: expand 4s;
 }
-
+#top_bar {
+    animation-timing-function: ease-out;
+}
 /*_________Index.php_____________________________*/
 .about {
     background-image: 
@@ -391,10 +397,12 @@ tbody div {
 
 /*__nav__*/
 .nav {
-    border-top: solid var(--color-light) 1px;
+    /* border-top: solid var(--color-light) 1px; */
     display: flex;
     padding: 5px;
-    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 .nav a {
     padding-right: 5px;
@@ -494,4 +502,13 @@ tbody div {
         var(--color-dark) 10px,
         var(--color-dark) 20px
         );
+}
+
+@keyframes expand {
+    from {width: 20px;}
+    to {width: auto;}
+}
+@-webkit-keyframes expand {
+    from {width: 20px;}
+    to {width: auto;}
 }
