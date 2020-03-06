@@ -1,5 +1,4 @@
 :root {
-    --color-main: #ffb82b;
     --color-main: #2c8c99;
     --color-grey: #c2c2c2;
     --color-black: #000000;
@@ -41,22 +40,33 @@ header h2 {
     display: flex;
     justify-content: space-between;
 }
+.header_left {
+    flex: 5;
+}
 .header_left h1 {
     font-size: 300%;
 }
 .header_right {
+    flex: 1;
     display: flex;
     align-items: center;
+    margin-right: 10px;
 }
-.header_right a {
+.button_class {
+    background-color: var(--color-black);
     text-align: center;
+    padding: 10px; 
     font-size: larger;
-    color: var(--color-black);
+    font-weight: bold;
     text-decoration: none;
-    margin-left: 5%;
+    color: var(--color-white);
+    border: solid var(--color-black) 0.3px;
 }
-.header_right a:hover {
-    color: var(--text-mid)
+.button_class:hover {
+    -webkit-box-shadow: var(--box-shadow);
+    -moz-box-shadow: var(--box-shadow);
+    box-shadow: var(--box-shadow);
+    color: var(--color-main);
 }
 hr {
     border: solid var(--text-mid) 0.5px; 
@@ -91,10 +101,6 @@ hr {
     background-color: var(--color-black);
     border: solid black 1px;
     border-radius: 30px;
-    -webkit-box-shadow: var(--box-shadow);
-    -moz-box-shadow: var(--box-shadow);
-    box-shadow: var(--box-shadow);
-
     min-width: 300px;
     max-width: 400px;
     flex: 1;
@@ -102,6 +108,11 @@ hr {
     margin: 30px;
     text-align: center;
     color: var(--color-black);
+}
+.feed_cont:hover {
+    -webkit-box-shadow: inset 0px 0px 16px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 16px 0px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 16px 0px rgba(0,0,0,0.75);
 }
 .feed_cont p {
     font-size: 150%;
@@ -112,6 +123,10 @@ hr {
     color: var(--color-black);
     font-weight: bold;
     font-size: 180%;
+    display: block;
+}
+.feed-item-title a:hover {
+    color: var(--color-main);
 }
 
 .source p {
