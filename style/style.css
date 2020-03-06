@@ -383,12 +383,6 @@ tbody div {
 /*_________Components_______________________*/
 
 /*__header__*/
-.header_cont {
-    /* background: linear-gradient(357deg, rgba(0,0,0,1) 33%, var(--color-theme) 100%); */
-}
-.header_cont h1 {
-    animation: textexpand 3s;
-}
 .header {
     margin: 35px;
     display: flex;

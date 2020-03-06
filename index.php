@@ -11,7 +11,7 @@
 </head>
 <body class="body">
 
-    <div class="header_cont" style="">
+    <div class="header_cont" style="animation: textexpand 3s;">
         <?php echo $header ?>
     </div>
 
