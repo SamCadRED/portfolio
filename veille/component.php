@@ -25,7 +25,7 @@ $sourceArray = array("La Ferme du Web", "NanoNets", "M.I.T News", "Medium /Machi
 
 function display_feed($url, $img, $source) {
     return "
-        <div class='feed_cont' style='background-image: linear-gradient(to bottom,rgba(200, 200, 200, 0.8), rgba(200, 200, 200, 0.8) ), url(".$img.")'>
+        <div id='feedid' class='feed_cont' style='background-image: linear-gradient(to bottom,rgba(200, 200, 200, 0.8), rgba(200, 200, 200, 0.8) ), url(".$img.")'>
             <script src='".$url."'></script>
             <p style='font-size: 100%'>".$source."</p>
         </div>";
