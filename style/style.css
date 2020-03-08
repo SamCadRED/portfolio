@@ -270,7 +270,6 @@ tbody div {
     margin-right: 20px;
 }
 
-
 /*_________veille.php_______________________________*/
 .headband {
     display: flex;
@@ -358,9 +357,27 @@ tbody div {
     color: var(--color-dark);
     
 }
-
 .acti_cont {
-    
+    display: flex;
+}
+.arrow_link {
+    /* display: flex; */
+    display: none;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+}
+.arrow_link img {
+    width: 100%;
+}
+.arrow_left {
+    transform: rotate(90deg);
+}
+.arrow_right {
+    transform: rotate(-90deg);
+}
+.main_acitivite {
+    flex: 20;
 }
 
 .acti_cont_text {

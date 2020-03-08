@@ -54,6 +54,7 @@
     <div class='activite'>
         <h1 class='acti_title'><?php echo $acti1 ?></h1>
         <?php 
+            $page = $_SERVER['REQUEST_URI'];  
             $description = "Mise en place d'un site WordPress de documentation et de support client.";
             $contexte = "Je l'ai effectué en équipe, dans l'entreprise.";
             $objectif = "Créer un site de support contenant toute la documentation possible concernant le produit vendu par l'entreprise, afin de réduire la charge de travail du support client.";

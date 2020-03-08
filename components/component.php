@@ -136,21 +136,29 @@ function display_ppe($ppe, $contexte, $etape, $compétences, $titre, $img, $url)
 
 function display_activities($description, $contexte, $objectif, $env, $travail, $competence) {
     return "<div class='acti_cont'>
-                <div class='acti_cont_text'>
-                    <h3>• Description :</h3>
-                    <p>".$description."</p><br>
-                    <h3>• Contexte et localisation : </h3>
-                    <p>".$contexte."</p><br>
-                    <h3>• Objectifs :</h3>
-                    <p>".$objectif."</p><br>
-                    <h3>• Environnement Technologique :</h3>
-                    <p>".$env."</p><br>
-                    <h3>• Travail effectué :</h3>
-                    <p>".$travail."</p><br>
+                <div class='arrow_link'>
+                    <a href=''><img class='arrow_left' src='../../images/arrow.svg' alt='Précédent'></a>
                 </div>
-                <div class='acti_cont_skills'>
-                    <h3>Compétences acquises :</h3>
-                    <p>".$competence."</p>
+                <div class='main_acitivite'>
+                    <div class='acti_cont_text'>
+                        <h3>• Description :</h3>
+                        <p>".$description."</p><br>
+                        <h3>• Contexte et localisation : </h3>
+                        <p>".$contexte."</p><br>
+                        <h3>• Objectifs :</h3>
+                        <p>".$objectif."</p><br>
+                        <h3>• Environnement Technologique :</h3>
+                        <p>".$env."</p><br>
+                        <h3>• Travail effectué :</h3>
+                        <p>".$travail."</p><br>
+                    </div>
+                    <div class='acti_cont_skills'>
+                        <h3>Compétences acquises :</h3>
+                        <p>".$competence."</p>
+                    </div>
+                </div>
+                <div class='arrow_link'>
+                    <a href=''><img class='arrow_right' src='../../images/arrow.svg' alt='suivant'></a>
                 </div>
             </div>";
 }
