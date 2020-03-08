@@ -147,8 +147,6 @@ tbody div {
     height: 15px;
     width :100px;
     background-color: var(--color-theme);
-    /* animation: change-color 5s infinite; */
-    /* -webkit-animation: change-color 5s infinite; */
 }
 
 /*__Hobbys__*/
@@ -574,23 +572,5 @@ tbody div {
       -webkit-transform: translateY(0);
               transform: translateY(0);
       opacity: 1;
-    }
-}
-
-@keyframes change-color {
-    0%, 100% {
-        background-color: var(--color-theme);
-    }
-    50% {
-        background-color: var(--color-snd-theme);
-    }
-}
-
-@-webkit-keyframes change-color {
-    0%, 100% {
-        background-color: var(--color-theme);
-    }
-    50% {
-        background-color: var(--color-snd-theme);
     }
 }

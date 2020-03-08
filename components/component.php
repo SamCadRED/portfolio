@@ -92,7 +92,7 @@ function display_ppe($ppe, $contexte, $etape, $compétences, $titre, $img, $url)
                         <h1>Réalisation du projet</h1>
                         <div class='etapes_real'>
                             <div class='etape'>
-                                <h3>1. ".$titre[2]."</h3>
+                                <h3>1. ".$titre[0]."</h3>
                                 <p>".$etape[0]."</p>
                                 <div class='images'>
                                     <img src='../images/languages/phpmyadmin.png' alt='PHPMyAdmin'>
