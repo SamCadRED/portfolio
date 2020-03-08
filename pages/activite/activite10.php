@@ -54,6 +54,7 @@
     <div class='activite'>
         <h1 class='acti_title'><?php echo $acti10 ?></h1>
         <?php 
+            $page = $_SERVER['REQUEST_URI'];  
             $description = "Déploiement de Machines Virtuelles de développement sur un serveur local";
             $contexte = "Seul en entreprise";
             $objectif = "Déployer 3 machines virtuelles (copie de serveurs de production) de test et développement.";
@@ -68,7 +69,7 @@
                 A4.2.1 Analyse et correction d'un dysfonctionnement
             ";
 
-            echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);
+            echo display_activities($page, $description, $contexte, $objectif, $env, $travail, $competence);
         ?>
     </div>
 

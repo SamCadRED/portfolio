@@ -134,13 +134,14 @@ function display_ppe($ppe, $contexte, $etape, $compétences, $titre, $img, $url)
     </div>";
 }
 
-function display_activities($description, $contexte, $objectif, $env, $travail, $competence) {
+function display_activities($page, $description, $contexte, $objectif, $env, $travail, $competence) {
     return "<div class='acti_cont'>
                 <div class='arrow_link'>
                     <a href=''><img class='arrow_left' src='../../images/arrow.svg' alt='Précédent'></a>
                 </div>
                 <div class='main_acitivite'>
                     <div class='acti_cont_text'>
+                        ".$page."
                         <h3>• Description :</h3>
                         <p>".$description."</p><br>
                         <h3>• Contexte et localisation : </h3>

@@ -54,6 +54,7 @@
     <div class='activite'>
         <h1 class='acti_title'><?php echo $acti2 ?></h1>
         <?php 
+            $page = $_SERVER['REQUEST_URI'];  
             $description = "Création de procédures de test de bracelets connectés";
             $contexte = "Je l'ai effectué seul, en entreprise.";
             $objectif = "L'objectif était de rassembler le plus de métriques concernant les objets connecté, et de posséder des procédures à jour vis à vis des nouvelles réglementations (RGPD) et de l'évolutions du contexte environnemental de l'entreprise.";
@@ -63,7 +64,7 @@
                 A4.1.8 Réalisation des tests nécessaires à la validation<br>
                 A4.2.1 Analyse et correction d'un dysfonctionnement";
 
-            echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);
+            echo display_activities($page, $description, $contexte, $objectif, $env, $travail, $competence);
         ?>
     </div>
 

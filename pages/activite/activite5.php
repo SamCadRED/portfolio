@@ -54,6 +54,7 @@
     <div class='activite'>
         <h1 class='acti_title'><?php echo $acti5 ?></h1>
         <?php 
+            $page = $_SERVER['REQUEST_URI'];  
             $description = "Interfacer la CRM Axonaut avec notre infrastructure AWS. Les mails de support receptionnés sur AWS sont redirigés vers l'API d'axonaut afin de récupérer les informations de contact et de créer automatiquement un ticket dans la CRM.";
             $contexte = "Je l'ai effectué seul en entreprise";
             $objectif = "Faciliter les échanges clients et augmenter la traçabilité.";
@@ -73,7 +74,7 @@
                 A3.2.1 Installation et configuration d'éléments d'infrastructure<br>
                 A3.2.3 Mise à jour de la documentation technique d'une solution d'infrastructure";
 
-            echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);
+            echo display_activities($page, $description, $contexte, $objectif, $env, $travail, $competence);
         ?>
     </div>
     <div class="footer_cont">

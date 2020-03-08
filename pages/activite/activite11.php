@@ -54,6 +54,7 @@
     <div class='activite'>
         <h1 class='acti_title'><?php echo $acti11 ?></h1>
         <?php 
+            $page = $_SERVER['REQUEST_URI'];  
             $description = "Intervention d'assistance sur le serveur de production client pour résoudre un problème technique bloquant";
             $contexte = "Seul en entreprise";
             $objectif = "Résoudre un problème bloquant sur le serveur du client afin de limiter au maximum les préjudices (arrêt de production)";
@@ -65,7 +66,7 @@
                 A5.1.2 Recueil d'informations sur une configuration
             ";
 
-            echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);
+            echo display_activities($page, $description, $contexte, $objectif, $env, $travail, $competence);
         ?>
     </div>
 

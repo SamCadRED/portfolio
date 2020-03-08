@@ -54,6 +54,7 @@
     <div class='activite'>
         <h1 class='acti_title'><?php echo $acti13 ?></h1>
         <?php 
+            $page = $_SERVER['REQUEST_URI'];  
             $description = "PPE 1ère année : équipement visiteurs";
             $contexte = "Travail réalisé en équipe dans le centre de formation.";
             $objectif = "Réaliser une présentation présentant trois solutions de matériel informatique d'équipement des visiteurs (commerciaux) de l'entreprise GSB";
@@ -66,7 +67,7 @@
                 A1.2.3 Évaluation des risques liés à l'utilisation d'un service
             ";
 
-            echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);
+            echo display_activities($page, $description, $contexte, $objectif, $env, $travail, $competence);
         ?>
     </div>
 

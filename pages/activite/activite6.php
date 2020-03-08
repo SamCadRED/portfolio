@@ -54,6 +54,7 @@
     <div class='activite'>
         <h1 class='acti_title'><?php echo $acti6 ?></h1>
         <?php 
+            $page = $_SERVER['REQUEST_URI'];  
             $description = "Mise en place d'un service de ticketing avec AWS et Axonaut";
             $contexte = "J'ai effectué ce travail seul en entreprise";
             $objectif = "Interfacer la CRM Axonaut et notre infrastructure AWS";
@@ -74,7 +75,7 @@
                 A3.2.3  Mise à jour de la documentation technique d'une solution d'infrastructure
                 ";
 
-            echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);
+            echo display_activities($page, $description, $contexte, $objectif, $env, $travail, $competence);
         ?>
     </div>
 

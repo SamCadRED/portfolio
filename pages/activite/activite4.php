@@ -54,6 +54,7 @@
     <div class='activite'>
         <h1 class='acti_title'><?php echo $acti4 ?></h1>
         <?php 
+            $page = $_SERVER['REQUEST_URI'];  
             $description = "Mise en place d'un service d'emailing avec Amazon SES et création de template de mails au format HTML ";
             $contexte = "J'ai réalisé ce travail seul, en entreprise";
             $objectif = "L'entreprise avait besoin d'un service d'emailing automatique (newsletter, mails d'informations, mises à jour) pour avertir nos clients";
@@ -70,7 +71,7 @@
                 A5.1.2  Recueil d'informations sur une configuration
             ";
 
-            echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);
+            echo display_activities($page, $description, $contexte, $objectif, $env, $travail, $competence);
         ?>
     </div>
 

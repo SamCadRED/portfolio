@@ -54,6 +54,7 @@
     <div class='activite'>
         <h1 class='acti_title'><?php echo $acti8 ?></h1>
         <?php 
+            $page = $_SERVER['REQUEST_URI'];  
             $description = "Création de composants graphiques et logiciels et intégration dans une application mobile.";
             $contexte = "Je l'ai effectué en équipe avec le graphiste de l'entreprise.";
             $objectif = "Étoffer l'application avec des fonctionnalités nouvelles et améliorer l'epxérience utilisateur.";
@@ -68,7 +69,7 @@
                 A4.2.2 Adaptation d'une solution applicative aux évolutions de ses composants<br>
                 A4.2.3 Réalisation des tests nécessaires à la mise en production d'éléments mis à jour";
 
-            echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);
+            echo display_activities($page, $description, $contexte, $objectif, $env, $travail, $competence);
         ?>
     </div>
 

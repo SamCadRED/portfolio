@@ -68,7 +68,8 @@
                 A4.1.2 Conception ou adaptation de l'interface utilisateur<br>
                 A5.1.5 Évaluation d'un élément de configuration";
 
-            echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);
+            echo display_activities($page, $description, $contexte, $objectif, $env, $travail, $competence)
+
         ?>
     </div>
 

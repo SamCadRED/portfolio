@@ -54,6 +54,7 @@
     <div class='activite'>
         <h1 class='acti_title'><?php echo $acti7 ?></h1>
         <?php 
+            $page = $_SERVER['REQUEST_URI'];  
             $description = "Maintenance et documentation d'une application mobile";
             $contexte = "Seul en entreprise";
             $objectif = "Permettre une meilleur maintenance (et documentation) du code écrit par mon tuteur. L'objectif était de factoriser le code écrit pour faciliter la maintenance";
@@ -73,7 +74,7 @@
                 A4.2.3  Réalisation des tests nécessaires à la mise en production
             ";
 
-            echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);
+            echo display_activities($page, $description, $contexte, $objectif, $env, $travail, $competence);
         ?>
     </div>
 

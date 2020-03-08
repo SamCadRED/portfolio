@@ -54,6 +54,7 @@
     <div class='activite'>
         <h1 class='acti_title'><?php echo $acti12 ?></h1>
         <?php 
+            $page = $_SERVER['REQUEST_URI'];  
             $description = "Création et mise à jour d'une documentation technique sur la configuration et le debuggage d'Oracle sur notre application métier";
             $contexte = "Réalisé en entreprise, avec l'aide de mon tuteur";
             $objectif = "Réaliser une documentation accessible à toute l'équipe pour régler des problèmes liés à Oracle";
@@ -65,7 +66,7 @@
                 A5.1.3 Suivi d'une configuration et de ses éléments
             ";
 
-            echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);
+            echo display_activities($page, $description, $contexte, $objectif, $env, $travail, $competence);
         ?>
     </div>
 

@@ -54,6 +54,7 @@
     <div class='activite'>
         <h1 class='acti_title'><?php echo $acti3 ?></h1>
         <?php 
+            $page = $_SERVER['REQUEST_URI'];  
             $description = "Réunion d'information avec un expert sur les nouvelles normes et réglementations RGPD";
             $contexte = "J'ai participé à la réunion avec le président de l'entreprise";
             $objectif = "Permettre un passage aux normes de l'infrastructure de l'entreprise";
@@ -65,7 +66,7 @@
                 A5.1.4  Étude de propositions de contrat de service
             ";
 
-            echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);
+            echo display_activities($page, $description, $contexte, $objectif, $env, $travail, $competence);
         ?>
     </div>
 

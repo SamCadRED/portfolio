@@ -54,6 +54,7 @@
     <div class='activite'>
         <h1 class='acti_title'><?php echo $acti9 ?></h1>
         <?php 
+            $page = $_SERVER['REQUEST_URI'];  
             $description = "Mise en place d'une veille technologique grâce à différents outils";
             $contexte = "Seul en centre";
             $objectif = "Mettre en place un système de veille technologique en m'aidant de différents médias et technologies";
@@ -61,7 +62,7 @@
             $travail = "Création d'un flux RSS de Google News, écoute de Podcasts, lecture hebdomadaire d'article sur le sujet";
             $competence = "A5.1.2  Veille technologique";
 
-            echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);
+            echo display_activities($page, $description, $contexte, $objectif, $env, $travail, $competence);
         ?>
     </div>
 

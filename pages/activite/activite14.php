@@ -54,6 +54,7 @@
     <div class='activite'>
         <h1 class='acti_title'><?php echo $acti14 ?></h1>
         <?php 
+            $page = $_SERVER['REQUEST_URI'];  
             $description = "PPE Web : création d'un agenda en ligne pour les commerciaux de GSB";
             $contexte = "Seul en centre de formation";
             $objectif = "Réaliser un agenda en ligne facilement utilisable pour que les commerciaux puissent gérer leur différents rendez-vous le plus simplement possible et de manière sécurisée.";
@@ -76,7 +77,7 @@
                 A5.2.4 Étude d‘une technologie, d'un composant, d'un outil
             ";
 
-            echo display_activities($description, $contexte, $objectif, $env, $travail, $competence);
+            echo display_activities($page, $description, $contexte, $objectif, $env, $travail, $competence);
         ?>
     </div>
 
