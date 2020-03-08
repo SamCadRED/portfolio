@@ -259,6 +259,16 @@ tbody div {
     justify-content: space-evenly;
     margin-top: 60px;
 }
+.etape {
+    margin-top: 5%;
+}
+.images {
+    display: flex;
+}
+.images img {
+    height: 100px;
+    margin-right: 20px;
+}
 
 
 /*_________veille.php_______________________________*/

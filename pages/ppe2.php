@@ -59,10 +59,12 @@
         $cont3 = $wip;
         $contexte = array($cont1, $cont2, $cont3);
         $etape = array($wip, $wip, $wip);
+        $titre = array($wip, $wip, $wip);
+        $img = array('java', 'xml' , 'scenebuilder', '');
         $url = array("ProjetGSB", "", "");
         $compétences = $wip;
 
-        echo display_ppe($ppe1, $contexte, $etape, $compétences, $url)
+        echo display_ppe($ppe1, $contexte, $etape, $compétences, $titre, $img, $url)
     ?>
 
     <div class="footer_cont">

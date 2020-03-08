@@ -65,7 +65,7 @@ function display_card($title, $text) {
             </div>';
 }
 
-function display_ppe($ppe1, $contexte, $etape, $compétences, $url) {
+function display_ppe($ppe, $contexte, $etape, $compétences, $titre, $img, $url) {
     $all_contexte = "";
     $i = 0;
     while ($i < count($contexte)) {
@@ -75,7 +75,7 @@ function display_ppe($ppe1, $contexte, $etape, $compétences, $url) {
 
     return "
     <div class='ppe_container'>
-        <h1>".$ppe1."</h1>
+        <h1>".$ppe."</h1>
         <div class='ppe_content'>
             <h2 class='ppe_headtitle'>Présentation du projet</h2>
             <div class='ppe_pres'>
@@ -91,17 +91,28 @@ function display_ppe($ppe1, $contexte, $etape, $compétences, $url) {
                     <div class='realisation_projet'>
                         <h1>Réalisation du projet</h1>
                         <div class='etapes_real'>
-                            <div class=''>
-                                <h3>1. Conception de la base de donnée</h3>
+                            <div class='etape'>
+                                <h3>1. ".$titre[2]."</h3>
                                 <p>".$etape[0]."</p>
+                                <div class='images'>
+                                    <img src='../images/languages/phpmyadmin.png' alt='PHPMyAdmin'>
+                                </div>
                             </div>
-                            <div class=''>
-                                <h3>2. Développement de l'interface</h3>
+                            <div class='etape'>
+                                <h3>2. ".$titre[1]."</h3>
                                 <p>".$etape[1]."</p>
+                                <div class='images'>
+                                    <img src='../images/languages/".$img[0].".png' alt='".$img[0]."'>
+                                    <img src='../images/languages/".$img[1].".png' alt='".$img[1]."'>
+                                </div>
                             </div>
-                            <div class=''>
-                                <h3>3. Développement du fonctionnel</h3>
+                            <div class='etape'>
+                                <h3>3. ".$titre[2]."</h3>
                                 <p>".$etape[2]."</p>
+                                <div class='images'>
+                                    <img src='../images/languages/".$img[2].".png' alt='".$img[2]."'>
+                                    <img src='../images/languages/".$img[3].".png' alt='".$img[3]."'>
+                                </div>
                             </div>
                         </div>
                         <div class='boutons_liens'>

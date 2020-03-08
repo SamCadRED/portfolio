@@ -52,12 +52,17 @@
     </div>
 
     <?php 
-        $ppe1 = "Agenda GSB";
+        $ppe = "Agenda GSB";
         $cont1 = "Suite à la fusion des entités Galaxy et Swiss-Bourdin en 2009, le groupe nouveau GSB est devenu leader du marché pharmaceutique.";
         $cont2 = "Afin de faciliter la planification des rendez-vous de ses commerciaux, l'entreprise a demandé au serivce informatique de développer un agenda en ligne et sécurisé afin de répondre à cette demande.";
         $cont3 = "L'objectif de l'outil est de centraliser tous les rendez-vous commerciaux afin de garder la main mise sur les données sensibles que ces derniers peuvent contenir.";
         $contexte = array($cont1, $cont2, $cont3);
-        $etape = array($wip, $wip, $wip);
+        $etape1="J'ai tout d'abord conçu le modèle de données sur un logiciel dédié afin de décider des données à stocker et à manipuler. Je l'ai ensuite implémenté en SQL sur PHPMyAdmin.";
+        $etape2="Une fois la base de données prêtes j'ai développé le squelette de l'application en HTML et en PHP afin d'avoir un premier aperçu et de pouvoir commencer les tests (traitement des données, communication avec la base etc..).";
+        $etape3="J'ai ensuite utilisé le CSS afin de permettre un UI (User Interface) intuitive et agréable de même qu'un peu de JavaScript pour fluidifier l'interface.";
+        $etape = array($etape1, $etape2, $etape3);
+        $titre = array("Conception de la base de donnée", "Développement du squelette de l'application", "Amélioration de l'UI et de l'UX");
+        $img = array('html5', 'php', 'css3', 'javascript');
         $url = array("GSBAgenda", "", "");
         $compétences = "
             A1.1.1 Analyse du cahier des charges d'un service à produire<br>
@@ -75,7 +80,7 @@
             A5.2.3 Repérage des compléments de formation<br>
             A5.2.4 Étude d‘une technologie, d'un composant, d'un outil";
 
-        echo display_ppe($ppe1, $contexte, $etape, $compétences, $url)
+        echo display_ppe($ppe, $contexte, $etape, $compétences, $titre, $img, $url)
     ?>
     
 
