@@ -60,7 +60,7 @@
         $contexte = array($cont1, $cont2, $cont3);
         $etape = array($wip, $wip, $wip);
         $titre = array($wip, $wip, $wip);
-        $img = array('java', 'xml' , 'scenebuilder', '');
+        $img = array('java', 'xml' , 'javafx', 'scenebuilder');
         $url = array("ProjetGSB", "", "");
         $compétences = $wip;
 
