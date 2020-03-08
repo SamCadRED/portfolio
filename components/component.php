@@ -134,14 +134,44 @@ function display_ppe($ppe, $contexte, $etape, $compétences, $titre, $img, $url)
     </div>";
 }
 
+function parseURL($page) {
+    // /portfolio/pages/activite/activite8.phpbite 
+    $parsedURL = explode("/activite", $page, 2);
+    $parsedNBR = explode("e", $parsedURL[1], 2);
+    $number = explode(".", $parsedNBR[1]);
+    return $number;
+}
+
 function display_activities($page, $description, $contexte, $objectif, $env, $travail, $competence) {
+    $pageNBR = parseURL($page);
+    $display_left = "";
+    $display_right = "";
+
+    if ($pageNBR[0] <= 1) {
+        $precedent = 1;
+        $display_left = "none";
+    } else {
+        $precedent = $pageNBR[0] - 1;
+        $display_left = "";
+    }
+
+    if ( $pageNBR[0] < 15) {
+        $suivant = $pageNBR[0] + 1;
+        $display_right = "";
+    } else {
+        $suivant = 15;
+        $display_right = "none";
+    }
+
     return "<div class='acti_cont'>
-                <div class='arrow_link'>
-                    <a href=''><img class='arrow_left' src='../../images/arrow.svg' alt='Précédent'></a>
-                </div>
-                <div class='main_acitivite'>
+                <div class='main_activite'>
+                    <div class='arrow_link'>
+                        <a href='activite".$precedent.".php' style='display: ".$display_left.";'>
+                            <img class='arrow_left' src='../../images/arrow.svg' alt='Précédent'>
+                        </a>
+                    </div>
+
                     <div class='acti_cont_text'>
-                        ".$page."
                         <h3>• Description :</h3>
                         <p>".$description."</p><br>
                         <h3>• Contexte et localisation : </h3>
@@ -153,13 +183,16 @@ function display_activities($page, $description, $contexte, $objectif, $env, $tr
                         <h3>• Travail effectué :</h3>
                         <p>".$travail."</p><br>
                     </div>
-                    <div class='acti_cont_skills'>
-                        <h3>Compétences acquises :</h3>
-                        <p>".$competence."</p>
+
+                    <div class='arrow_link'>
+                        <a href='activite".$suivant.".php' style='display: ".$display_right.";'>
+                            <img class='arrow_right' src='../../images/arrow.svg' alt='suivant'>
+                        </a>
                     </div>
                 </div>
-                <div class='arrow_link'>
-                    <a href=''><img class='arrow_right' src='../../images/arrow.svg' alt='suivant'></a>
+                <div class='acti_cont_skills'>
+                    <h3>Compétences acquises :</h3>
+                    <p>".$competence."</p>
                 </div>
             </div>";
 }

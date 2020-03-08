@@ -357,18 +357,22 @@ tbody div {
     color: var(--color-dark);
     
 }
-.acti_cont {
+.main_activite {
     display: flex;
 }
 .arrow_link {
-    /* display: flex; */
-    display: none;
+    display: flex;
+    /* display: none; */
     flex-direction: column;
     flex: 1;
     justify-content: center;
 }
 .arrow_link img {
     width: 100%;
+    transition: opacity, 0.3s;
+}
+.arrow_link img:hover {
+    opacity: 0.7;
 }
 .arrow_left {
     transform: rotate(90deg);
@@ -376,11 +380,9 @@ tbody div {
 .arrow_right {
     transform: rotate(-90deg);
 }
-.main_acitivite {
-    flex: 20;
-}
 
 .acti_cont_text {
+    flex: 25;
     background-color: var(--color-dark);
     border: var(--color-dark) solid 1px;
     padding: 2%;
