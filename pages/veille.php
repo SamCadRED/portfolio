@@ -61,14 +61,10 @@
         <div class="left_content">
             <div class="top_content">
                 <div class="intro">
-                    <h2>Organiser sa veille technologique :</h2>
-                    <p>L'organisation de ma veille peut se simplifier en 4 étapes :</p>
-                    <ul>
-                        <li><strong>Le Ciblage</strong> du sujet de veille</li>
-                        <li><strong>La Recherche</strong> par mots clés et grâce à différents médias</li>
-                        <li><strong>L'analyse</strong> du contenu récupéré</li>
-                        <li><strong>La Diffusion</strong> du contenu grâce a d'autres médias</li>
-                    </ul>
+                    <h2>Définitions : </h2>
+                    <p><strong>La veille technologique</strong>, élément de la veille stratégique, consiste à surveiller <strong>les évolutions techniques</strong>, les innovations dans un secteur d’activité donnée. La veille technologique comprend notamment la <strong>surveillance, la collecte, le partage et la diffusion</strong> d’informations permettant d’anticiper ou de s’informer sur des changements en matière de recherche, développement, brevet, lancement de nouveaux produits, matériaux, processus, concepts, innovation de fabrication, etc…. Cela a pour but d’évaluer <strong>l’impact</strong> sur l’environnement et l’organisation.</p>
+                    <h2>Sujet de Veille : </h2>
+                    <p>Comme indiqué plus haut, j'ai choisi de faire ma veille techniques sur le <strong>Machine Learning</strong> qui est une composante de l'Intelligence Artificielle, et plus précisement sur ses enjeux <strong>futurs</strong> mais aussi et surtout <strong>présents</strong>.<p>
                 </div>
                 
                 <div class="bouton_veille">
@@ -82,32 +78,6 @@
                         $title = "Ciblage";
                         $text = "Pour mon sujet de veille j'ai choisi de me concentrer sur le Machine Learning, c'est un sujet qui, dans le milieu de l'entreprise est énormément abordé. il représente à mon sens un des enjeux du futur mais aussi et surtout du présent.";
                         echo display_card($title, $text) 
-                    ?>
-                </div>
-                <div class="card">
-                    <?php 
-                        $title = "Recherche";
-                        $text = "J'ai effectué mes recherches et rassemblé des informations grâce à différents médias notamment l'application <a href='https://twitter.com'>Twitter</a> et les sites web : <br>
-                        <a href='https://www.lafermeduweb.net/tag/machinelearning'>- lafermeduweb.net</a> <br>
-                        <a href='https://likeabot.io/blog/veille-like-a-bot-6-ia-algorithme-machine-learning-et-apprentissage-supervise-comment-rendre-son-chatbot-intelligent'>- likeabot.io</a><br>
-                        ";
-                        echo display_card($title, $text) 
-                    ?>
-                </div>
-                <div class="card">
-                    <?php 
-                        $title = "Analyse";
-                        $text = "";
-                        echo display_card($title, $text);
-                        echo $wip;
-                    ?>
-                </div>
-                <div class="card">
-                    <?php 
-                        $title = "Diffusion";
-                        $text = "";
-                        echo display_card($title, $text);
-                        echo $wip;
                     ?>
                 </div>
             </div>

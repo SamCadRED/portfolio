@@ -23,10 +23,23 @@ $imgArray = array("images/veille/fermeweb.png","images/veille/nanonets.jpg", "im
 
 $sourceArray = array("La Ferme du Web", "NanoNets", "M.I.T News", "Medium /Machine Learning", "Medium /Artificial Intelligence");
 
+$saved = array(
+    "http://news.mit.edu/2020/data-feminism-catherine-dignazio-0309",
+);
+
 function display_feed($url, $img, $source) {
     return "
         <div id='feedid' class='feed_cont' style='background-image: linear-gradient(to bottom,rgba(200, 200, 200, 0.8), rgba(200, 200, 200, 0.8) ), url(".$img.")'>
             <script src='".$url."'></script>
             <p style='font-size: 100%'>".$source."</p>
         </div>";
-} 
+}
+
+function get_title($url){
+    $str = file_get_contents($url);
+    if(strlen($str)>0){
+      $str = trim(preg_replace('/\s+/', ' ', $str)); // supports line breaks inside <title>
+      preg_match("/\<title\>(.*)\<\/title\>/i", $str, $title); // ignore case
+      return $title[1];
+    }
+  }

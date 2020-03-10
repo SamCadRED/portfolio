@@ -154,6 +154,7 @@ hr {
     flex: 1;
     display: flex;
     padding: 10px;
+    color: var(--color-white);
 }
 iframe{
     overflow:hidden;

@@ -53,11 +53,20 @@
 
         <div class="others">
             <div class="podcast">
+                <h1 style="color: var(--color-white)">Sauvegardés : </h1>
                 <h3>Podcast</h3>
                 <div class="savant">
                     <iframe src="https://open.spotify.com/embed-podcast/episode/0wnHHEy63nmojdkkI4AHOF" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     <!-- Spotify integration https://developer.spotify.com/documentation/widgets/generate/play-button/  -->
                 </div>
+                <br><br>
+                <?php
+                    $i = 0;
+                    while ($i < count($saved)) {
+                        echo "<div><a href=".$saved[$i].">".get_title($saved[$i])."</a></div>";
+                        $i++;
+                    }
+                ?>
             </div>
         </div>
     
