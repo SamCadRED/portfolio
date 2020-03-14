@@ -75,8 +75,11 @@
             <div class="pres_card">
                 <div class="card">
                     <?php 
-                        $title = "Ciblage";
-                        $text = "Pour mon sujet de veille j'ai choisi de me concentrer sur le Machine Learning, c'est un sujet qui, dans le milieu de l'entreprise est énormément abordé. il représente à mon sens un des enjeux du futur mais aussi et surtout du présent.";
+                        $title = "Mise en place de la veille :";
+                        $text = "Pour pouvoir effectuer ma veille technologique correctement, j'ai mis en place un site regroupant plusieurs flux RSS vers différents site spécialisé dans les nouvelles technologies, tels que Medium, MIT News ou encore la ferme du web.<br>
+                        Ces différents flux RSS affichent le dernier article en date publier sur chacun de ces sites.<br><br>
+                        
+                        Sur ce même site de veille, j'ai ajouté une catégoriepermettant de conserver les articles et autres médias intéressants (Podcast audio par exemple). Cela permet selon moi, de garder des repères sur certains évenements qui me semble importants.";
                         echo display_card($title, $text) 
                     ?>
                 </div>

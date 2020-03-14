@@ -55,13 +55,13 @@
     <?php 
         $ppe1 = "Wiki GSB";
         $cont1 = "Suite à la fusion des entités Galaxy et Swiss-Bourdin en 2009, le groupe nouveau GSB est devenu leader du marché pharmaceutique.";
-        $cont2 = $wip;
-        $cont3 = $wip;
+        $cont2 = "Afin de fidéliser les particiens clients de l'entreprise, la direction de GSB a décider de fournir à tous ses clients un logiciel permettant d'accéder aux données techniques de leurs produits (prix, molécules actives, risques, etc..).";
+        $cont3 = "Cet outil permettra d'une part de renforcer les connaissances des praticiens sur les produits GSB, et d'autres part de rendre leur utilisation plus intéressante grâce aux cannaissances auxquelles il rend accès.";
         $contexte = array($cont1, $cont2, $cont3);
         $etape = array($wip, $wip, $wip);
-        $titre = array($wip, $wip, $wip);
+        $titre = array("Conception de la base de données", "Implémentation en pattern MVC", "Développement de l'UI grâce à JavaFX");
         $img = array('java', 'xml' , 'javafx', 'scenebuilder');
-        $url = array("ProjetGSB", "", "");
+        $url = array("ProjetGSB", "PPE2", "PAPPE2");
         $compétences = $wip;
 
         echo display_ppe($ppe1, $contexte, $etape, $compétences, $titre, $img, $url)

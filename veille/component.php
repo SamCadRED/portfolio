@@ -25,6 +25,7 @@ $sourceArray = array("La Ferme du Web", "NanoNets", "M.I.T News", "Medium /Machi
 
 $saved = array(
     "http://news.mit.edu/2020/data-feminism-catherine-dignazio-0309",
+    "https://www.lafermeduweb.net/veille/une-collection-de-ressources-dediees-au-machine-learning"
 );
 
 function display_feed($url, $img, $source) {

@@ -63,7 +63,7 @@
                 <?php
                     $i = 0;
                     while ($i < count($saved)) {
-                        echo "<div><a href=".$saved[$i].">".get_title($saved[$i])."</a></div>";
+                        echo "<div class='saved_article'><a href=".$saved[$i].">".get_title($saved[$i])."</a></div>";
                         $i++;
                     }
                 ?>
