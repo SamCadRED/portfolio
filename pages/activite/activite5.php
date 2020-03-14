@@ -51,8 +51,11 @@
         </div>
     </div>
 
-    <div class='activite'>
-        <h1 class='acti_title'><?php echo $acti5 ?></h1>
+   <div class='activite'>
+        <div class="activite_header">
+            <h1 class='acti_title'><?php echo $acti5 ?></h1>
+            <div class="tableau_comp"><a class="button_class" href="../../components/util/tableau_competences.pdf">Tableau de Compétences</a></div>
+        </div>
         <?php 
             $page = $_SERVER['REQUEST_URI'];  
             $description = "Interfacer la CRM Axonaut avec notre infrastructure AWS. Les mails de support receptionnés sur AWS sont redirigés vers l'API d'axonaut afin de récupérer les informations de contact et de créer automatiquement un ticket dans la CRM.";

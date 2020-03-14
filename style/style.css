@@ -408,6 +408,15 @@ tbody div {
     color: var(--color-theme);
 }
 
+.activite_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tableau_comp {
+
+}
+
 /*_________Components_______________________*/
 
 /*__header__*/

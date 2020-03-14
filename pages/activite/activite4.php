@@ -51,8 +51,11 @@
         </div>
     </div>
 
-    <div class='activite'>
-        <h1 class='acti_title'><?php echo $acti4 ?></h1>
+   <div class='activite'>
+        <div class="activite_header">
+            <h1 class='acti_title'><?php echo $acti4 ?></h1>
+            <div class="tableau_comp"><a class="button_class" href="../../components/util/tableau_competences.pdf">Tableau de Compétences</a></div>
+        </div>
         <?php 
             $page = $_SERVER['REQUEST_URI'];  
             $description = "Mise en place d'un service d'emailing avec Amazon SES et création de template de mails au format HTML ";

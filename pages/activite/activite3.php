@@ -51,8 +51,11 @@
         </div>
     </div>
 
-    <div class='activite'>
-        <h1 class='acti_title'><?php echo $acti3 ?></h1>
+   <div class='activite'>
+        <div class="activite_header">
+            <h1 class='acti_title'><?php echo $acti3 ?></h1>
+            <div class="tableau_comp"><a class="button_class" href="../../components/util/tableau_competences.pdf">Tableau de Compétences</a></div>
+        </div>
         <?php 
             $page = $_SERVER['REQUEST_URI'];  
             $description = "Réunion d'information avec un expert sur les nouvelles normes et réglementations RGPD";
