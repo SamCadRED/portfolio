@@ -58,11 +58,29 @@
         $cont2 = "Afin de fidéliser les particiens clients de l'entreprise, la direction de GSB a décider de fournir à tous ses clients un logiciel permettant d'accéder aux données techniques de leurs produits (prix, molécules actives, risques, etc..).";
         $cont3 = "Cet outil permettra d'une part de renforcer les connaissances des praticiens sur les produits GSB, et d'autres part de rendre leur utilisation plus intéressante grâce aux cannaissances auxquelles il rend accès.";
         $contexte = array($cont1, $cont2, $cont3);
-        $etape = array($wip, $wip, $wip);
+        $etape1 = "Tout d'abord, j'ai construit ma base de données sur un papier, me permettant de mieux visualiser ce dont j'aller avoir besoin pour mon application. Cela m'a permit en suite de plus facilment créer la base de données sur PHPMyAdmin.";
+        $etape2 = "La partie la plus importante du projet à été de construire et d'implémenter le pattern MVC (Model - View - Controller) dans l'application. Afin de créer une application facilement maintenable et évolutive.";
+        $etape3 = "Grâce à JavaFX et le scenebuilder, j'ai pu implémenter les designs, que j'avais fait au préalable, en XML. Il a ensuite était relativement simple de permettre la communication entreles fichiers XML de JavaFX avec le reste de l'application.";
+        $etape = array($etape1, $etape2, $etape3);
         $titre = array("Conception de la base de données", "Implémentation en pattern MVC", "Développement de l'UI grâce à JavaFX");
         $img = array('java', 'xml' , 'javafx', 'scenebuilder');
         $url = array("ProjetGSB", "PPE2", "PAPPE2");
-        $compétences = $wip;
+        $compétences = "
+            A1.1.1 Analyse du cahier des charges d'un service à produire<br>
+            A1.2.4 Détermination des tests nécessaires à la validation<br>
+            A3.1.1 Proposition d'une solution d'infrastructure<br>
+            A3.1.2 Maquettage et prototypage d'une solution d'infrastructure<br>
+            A4.1.2 Conception ou adaptation de l'interface utilisateur<br>
+            A4.1.3 Conception ou adaptation d'une base de données<br>
+            A4.1.4 Définition des caractéristiques d'une solution applicative<br>
+            A4.1.5 Prototypage de composants logiciels<br>
+            A4.1.6 Gestion d'environnements de développement et de test<br>
+            A4.1.7 Développement, utilisation ou adaptation de composants<br>
+            A4.1.8 Réalisation des tests nécessaires à la validation<br>
+            A4.1.9 Rédaction d'une documentation technique<br>
+            A4.2.2 Adaptation d'une solution applicative aux évolutions<br>
+            A4.2.3 Réalisation des tests nécessaires à la mise en production
+        ";
 
         echo display_ppe($ppe1, $contexte, $etape, $compétences, $titre, $img, $url)
     ?>
