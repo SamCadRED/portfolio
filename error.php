@@ -18,7 +18,7 @@
         $title = "Erreur ".$_GET['code'];
         $second_title = "";
         $url_accueil = "<a style='font-size:larger; text-decoration:underline; color:var(--color-white);' href='https://www.samuelcadiou.fr/index.php'>l'accueil</a>";
-        $text = "Il semblerait qu vou ayez rencontrez une erreur, voulez vous revenir à ".$url_accueil." ?";
+        $text = "Il semblerait que vous ayez rencontré une erreur, voulez vous revenir à ".$url_accueil." ?";
         echo display_case($title, $second_title, $text);
     ?>
     <div class="footer_cont">
