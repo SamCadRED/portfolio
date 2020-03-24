@@ -58,7 +58,7 @@
         </div>
         <?php 
             $page = $_SERVER['REQUEST_URI'];  
-            $description = "Mise en place d'une veille technologique grâce à différents outils";
+            $description = "Mise en place d'un site Web de Veille technologique regroupant plusieurs liens et flux RSS d'article et de document.";
             $contexte = "Seul en centre";
             $objectif = "Mettre en place un système de veille technologique en m'aidant de différents médias et technologies";
             $env = "Sites internet, Medium, Twitter, Apple Podcast";

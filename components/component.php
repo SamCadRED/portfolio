@@ -31,9 +31,9 @@ $acti9 = "Veille technologique";
 $acti10 = "Déploiement de VM";
 $acti11 = "Assistance client";
 $acti12 = "Création de documentation";
-$acti13 = "PPE équipement visiteurs (1ère année)";
-$acti14 = "PPE Léger (2ème année)";
-$acti15 = "PPE lourd (2ème année)";
+$acti13 = "GSB équipement visiteurs ";
+$acti14 = "GSB Agenda (PPE Web)";
+$acti15 = "GSB Wiki (PPE lourd)";
 
 $wip = '<div class="work_in_progress">
           <h3>Work in Progress</h3>
