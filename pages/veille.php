@@ -62,9 +62,19 @@
             <div class="top_content">
                 <div class="intro">
                     <h2>Définitions : </h2>
+                    
                     <p><strong>La veille technologique</strong>, élément de la veille stratégique, consiste à surveiller <strong>les évolutions techniques</strong>, les innovations dans un secteur d’activité donnée. La veille technologique comprend notamment la <strong>surveillance, la collecte, le partage et la diffusion</strong> d’informations permettant d’anticiper ou de s’informer sur des changements en matière de recherche, développement, brevet, lancement de nouveaux produits, matériaux, processus, concepts, innovation de fabrication, etc…. Cela a pour but d’évaluer <strong>l’impact</strong> sur l’environnement et l’organisation.</p>
+                    
                     <h2>Sujet de Veille : </h2>
+                    
                     <p>Comme indiqué plus haut, j'ai choisi de faire ma veille techniques sur le <strong>Machine Learning</strong> qui est une composante de l'Intelligence Artificielle, et plus précisement sur ses enjeux <strong>futurs</strong> mais aussi et surtout <strong>présents</strong>.<p>
+                    
+                    <p>Aujourd'hui, le Machne Learning est utlisé dans toutes les entrprises souhaitant effectuer de la "récolte de données" c'est un outil indispensable dans la matière. Les GAFAM, sont très souvent pionniers en la matière car pour Facebook ou Google par exemple, l'aggrégation de données est au centre de leur business model.</p>
+                    <p>Avec des technologies de plus en plus performantes et des intelligences artificielles de plus en plus intelligentes justement, il est très important pour nous consommateurs, et nos gouvernements de connaître ces technologies afin de ne pas perdre encore plus le contrôle sur ces données.</p>
+
+                    <p>Aujourd'hui le moyen le plus performant pour faire progresser une IA, est de lui fournir un maximun de données, c'est pourquoi Google, Amazon ou encore Facebook, sont les leader en la matière.</p>
+                    
+                    <p>Par exemple, en septembre 2019, des fuite sur le sites de la NASA stipulait que Google avait réussi à mettre au point un ordinateur quantique, ce fût ensuite confirmé plus tard par l'entreprise dans cet <a style="color:white;" href="https://www.nature.com/articles/s41586-019-1666-5">article</a>.<br>Pour le Machine Learning et l'IA c'est un pas de géant qui a été franchi, car un ordinateur quantique permettrait d'effectuer des tâches de calcul impossible pour un ordinateur classique dans un laps de temps record. <a style="color:white;" href="https://www.lesechos.fr/2015/12/google-presente-son-ordinateur-quantique-100-millions-de-fois-plus-rapide-quun-ordinateur-classique-284495">Source</a></p>
                 </div>
                 
                 <div class="bouton_veille">
@@ -79,7 +89,7 @@
                         $text = "Pour pouvoir effectuer ma veille technologique correctement, j'ai mis en place un site regroupant plusieurs flux RSS vers différents site spécialisé dans les nouvelles technologies, tels que Medium, MIT News ou encore la ferme du web.<br>
                         Ces différents flux RSS affichent le dernier article en date publier sur chacun de ces sites.<br><br>
                         
-                        Sur ce même site de veille, j'ai ajouté une catégoriepermettant de conserver les articles et autres médias intéressants (Podcast audio par exemple). Cela permet selon moi, de garder des repères sur certains évenements qui me semble importants.";
+                        Sur ce même site de veille, j'ai ajouté une catégorie permettant de conserver les articles et autres médias intéressants (Podcast audio par exemple). Cela permet selon moi, de garder des repères sur certains évenements qui me semble importants.";
                         echo display_card($title, $text) 
                     ?>
                 </div>

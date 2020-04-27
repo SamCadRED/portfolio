@@ -24,8 +24,16 @@ $imgArray = array("images/veille/fermeweb.png","images/veille/nanonets.jpg", "im
 $sourceArray = array("La Ferme du Web", "NanoNets", "M.I.T News", "Medium /Machine Learning", "Medium /Artificial Intelligence");
 
 $saved = array(
+    "https://www.nature.com/articles/s41586-019-1666-5",
+    "https://www.lesechos.fr/2015/12/google-presente-son-ordinateur-quantique-100-millions-de-fois-plus-rapide-quun-ordinateur-classique-284495",
     "http://news.mit.edu/2020/data-feminism-catherine-dignazio-0309",
     "https://www.lafermeduweb.net/veille/une-collection-de-ressources-dediees-au-machine-learning"
+);
+$savedTitle = array(
+    "Quantum supremacy using a programmable superconducting processor | Nature",
+    "Google présente son ordinateur quantique | Les Échos",
+    "The Elephant in the server Room | MIT News",
+    "Une collection de ressources dédiées au Machine Learning | La Ferme du Web"
 );
 
 function display_feed($url, $img, $source) {
@@ -35,12 +43,3 @@ function display_feed($url, $img, $source) {
             <p style='font-size: 100%'>".$source."</p>
         </div>";
 }
-
-function get_title($url){
-    $str = file_get_contents($url);
-    if(strlen($str)>0){
-      $str = trim(preg_replace('/\s+/', ' ', $str)); // supports line breaks inside <title>
-      preg_match("/\<title\>(.*)\<\/title\>/i", $str, $title); // ignore case
-      return $title[1];
-    }
-  }

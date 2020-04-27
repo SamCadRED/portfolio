@@ -55,14 +55,15 @@
         <div class="activite_header">
             <h1 class='acti_title'><?php echo $acti14 ?></h1>
             <div class="tableau_comp"><a class="button_class" href="../../components/util/tableau_competences.pdf">Tableau de Compétences</a></div>
-        </div
+        </div>
         <?php 
             $page = $_SERVER['REQUEST_URI'];  
             $description = "PPE Web : création d'un agenda en ligne pour les commerciaux de GSB";
             $contexte = "Seul en centre de formation";
             $objectif = "Réaliser un agenda en ligne facilement utilisable pour que les commerciaux puissent gérer leur différents rendez-vous le plus simplement possible et de manière sécurisée.";
             $env = "Visual Studio Code, PHPMyAdmin, SQL et PHP";
-            $travail = "Elaboration du cahier des charges et de la base de données (MLD). Puis développement du site web (HTML, CSS, PHP, JavaScript) et création de la base donnée (MySQL). Le tout à été versionné puis adapté pour fonctionner sur une VM Debian installée sur l'infrastructure de l'école.";
+            $travail = "Elaboration du cahier des charges et de la base de données (MLD). Puis développement du site web (HTML, CSS, PHP, JavaScript) et création de la base donnée (MySQL). Le tout à été versionné puis adapté pour fonctionner sur une VM Debian installée sur l'infrastructure de l'école.
+            <br><br><a style='color:white' href='../ppe1.php'>Voir le détail du PPE</a>";
             $competence = "
                 A1.1.1 Analyse du cahier des charges d'un service à produire<br>
                 A1.2.1 Élaboration et présentation d'un dossier de choix<br>

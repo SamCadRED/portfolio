@@ -62,7 +62,8 @@
             $contexte = "Seul en centre de formation";
             $objectif = "";
             $env = "Java 1.8, IntelliJ, PHPMyAdmin, Windows 10 et macOS";
-            $travail = "";
+            $travail = "Une desription
+            <br><br><a style='color:white' href='../ppe1.php'>Voir le détail du PPE</a>";
             $competence = "
                 A1.1.1 Analyse du cahier des charges d'un service à produire<br>
                 A1.2.4 Détermination des tests nécessaires à la validation<br>
