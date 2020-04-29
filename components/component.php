@@ -116,9 +116,9 @@ function display_ppe($ppe, $contexte, $etape, $compétences, $titre, $img, $url)
                             </div>
                         </div>
                         <div class='boutons_liens'>
-                            <div class='bouton_git'><a class='button_class' href='https://www.github.com/SamCadRED/".$url[0]."'>Voir sur GitHub</a></div>
-                            <div class='bouton_ppe'><a class='button_class' href='components/util/".$url[1]."'>Voir le PPE</a></div>
-                            <div class='bouton_pappe'><a class='button_class' href='components/util/".$url[2]."'>Voir le PAPPE</a></div>
+                            <div class='bouton_git'><a class='button_class' href='https://www.github.com/SamCadRED/".$url[0]."' download>Voir sur GitHub</a></div>
+                            <div class='bouton_ppe'><a class='button_class' href='components/util/".$url[1]."' download>Voir le PPE</a></div>
+                            <div class='bouton_pappe'><a class='button_class' href='components/util/".$url[2]."' download>Voir le PAPPE</a></div>
                         </div>
                     </div>
                 </div>
