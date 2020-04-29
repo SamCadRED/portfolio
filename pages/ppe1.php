@@ -63,7 +63,7 @@
         $etape = array($etape1, $etape2, $etape3);
         $titre = array("Conception de la base de donnée", "Développement du squelette de l'application", "Amélioration de l'UI et de l'UX");
         $img = array('html5', 'php', 'css3', 'javascript');
-        $url = array("GSBAgenda", "/PPE-GSBAgenda_SamuelCADIOU.docx", "");
+        $url = array("GSBAgenda", "PPE-GSBAgenda_SamuelCADIOU.docx", "");
         $compétences = "
             A1.1.1 Analyse du cahier des charges d'un service à produire<br>
             A1.2.1 Élaboration et présentation d'un dossier de choix<br>

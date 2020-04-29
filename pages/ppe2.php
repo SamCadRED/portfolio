@@ -64,7 +64,7 @@
         $etape = array($etape1, $etape2, $etape3);
         $titre = array("Conception de la base de données", "Implémentation en pattern MVC", "Développement de l'UI grâce à JavaFX");
         $img = array('java', 'xml' , 'javafx', 'scenebuilder');
-        $url = array("ProjetGSB", "/PPE-GSBWiki_SamuelCADIOU.docx", "");
+        $url = array("ProjetGSB", "PPE-GSBWiki_SamuelCADIOU.docx", "");
         $compétences = "
             A1.1.1 Analyse du cahier des charges d'un service à produire<br>
             A1.2.4 Détermination des tests nécessaires à la validation<br>
